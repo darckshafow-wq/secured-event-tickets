@@ -56,6 +56,16 @@
             <label style="margin-left:15px;">Taille QR :</label>
             <input type="number" id="tailleQr" value="240" min="100" max="400" step="20" onchange="appliquerFiltreQr()">
             <span style="color:var(--text-muted);font-size:13px;" id="compteurInfo">—</span>
+
+            <div
+                style="display:flex; align-items:center; gap:8px; border-left:1px solid rgba(255,255,255,0.1); padding-left:15px; margin-left:15px;">
+                <label>Générer :</label>
+                <input type="number" id="nbTickets" value="10" min="1" max="100" style="width:65px;">
+                <button class="btn-print"
+                    style="margin-left:0; background: linear-gradient(135deg, #10b981, #059669); box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);"
+                    onclick="creerTickets()">➕ Créer</button>
+            </div>
+
             <button class="btn-print" onclick="window.print()">🖨️ Imprimer les Billets</button>
         </div>
 

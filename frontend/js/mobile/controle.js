@@ -4,12 +4,22 @@
 // ============================================================
 
 // === SÉCURITÉ : VÉRIFICATION DE SESSION ===
-fetch('../../../backend/check_auth.php')
-    .then(r => r.json())
-    .then(data => {
-        if (!data.auth) window.location.href = 'login.html';
-    })
-    .catch(() => { window.location.href = 'login.html'; });
+function verifierSession() {
+    fetch('../../../backend/check_auth.php')
+        .then(r => r.json())
+        .then(data => {
+            if (!data.auth) {
+                window.location.href = 'login.html';
+            }
+        })
+        .catch(() => {
+            // Ne pas déconnecter sur une simple coupure réseau temporaire
+        });
+}
+
+// Vérification initiale + heartbeat toutes les 10 secondes pour maintenir la session active
+verifierSession();
+setInterval(verifierSession, 10000);
 
 function seDeconnecter() {
     fetch('../../../backend/logout.php')
@@ -75,12 +85,12 @@ function onScanSuccess(decodedText) {
     if (modeActuel === 'vente') {
         const fd = new FormData();
         fd.append('id_qr', decodedText);
-        fetch('../../backend/enregistrer.php', { method: 'POST', body: fd })
+        fetch('../../../backend/enregistrer.php', { method: 'POST', body: fd })
             .then(r => r.json())
             .then(data => traiterReponse(data, decodedText))
             .catch(() => afficherErreurReseau());
     } else {
-        fetch(`../../backend/verifier_ticket.php?id_ticket=${decodedText}`)
+        fetch(`../../../backend/verifier_ticket.php?id_ticket=${decodedText}`)
             .then(r => r.json())
             .then(data => traiterReponse(data, decodedText))
             .catch(() => afficherErreurReseau());

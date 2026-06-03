@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>EPI Gala 2026 - Créer un compte Agent</title>
+    <link rel="stylesheet" href="../../css/mobile/login.css">
+    <style>
+        .register-badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(52, 211, 153, 0.3);
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        .success-msg {
+            color: #34d399;
+            background: rgba(52, 211, 153, 0.1);
+            border: 1px solid rgba(52, 211, 153, 0.3);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 20px;
+            display: none;
+        }
+        .link-login {
+            display: block;
+            text-align: center;
+            margin-top: 18px;
+            color: #94a3b8;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .link-login span {
+            color: #60a5fa;
+            font-weight: 700;
+        }
+        .btn-register {
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: #fff;
+            font-weight: 700;
+            font-size: 16px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-family: 'Inter', sans-serif;
+        }
+        .btn-register:active { transform: scale(0.98); }
+        .btn-register:disabled {
+            background: #334155;
+            box-shadow: none;
+            cursor: not-allowed;
+        }
+        .blocked-banner {
+            background: rgba(239, 68, 68, 0.12);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #f87171;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.5;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <div class="brand-header">
+            <div class="app-logo">EPI<span>-GALA</span> 2026</div>
+            <div class="register-badge">📝 Nouveau Collaborateur</div>
+            <div class="subtitle">Créer votre compte Agent Scanner</div>
+        </div>
+
+        <!-- Bandeau inscriptions fermées -->
+        <div id="blockedBanner" class="blocked-banner">
+            🔒 Les inscriptions sont actuellement <strong>fermées</strong>.<br>
+            Contactez le responsable pour obtenir un accès.
+        </div>
+
+        <div id="errorBox" class="error-msg"></div>
+        <div id="successBox" class="success-msg"></div>
+
+        <form id="registerForm" onsubmit="soumettreInscription(event)">
+            <div class="input-group">
+                <label>Nom d'utilisateur</label>
+                <input type="text" id="reg-username" required placeholder="Ex: agent_dupont" autocomplete="off"
+                    minlength="3" maxlength="30">
+            </div>
+            <div class="input-group">
+                <label>Code PIN</label>
+                <input type="password" id="reg-password" required placeholder="Minimum 4 caractères" autocomplete="new-password">
+            </div>
+            <div class="input-group">
+                <label>Confirmer le Code PIN</label>
+                <input type="password" id="reg-confirm" required placeholder="Répétez le code PIN" autocomplete="new-password">
+            </div>
+            <button type="submit" class="btn-register" id="btnSubmit">✅ Créer mon compte</button>
+        </form>
+
+        <a href="login.html" class="link-login">Déjà inscrit ? <span>Se connecter →</span></a>
+    </div>
+
+    <script src="../../js/mobile/register.js"></script>
+</body>
+</html>

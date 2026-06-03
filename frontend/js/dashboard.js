@@ -44,6 +44,49 @@ function apiPost(url, params = {}) {
 }
 
 // ============================================================
+// CONFIGURATION DE LA FERMETURE DU GUICHET
+// ============================================================
+let _valeurGuichetActuelle = '1';
+
+function basculerEtatGuichet() {
+    const nouvelleValeur = _valeurGuichetActuelle === '1' ? '0' : '1';
+    const actionTxt = nouvelleValeur === '1'
+        ? "ouvrir les inscriptions (les nouveaux agents pourront créer leur compte scanner)"
+        : "fermer les inscriptions (plus aucun nouvel agent ne pourra créer un compte)";
+    
+    if (!confirm(`Voulez-vous vraiment ${actionTxt} ?`)) {
+        return;
+    }
+
+    apiPost(`${API_BASE}/modifier_config.php`, { cle: 'guichet_actif', valeur: nouvelleValeur })
+        .then(data => {
+            if (data.succes) {
+                // Forcer la mise à jour immédiate de l'interface
+                const labelGuichet = document.getElementById('labelStatutGuichet');
+                const btnGuichet = document.getElementById('btnToggleGuichet');
+                _valeurGuichetActuelle = nouvelleValeur;
+                
+                if (nouvelleValeur === '1') {
+                    labelGuichet.innerText = "OUVERTES 🟢";
+                    labelGuichet.className = "badge scanne";
+                    btnGuichet.innerText = "Fermer les inscriptions";
+                    btnGuichet.style.background = "linear-gradient(135deg, #ef4444 0%, #dc2626 100%)";
+                } else {
+                    labelGuichet.innerText = "FERMÉES 🔴";
+                    labelGuichet.className = "badge dispo";
+                    btnGuichet.innerText = "Ouvrir les inscriptions";
+                    btnGuichet.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
+                }
+            } else {
+                alert("Erreur lors de la mise à jour : " + data.message);
+            }
+        })
+        .catch(() => {
+            alert("Erreur réseau. Impossible de modifier l'état du guichet.");
+        });
+}
+
+// ============================================================
 // MODULE : DASHBOARD CENTRAL (dashboard.html)
 // ============================================================
 
@@ -69,6 +112,75 @@ function initDashboardCentral() {
                 _setText('dash-attente', attente >= 0 ? attente : 0);
                 _setText('dash-taux', taux + '%');
                 _setText('dash-stock', stock);
+            })
+            .catch(() => { });
+
+        // Rafraîchir les scanneurs connectés
+        apiGet(`${API_BASE}/recuperer_stats.php`)
+            .then(data => {
+                if (!data.succes) return;
+
+                // Mettre à jour l'affichage de l'état du guichet
+                const labelGuichet = document.getElementById('labelStatutGuichet');
+                const btnGuichet = document.getElementById('btnToggleGuichet');
+                if (labelGuichet && btnGuichet && data.guichet_actif !== undefined) {
+                    _valeurGuichetActuelle = data.guichet_actif;
+                    if (data.guichet_actif === '1') {
+                        labelGuichet.innerText = "OUVERTES 🟢";
+                        labelGuichet.className = "badge scanne";
+                        btnGuichet.innerText = "Fermer les inscriptions";
+                        btnGuichet.style.background = "linear-gradient(135deg, #ef4444 0%, #dc2626 100%)";
+                    } else {
+                        labelGuichet.innerText = "FERMÉES 🔴";
+                        labelGuichet.className = "badge dispo";
+                        btnGuichet.innerText = "Ouvrir les inscriptions";
+                        btnGuichet.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
+                    }
+                }
+
+                const tbody = document.getElementById('tableBodyScanneurs');
+                if (!tbody || !data.scanneurs) return;
+
+                tbody.innerHTML = '';
+                if (data.scanneurs.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:20px;">Aucun scanner connecté pour le moment.</td></tr>';
+                    return;
+                }
+
+                data.scanneurs.forEach(scanner => {
+                    // Calcul d'activité (actif si < 5 minutes)
+                    const dateActivite = new Date(scanner.derniere_activite.replace(/-/g, '/'));
+                    const diffMinutes = Math.floor((new Date() - dateActivite) / 60000);
+                    const isEnLigne = diffMinutes < 5;
+                    const badgeStatut = isEnLigne
+                        ? '<span class="badge scanne">EN LIGNE 🟢</span>'
+                        : '<span class="badge dispo">INACTIF 🔴</span>';
+
+                    // Formater le user agent de façon conviviale
+                    let device = scanner.appareil;
+                    if (device.includes('Android')) {
+                        device = '📱 Android (Chrome Mobile)';
+                    } else if (device.includes('iPhone') || device.includes('iPad')) {
+                        device = '📱 iOS (Safari)';
+                    } else if (device.includes('Windows')) {
+                        device = '💻 Windows PC';
+                    } else if (device.includes('Macintosh')) {
+                        device = '💻 macOS';
+                    } else {
+                        device = '🌐 Navigateur';
+                    }
+
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td style="font-weight:700;color:#60a5fa;">${scanner.nom_utilisateur}</td>
+                        <td style="font-family:monospace;color:var(--text-muted);">${scanner.adresse_ip}</td>
+                        <td style="font-size:13.5px;">${device}</td>
+                        <td style="font-size:13.5px;color:var(--text-muted);">${scanner.derniere_activite}</td>
+                        <td style="font-weight:700;font-family:monospace;text-align:center;">${scanner.nombre_scans}</td>
+                        <td>${badgeStatut}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
             })
             .catch(() => { });
     }
@@ -231,6 +343,34 @@ function initGenererQr() {
         .catch(() => {
             document.getElementById('qrGrid').innerHTML =
                 '<div style="color:#f87171;padding:40px;text-align:center;">❌ Impossible de contacter le serveur.</div>';
+        });
+}
+
+function creerTickets() {
+    const input = document.getElementById('nbTickets');
+    if (!input) return;
+    const quantite = parseInt(input.value);
+    if (isNaN(quantite) || quantite <= 0) {
+        alert("Veuillez saisir un nombre valide de tickets à générer.");
+        return;
+    }
+
+    if (!confirm(`Voulez-vous générer ${quantite} nouveaux tickets dans la base de données ?`)) {
+        return;
+    }
+
+    apiPost(`${API_BASE}/generer_tickets.php`, { quantite: quantite })
+        .then(data => {
+            if (data.succes) {
+                alert(data.message);
+                initGenererQr(); // Rafraîchir la liste
+            } else {
+                alert("Erreur : " + data.message);
+            }
+        })
+        .catch(err => {
+            alert("Erreur lors de la communication avec le serveur.");
+            console.error(err);
         });
 }
 
