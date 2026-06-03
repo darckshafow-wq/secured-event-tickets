@@ -1,0 +1,153 @@
+/* ============================================================
+   frontend/css/generer_qr.css
+   Styles spécifiques à la page Impression / Génération QR
+   ============================================================ */
+
+/* ---- BARRE D'OUTILS ---- */
+.toolbar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.toolbar label {
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.toolbar select,
+.toolbar input[type=number] {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.toolbar select option { background: #1e293b; }
+
+.btn-print {
+    margin-left: auto;
+    padding: 12px 26px;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    transition: all 0.3s;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-print:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+}
+
+/* ---- GRILLE QR ---- */
+.qr-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.qr-card {
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: default;
+}
+
+.qr-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.qr-img-wrapper {
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.qr-img-wrapper canvas,
+.qr-img-wrapper img { display: block; }
+
+.qr-id {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: #e2e8f0;
+    letter-spacing: 0.5px;
+}
+
+.qr-status { font-size: 12px; font-weight: 700; }
+.qr-status.non_paye { color: #fbbf24; }
+.qr-status.paye     { color: #60a5fa; }
+.qr-status.scanne   { color: #34d399; }
+
+.loader {
+    text-align: center;
+    padding: 60px;
+    color: var(--text-muted);
+    font-size: 18px;
+}
+
+/* ---- IMPRESSION (Format Billet) ---- */
+@media print {
+    @page { margin: 10mm; }
+    body { background: #fff; min-height: auto; padding: 0; margin: 0; }
+    .sidebar, .toolbar, .header { display: none !important; }
+    .main-content { margin-left: 0 !important; padding: 0 !important; }
+
+    /* Flexbox pour la pagination correcte sur plusieurs pages */
+    .qr-grid {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 20mm !important;
+        justify-content: flex-start !important;
+    }
+
+    .qr-card {
+        width: 45% !important;
+        border: 2px dashed #999 !important;
+        background: #fff !important;
+        color: #000 !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        padding: 40px !important;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .qr-card::before {
+        content: "GALA EPI 2026 - TICKET OFFICIEL";
+        position: absolute; top: 15px; left: 0; width: 100%;
+        text-align: center; font-size: 16px; font-weight: 800; color: #000;
+    }
+
+    .qr-img-wrapper {
+        box-shadow: none !important;
+        border: none !important;
+        margin-top: 30px !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* Masquer le texte et le statut à l'impression */
+    .qr-id     { display: none !important; }
+    .qr-status { display: none !important; }
+}

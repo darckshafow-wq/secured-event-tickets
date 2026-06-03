@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPI Gala 2026 - Console Centrale</title>
+    <link rel="stylesheet" href="../../css/dashboard.css">
+</head>
+<body class="desktop-layout">
+
+    <div class="sidebar glass-panel" style="border-radius:0;border:none;border-right:1px solid rgba(255,255,255,0.08);">
+        <div>
+            <div class="brand">
+                <div class="brand-logo-container">
+                    <span style="color:var(--text-muted);font-size:11px;font-weight:700;">LOGO EPI</span>
+                    <!-- Remplacer le span par une image quand prête: <img src="chemin/vers/logo.png" alt="Logo EPI"> -->
+                </div>
+                <h3>EPI-GALA 2026</h3>
+                <small>Console Admin</small>
+            </div>
+            <div class="nav-menu">
+                <a href="dashboard.html" class="nav-link active">🏠 Vue Globale</a>
+                <a href="generer_qr.html" class="nav-link">🖨️ Imprimer Billets</a>
+                <a href="vente.html" class="nav-link">🎟️ Détails Ventes</a>
+                <a href="table_entree.html" class="nav-link">🚪 Détails Entrées</a>
+            </div>
+        </div>
+        <div class="sidebar-footer">Mode Supervision</div>
+    </div>
+
+    <div class="main-content">
+        <div class="header" style="border:none;padding-bottom:0;margin-bottom:30px;">
+            <div>
+                <h1>Tableau de Bord Global</h1>
+                <p>Statistiques complètes du système en temps réel</p>
+            </div>
+            <div style="display:flex;gap:10px;align-items:center;">
+                <span style="width:10px;height:10px;background:#10b981;border-radius:50%;display:inline-block;box-shadow:0 0 8px #10b981;animation:pulse 2s infinite;"></span>
+                <span style="color:var(--text-muted);font-size:14px;font-weight:600;">EN LIGNE</span>
+            </div>
+        </div>
+
+        <div class="full-stats-grid">
+            
+            <!-- Ventes -->
+            <div class="stat-card glass-panel" style="border-top: 3px solid #3b82f6;">
+                <div class="stat-header">
+                    <div class="stat-title">Billets Vendus</div>
+                    <span class="stat-icon" style="background:rgba(59,130,246,0.1);color:#60a5fa;">🎟️</span>
+                </div>
+                <div class="stat-value" id="dash-vendus">0</div>
+                <div class="stat-footer"><span style="color:#60a5fa;">●</span> Achetés au guichet</div>
+            </div>
+
+            <!-- Recette -->
+            <div class="stat-card glass-panel" style="border-top: 3px solid #a855f7;">
+                <div class="stat-header">
+                    <div class="stat-title">Recette Financière</div>
+                    <span class="stat-icon" style="background:rgba(168,85,247,0.1);color:#c084fc;">💰</span>
+                </div>
+                <div class="stat-value" id="dash-recette" style="font-size:32px; padding-top:10px;">0 FCFA</div>
+                <div class="stat-footer"><span style="color:#c084fc;">●</span> Total encaissé</div>
+            </div>
+
+            <!-- Entrées -->
+            <div class="stat-card glass-panel" style="border-top: 3px solid #10b981;">
+                <div class="stat-header">
+                    <div class="stat-title">Présents en Salle</div>
+                    <span class="stat-icon" style="background:rgba(16,185,129,0.1);color:#34d399;">🚪</span>
+                </div>
+                <div class="stat-value" id="dash-entrees">0</div>
+                <div class="stat-footer"><span style="color:#34d399;">●</span> Scannés à l'entrée</div>
+            </div>
+
+            <!-- En attente -->
+            <div class="stat-card glass-panel" style="border-top: 3px solid #f59e0b;">
+                <div class="stat-header">
+                    <div class="stat-title">En Attente</div>
+                    <span class="stat-icon" style="background:rgba(245,158,11,0.1);color:#fbbf24;">🕐</span>
+                </div>
+                <div class="stat-value" id="dash-attente">0</div>
+                <div class="stat-footer"><span style="color:#fbbf24;">●</span> Vendus mais pas encore arrivés</div>
+            </div>
+
+            <!-- Taux -->
+            <div class="stat-card glass-panel" style="border-top: 3px solid #06b6d4;">
+                <div class="stat-header">
+                    <div class="stat-title">Taux d'Arrivée</div>
+                    <span class="stat-icon" style="background:rgba(6,182,212,0.1);color:#22d3ee;">📈</span>
+                </div>
+                <div class="stat-value" id="dash-taux">0%</div>
+                <div class="stat-footer"><span style="color:#22d3ee;">●</span> Ratio Entrées / Ventes</div>
+            </div>
+
+            <!-- Stock Restant (Optionnel) -->
+            <div class="stat-card glass-panel" style="border-top: 3px solid #64748b;">
+                <div class="stat-header">
+                    <div class="stat-title">Billets Vides</div>
+                    <span class="stat-icon" style="background:rgba(100,116,139,0.1);color:#94a3b8;">📦</span>
+                </div>
+                <div class="stat-value" id="dash-stock">0</div>
+                <div class="stat-footer"><span style="color:#94a3b8;">●</span> Non activés dans la base</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../../js/dashboard.js"></script>
+
+</body>
+</html>

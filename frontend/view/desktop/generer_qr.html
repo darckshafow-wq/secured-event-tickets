@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPI Gala 2026 - Génération des QR Codes</title>
+    <link rel="stylesheet" href="../../css/dashboard.css">
+    <link rel="stylesheet" href="../../css/generer_qr.css">
+    <!-- Bibliothèque QR Code client-side -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body class="desktop-layout">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar glass-panel" style="border-radius:0;border:none;border-right:1px solid rgba(255,255,255,0.08);">
+        <div>
+            <div class="brand">
+                <div class="brand-logo-container">
+                    <span style="color:var(--text-muted);font-size:11px;font-weight:700;">LOGO EPI</span>
+                </div>
+                <h3>EPI-GALA 2026</h3>
+                <small>Admin</small>
+            </div>
+            <div class="nav-menu">
+                <a href="dashboard.html" class="nav-link">🏠 Accueil</a>
+                <a href="vue_stats.html" class="nav-link">📊 Statistiques</a>
+                <a href="generer_qr.html" class="nav-link active">🖨️ Générer QR</a>
+                <a href="vente.html" class="nav-link">🎟️ Suivi Ventes</a>
+                <a href="table_entree.html" class="nav-link">🚪 Suivi Entrées</a>
+            </div>
+        </div>
+        <div class="sidebar-footer">Admin · Dark Shadow</div>
+    </div>
+
+    <!-- CONTENU -->
+    <div class="main-content">
+
+        <div class="header" style="border:none;padding-bottom:0;margin-bottom:25px;">
+            <div>
+                <h1>🖨️ Génération des QR Codes</h1>
+                <p>Visualisez et imprimez les QR codes à distribuer aux participants</p>
+            </div>
+        </div>
+
+        <!-- Barre d'outils -->
+        <div class="toolbar glass-panel">
+            <label>Filtrer :</label>
+            <select id="filtreStatut" onchange="appliquerFiltreQr()">
+                <option value="tous">Tous les tickets</option>
+                <option value="non_paye">Non payés (Billets à distribuer)</option>
+                <option value="paye">Payés</option>
+                <option value="scanne">Déjà scannés</option>
+            </select>
+            <label style="margin-left:15px;">Taille QR :</label>
+            <input type="number" id="tailleQr" value="240" min="100" max="400" step="20" onchange="appliquerFiltreQr()">
+            <span style="color:var(--text-muted);font-size:13px;" id="compteurInfo">—</span>
+            <button class="btn-print" onclick="window.print()">🖨️ Imprimer les Billets</button>
+        </div>
+
+        <!-- Grille des QR -->
+        <div id="qrGrid" class="qr-grid">
+            <div class="loader">⏳ Chargement des tickets…</div>
+        </div>
+    </div>
+
+    <script src="../../js/dashboard.js"></script>
+</body>
+
+</html>

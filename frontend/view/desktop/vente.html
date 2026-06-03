@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPI Gala 2026 - Supervision Ventes</title>
+    <link rel="stylesheet" href="../../css/dashboard.css">
+    <style>
+        /* Badge spécifique à cette page */
+        .badge.non-scanne { background-color: rgba(245,158,11,0.15); color: #fbbf24; border: 1px solid rgba(245,158,11,0.3); }
+        @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
+    </style>
+</head>
+<body class="desktop-layout">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar glass-panel" style="border-radius:0;border:none;border-right:1px solid rgba(255,255,255,0.08);">
+        <div>
+            <div class="brand">
+                <div class="brand-logo-container">
+                    <span style="color:var(--text-muted);font-size:11px;font-weight:700;">LOGO EPI</span>
+                </div>
+                <h3>EPI-GALA 2026</h3>
+                <small>Supervision</small>
+            </div>
+            <div class="nav-menu">
+                <a href="dashboard.html" class="nav-link">🏠 Accueil</a>
+                <a href="vue_stats.html" class="nav-link">📊 Statistiques</a>
+                <a href="generer_qr.html" class="nav-link">🖨️ Générer QR</a>
+                <a href="vente.html" class="nav-link active">🎟️ Suivi Ventes</a>
+                <a href="table_entree.html" class="nav-link">🚪 Suivi Entrées</a>
+                <a href="../mobile/controle.html" class="nav-link" style="border:1px solid rgba(16,185,129,0.3);color:#34d399;background:rgba(16,185,129,0.05);margin-top:8px;">📱 Scanner Mobile</a>
+            </div>
+        </div>
+        <div class="sidebar-footer">Admin · Dark Shadow</div>
+    </div>
+
+    <!-- CONTENU PRINCIPAL -->
+    <div class="main-content">
+        <div class="header" style="border:none;padding-bottom:0;margin-bottom:30px;">
+            <div>
+                <h1>📋 Suivi des Ventes</h1>
+                <p>Tous les tickets activés au guichet — rafraîchissement automatique toutes les 3s</p>
+            </div>
+            <div style="display:flex;gap:12px;align-items:center;">
+                <span id="liveDot" style="width:10px;height:10px;background:#10b981;border-radius:50%;display:inline-block;box-shadow:0 0 8px #10b981;animation:pulse 2s infinite;"></span>
+                <span style="color:var(--text-muted);font-size:14px;">EN DIRECT</span>
+            </div>
+        </div>
+
+        <!-- Résumé rapide -->
+        <div class="stats-grid" style="margin-bottom:30px;">
+            <div class="card blue glass-panel">
+                <div class="card-title">Tickets Payés</div>
+                <div class="card-value"><span id="stat-vendus">—</span></div>
+            </div>
+            <div class="card yellow glass-panel">
+                <div class="card-title">En Attente de Scan</div>
+                <div class="card-value"><span id="stat-attente">—</span></div>
+            </div>
+            <div class="card green glass-panel">
+                <div class="card-title">Total Rentrée (FCFA)</div>
+                <div class="card-value"><span id="stat-montant">—</span></div>
+            </div>
+        </div>
+
+        <div class="table-section glass-panel">
+            <h2>🎟️ Registre des Tickets Vendus</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>ID Ticket</th>
+                            <th>Statut Paiement</th>
+                            <th>Statut Porte</th>
+                            <th>Date de Vente</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBodyVentes">
+                        <tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:30px;">Chargement…</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../js/dashboard.js"></script>
+</body>
+</html>
