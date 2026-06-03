@@ -1,0 +1,3172 @@
+[Wed Jun  3 20:48:27 2026] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44532 Accepted
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44532 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44532 Closing
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44544 Accepted
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44544 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44544 Closing
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44552 Accepted
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44552 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:48:30 2026] 127.0.0.1:44552 Closing
+[Wed Jun  3 20:48:31 2026] 127.0.0.1:44562 Accepted
+[Wed Jun  3 20:48:31 2026] 127.0.0.1:44562 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:31 2026] 127.0.0.1:44562 Closing
+[Wed Jun  3 20:48:31 2026] 127.0.0.1:44572 Accepted
+[Wed Jun  3 20:48:31 2026] 127.0.0.1:44572 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:31 2026] 127.0.0.1:44572 Closing
+[Wed Jun  3 20:48:32 2026] 127.0.0.1:44580 Accepted
+[Wed Jun  3 20:48:32 2026] 127.0.0.1:44580 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:32 2026] 127.0.0.1:44580 Closing
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44592 Accepted
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44592 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44592 Closing
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44596 Accepted
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44596 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44596 Closing
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44602 Accepted
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44602 [200]: POST /backend/modifier_config.php
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44602 Closing
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44610 Accepted
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44610 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:33 2026] 127.0.0.1:44610 Closing
+[Wed Jun  3 20:48:34 2026] 127.0.0.1:46554 Accepted
+[Wed Jun  3 20:48:34 2026] 127.0.0.1:46554 [200]: POST /backend/register.php
+[Wed Jun  3 20:48:34 2026] 127.0.0.1:46554 Closing
+[Wed Jun  3 20:48:35 2026] 127.0.0.1:46568 Accepted
+[Wed Jun  3 20:48:35 2026] 127.0.0.1:46568 [200]: POST /backend/modifier_config.php
+[Wed Jun  3 20:48:35 2026] 127.0.0.1:46568 Closing
+[Wed Jun  3 20:48:35 2026] 127.0.0.1:46570 Accepted
+[Wed Jun  3 20:48:35 2026] 127.0.0.1:46570 [200]: POST /backend/modifier_config.php
+[Wed Jun  3 20:48:35 2026] 127.0.0.1:46570 Closing
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46576 Accepted
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46576 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46576 Closing
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46586 Accepted
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46586 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46586 Closing
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46590 Accepted
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46590 [200]: POST /backend/register.php
+[Wed Jun  3 20:48:36 2026] 127.0.0.1:46590 Closing
+[Wed Jun  3 20:48:37 2026] 127.0.0.1:46606 Accepted
+[Wed Jun  3 20:48:37 2026] 127.0.0.1:46606 [200]: POST /backend/register.php
+[Wed Jun  3 20:48:37 2026] 127.0.0.1:46606 Closing
+[Wed Jun  3 20:48:37 2026] 127.0.0.1:46612 Accepted
+[Wed Jun  3 20:48:37 2026] 127.0.0.1:46612 [200]: POST /backend/register.php
+[Wed Jun  3 20:48:37 2026] 127.0.0.1:46612 Closing
+[Wed Jun  3 20:48:38 2026] 127.0.0.1:46624 Accepted
+[Wed Jun  3 20:48:38 2026] 127.0.0.1:46624 [200]: POST /backend/register.php
+[Wed Jun  3 20:48:38 2026] 127.0.0.1:46624 Closing
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46632 Accepted
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46632 [200]: POST /backend/register.php
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46632 Closing
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46640 Accepted
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46640 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46640 Closing
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46642 Accepted
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46642 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46642 Closing
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46650 Accepted
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46650 [200]: POST /backend/login.php
+[Wed Jun  3 20:48:39 2026] 127.0.0.1:46650 Closing
+[Wed Jun  3 20:48:40 2026] 127.0.0.1:46666 Accepted
+[Wed Jun  3 20:48:40 2026] 127.0.0.1:46666 [200]: POST /backend/login.php
+[Wed Jun  3 20:48:40 2026] 127.0.0.1:46666 Closing
+[Wed Jun  3 20:48:40 2026] 127.0.0.1:46680 Accepted
+[Wed Jun  3 20:48:40 2026] 127.0.0.1:46680 [200]: POST /backend/login.php
+[Wed Jun  3 20:48:40 2026] 127.0.0.1:46680 Closing
+[Wed Jun  3 20:48:41 2026] 127.0.0.1:46684 Accepted
+[Wed Jun  3 20:48:41 2026] 127.0.0.1:46684 [200]: POST /backend/login.php
+[Wed Jun  3 20:48:41 2026] 127.0.0.1:46684 Closing
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46692 Accepted
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46692 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46692 Closing
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46698 Accepted
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46698 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46698 Closing
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46700 Accepted
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46700 [200]: POST /backend/generer_tickets.php
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46700 Closing
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46702 Accepted
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46702 [200]: POST /backend/generer_tickets.php
+[Wed Jun  3 20:48:42 2026] 127.0.0.1:46702 Closing
+[Wed Jun  3 20:48:43 2026] 127.0.0.1:46704 Accepted
+[Wed Jun  3 20:48:43 2026] 127.0.0.1:46704 [200]: POST /backend/generer_tickets.php
+[Wed Jun  3 20:48:43 2026] 127.0.0.1:46704 Closing
+[Wed Jun  3 20:48:44 2026] 127.0.0.1:46710 Accepted
+[Wed Jun  3 20:48:44 2026] 127.0.0.1:46710 [200]: GET /backend/verifier_ticket.php?id_ticket=BAL-EPI-2026-000
+[Wed Jun  3 20:48:44 2026] 127.0.0.1:46710 Closing
+[Wed Jun  3 20:48:44 2026] 127.0.0.1:32916 Accepted
+[Wed Jun  3 20:48:44 2026] 127.0.0.1:32916 [200]: GET /backend/verifier_ticket.php?id_ticket=FAUX-CODE
+[Wed Jun  3 20:48:44 2026] 127.0.0.1:32916 Closing
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32928 Accepted
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32928 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32928 Closing
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32932 Accepted
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32932 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32932 Closing
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32934 Accepted
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32934 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:45 2026] 127.0.0.1:32934 Closing
+[Wed Jun  3 20:48:46 2026] 127.0.0.1:32950 Accepted
+[Wed Jun  3 20:48:46 2026] 127.0.0.1:32950 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:46 2026] 127.0.0.1:32950 Closing
+[Wed Jun  3 20:48:46 2026] 127.0.0.1:32960 Accepted
+[Wed Jun  3 20:48:46 2026] 127.0.0.1:32960 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:46 2026] 127.0.0.1:32960 Closing
+[Wed Jun  3 20:48:48 2026] 127.0.0.1:32972 Accepted
+[Wed Jun  3 20:48:48 2026] 127.0.0.1:32984 Accepted
+[Wed Jun  3 20:48:48 2026] 127.0.0.1:32972 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:48 2026] 127.0.0.1:32972 Closing
+[Wed Jun  3 20:48:48 2026] 127.0.0.1:32984 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:48 2026] 127.0.0.1:32984 Closing
+[Wed Jun  3 20:48:51 2026] 127.0.0.1:32992 Accepted
+[Wed Jun  3 20:48:51 2026] 127.0.0.1:32994 Accepted
+[Wed Jun  3 20:48:51 2026] 127.0.0.1:32992 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:51 2026] 127.0.0.1:32992 Closing
+[Wed Jun  3 20:48:51 2026] 127.0.0.1:32994 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:51 2026] 127.0.0.1:32994 Closing
+[Wed Jun  3 20:48:54 2026] 127.0.0.1:33004 Accepted
+[Wed Jun  3 20:48:54 2026] 127.0.0.1:33004 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:54 2026] 127.0.0.1:33004 Closing
+[Wed Jun  3 20:48:54 2026] 127.0.0.1:33012 Accepted
+[Wed Jun  3 20:48:54 2026] 127.0.0.1:33012 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:54 2026] 127.0.0.1:33012 Closing
+[Wed Jun  3 20:48:57 2026] 127.0.0.1:52736 Accepted
+[Wed Jun  3 20:48:57 2026] 127.0.0.1:52736 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:48:57 2026] 127.0.0.1:52736 Closing
+[Wed Jun  3 20:48:57 2026] 127.0.0.1:52752 Accepted
+[Wed Jun  3 20:48:57 2026] 127.0.0.1:52752 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:48:57 2026] 127.0.0.1:52752 Closing
+[Wed Jun  3 20:49:00 2026] 127.0.0.1:52754 Accepted
+[Wed Jun  3 20:49:00 2026] 127.0.0.1:52754 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:00 2026] 127.0.0.1:52754 Closing
+[Wed Jun  3 20:49:00 2026] 127.0.0.1:52764 Accepted
+[Wed Jun  3 20:49:00 2026] 127.0.0.1:52764 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:00 2026] 127.0.0.1:52764 Closing
+[Wed Jun  3 20:49:03 2026] 127.0.0.1:52766 Accepted
+[Wed Jun  3 20:49:03 2026] 127.0.0.1:52766 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:03 2026] 127.0.0.1:52766 Closing
+[Wed Jun  3 20:49:03 2026] 127.0.0.1:52782 Accepted
+[Wed Jun  3 20:49:03 2026] 127.0.0.1:52782 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:03 2026] 127.0.0.1:52782 Closing
+[Wed Jun  3 20:49:06 2026] 127.0.0.1:59638 Accepted
+[Wed Jun  3 20:49:06 2026] 127.0.0.1:59638 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:06 2026] 127.0.0.1:59638 Closing
+[Wed Jun  3 20:49:06 2026] 127.0.0.1:59644 Accepted
+[Wed Jun  3 20:49:06 2026] 127.0.0.1:59644 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:06 2026] 127.0.0.1:59644 Closing
+[Wed Jun  3 20:49:09 2026] 127.0.0.1:59648 Accepted
+[Wed Jun  3 20:49:09 2026] 127.0.0.1:59648 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:09 2026] 127.0.0.1:59648 Closing
+[Wed Jun  3 20:49:09 2026] 127.0.0.1:59656 Accepted
+[Wed Jun  3 20:49:09 2026] 127.0.0.1:59656 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:09 2026] 127.0.0.1:59656 Closing
+[Wed Jun  3 20:49:12 2026] 127.0.0.1:59662 Accepted
+[Wed Jun  3 20:49:12 2026] 127.0.0.1:59662 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:12 2026] 127.0.0.1:59662 Closing
+[Wed Jun  3 20:49:12 2026] 127.0.0.1:59672 Accepted
+[Wed Jun  3 20:49:12 2026] 127.0.0.1:59672 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:12 2026] 127.0.0.1:59672 Closing
+[Wed Jun  3 20:49:15 2026] 127.0.0.1:50542 Accepted
+[Wed Jun  3 20:49:15 2026] 127.0.0.1:50542 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:15 2026] 127.0.0.1:50542 Closing
+[Wed Jun  3 20:49:15 2026] 127.0.0.1:50558 Accepted
+[Wed Jun  3 20:49:15 2026] 127.0.0.1:50558 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:15 2026] 127.0.0.1:50558 Closing
+[Wed Jun  3 20:49:17 2026] 127.0.0.1:50564 Accepted
+[Wed Jun  3 20:49:17 2026] 127.0.0.1:50564 [404]: GET /favicon.ico - No such file or directory
+[Wed Jun  3 20:49:17 2026] 127.0.0.1:50564 Closing
+[Wed Jun  3 20:49:18 2026] 127.0.0.1:50574 Accepted
+[Wed Jun  3 20:49:18 2026] 127.0.0.1:50574 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:18 2026] 127.0.0.1:50574 Closing
+[Wed Jun  3 20:49:18 2026] 127.0.0.1:50578 Accepted
+[Wed Jun  3 20:49:18 2026] 127.0.0.1:50578 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:18 2026] 127.0.0.1:50578 Closing
+[Wed Jun  3 20:49:19 2026] 127.0.0.1:50580 Accepted
+[Wed Jun  3 20:49:19 2026] 127.0.0.1:50580 [200]: GET /
+[Wed Jun  3 20:49:19 2026] 127.0.0.1:50580 Closing
+[Wed Jun  3 20:49:21 2026] 127.0.0.1:50590 Accepted
+[Wed Jun  3 20:49:21 2026] 127.0.0.1:50590 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:21 2026] 127.0.0.1:50590 Closing
+[Wed Jun  3 20:49:21 2026] 127.0.0.1:50594 Accepted
+[Wed Jun  3 20:49:21 2026] 127.0.0.1:50594 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:21 2026] 127.0.0.1:50594 Closing
+[Wed Jun  3 20:49:24 2026] 127.0.0.1:50596 Accepted
+[Wed Jun  3 20:49:24 2026] 127.0.0.1:50596 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:24 2026] 127.0.0.1:50596 Closing
+[Wed Jun  3 20:49:24 2026] 127.0.0.1:50612 Accepted
+[Wed Jun  3 20:49:24 2026] 127.0.0.1:50612 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:24 2026] 127.0.0.1:50612 Closing
+[Wed Jun  3 20:49:27 2026] 127.0.0.1:60362 Accepted
+[Wed Jun  3 20:49:27 2026] 127.0.0.1:60362 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:27 2026] 127.0.0.1:60362 Closing
+[Wed Jun  3 20:49:27 2026] 127.0.0.1:60370 Accepted
+[Wed Jun  3 20:49:27 2026] 127.0.0.1:60370 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:27 2026] 127.0.0.1:60370 Closing
+[Wed Jun  3 20:49:30 2026] 127.0.0.1:60384 Accepted
+[Wed Jun  3 20:49:30 2026] 127.0.0.1:60384 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:30 2026] 127.0.0.1:60384 Closing
+[Wed Jun  3 20:49:30 2026] 127.0.0.1:60396 Accepted
+[Wed Jun  3 20:49:30 2026] 127.0.0.1:60396 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:30 2026] 127.0.0.1:60396 Closing
+[Wed Jun  3 20:49:33 2026] 127.0.0.1:60410 Accepted
+[Wed Jun  3 20:49:33 2026] 127.0.0.1:60410 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:33 2026] 127.0.0.1:60410 Closing
+[Wed Jun  3 20:49:33 2026] 127.0.0.1:60412 Accepted
+[Wed Jun  3 20:49:33 2026] 127.0.0.1:60412 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:33 2026] 127.0.0.1:60412 Closing
+[Wed Jun  3 20:49:36 2026] 127.0.0.1:35342 Accepted
+[Wed Jun  3 20:49:36 2026] 127.0.0.1:35342 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:36 2026] 127.0.0.1:35342 Closing
+[Wed Jun  3 20:49:36 2026] 127.0.0.1:35344 Accepted
+[Wed Jun  3 20:49:36 2026] 127.0.0.1:35344 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:36 2026] 127.0.0.1:35344 Closing
+[Wed Jun  3 20:49:39 2026] 127.0.0.1:35352 Accepted
+[Wed Jun  3 20:49:39 2026] 127.0.0.1:35352 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:39 2026] 127.0.0.1:35352 Closing
+[Wed Jun  3 20:49:39 2026] 127.0.0.1:35360 Accepted
+[Wed Jun  3 20:49:39 2026] 127.0.0.1:35360 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:39 2026] 127.0.0.1:35360 Closing
+[Wed Jun  3 20:49:42 2026] 127.0.0.1:35368 Accepted
+[Wed Jun  3 20:49:42 2026] 127.0.0.1:35368 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:42 2026] 127.0.0.1:35368 Closing
+[Wed Jun  3 20:49:42 2026] 127.0.0.1:35382 Accepted
+[Wed Jun  3 20:49:42 2026] 127.0.0.1:35382 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:42 2026] 127.0.0.1:35382 Closing
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52032 Accepted
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52032 [200]: GET /
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52032 Closing
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52034 Accepted
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52050 Accepted
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52034 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52034 Closing
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52050 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:45 2026] 127.0.0.1:52050 Closing
+[Wed Jun  3 20:49:48 2026] 127.0.0.1:52058 Accepted
+[Wed Jun  3 20:49:48 2026] 127.0.0.1:52058 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:48 2026] 127.0.0.1:52058 Closing
+[Wed Jun  3 20:49:48 2026] 127.0.0.1:52068 Accepted
+[Wed Jun  3 20:49:48 2026] 127.0.0.1:52068 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:48 2026] 127.0.0.1:52068 Closing
+[Wed Jun  3 20:49:51 2026] 127.0.0.1:52076 Accepted
+[Wed Jun  3 20:49:51 2026] 127.0.0.1:52092 Accepted
+[Wed Jun  3 20:49:51 2026] 127.0.0.1:52076 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:51 2026] 127.0.0.1:52076 Closing
+[Wed Jun  3 20:49:51 2026] 127.0.0.1:52092 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:51 2026] 127.0.0.1:52092 Closing
+[Wed Jun  3 20:49:54 2026] 127.0.0.1:60614 Accepted
+[Wed Jun  3 20:49:54 2026] 127.0.0.1:60614 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:54 2026] 127.0.0.1:60614 Closing
+[Wed Jun  3 20:49:54 2026] 127.0.0.1:60624 Accepted
+[Wed Jun  3 20:49:54 2026] 127.0.0.1:60624 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:54 2026] 127.0.0.1:60624 Closing
+[Wed Jun  3 20:49:57 2026] 127.0.0.1:60628 Accepted
+[Wed Jun  3 20:49:57 2026] 127.0.0.1:60628 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:49:57 2026] 127.0.0.1:60628 Closing
+[Wed Jun  3 20:49:57 2026] 127.0.0.1:60634 Accepted
+[Wed Jun  3 20:49:57 2026] 127.0.0.1:60634 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:49:57 2026] 127.0.0.1:60634 Closing
+[Wed Jun  3 20:50:00 2026] 127.0.0.1:60642 Accepted
+[Wed Jun  3 20:50:00 2026] 127.0.0.1:60646 Accepted
+[Wed Jun  3 20:50:00 2026] 127.0.0.1:60642 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:00 2026] 127.0.0.1:60642 Closing
+[Wed Jun  3 20:50:00 2026] 127.0.0.1:60646 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:00 2026] 127.0.0.1:60646 Closing
+[Wed Jun  3 20:50:03 2026] 127.0.0.1:60648 Accepted
+[Wed Jun  3 20:50:03 2026] 127.0.0.1:60648 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:03 2026] 127.0.0.1:60648 Closing
+[Wed Jun  3 20:50:03 2026] 127.0.0.1:60656 Accepted
+[Wed Jun  3 20:50:03 2026] 127.0.0.1:60656 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:03 2026] 127.0.0.1:60656 Closing
+[Wed Jun  3 20:50:06 2026] 127.0.0.1:35116 Accepted
+[Wed Jun  3 20:50:06 2026] 127.0.0.1:35116 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:06 2026] 127.0.0.1:35116 Closing
+[Wed Jun  3 20:50:06 2026] 127.0.0.1:35118 Accepted
+[Wed Jun  3 20:50:06 2026] 127.0.0.1:35118 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:06 2026] 127.0.0.1:35118 Closing
+[Wed Jun  3 20:50:07 2026] 127.0.0.1:35124 Accepted
+[Wed Jun  3 20:50:08 2026] 127.0.0.1:35124 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:50:08 2026] 127.0.0.1:35124 Closing
+[Wed Jun  3 20:50:08 2026] 127.0.0.1:35140 Accepted
+[Wed Jun  3 20:50:08 2026] 127.0.0.1:35144 Accepted
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35140 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35140 Closing
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35144 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35144 Closing
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35150 Accepted
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35150 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35150 Closing
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35152 Accepted
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35152 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:09 2026] 127.0.0.1:35152 Closing
+[Wed Jun  3 20:50:10 2026] 127.0.0.1:35164 Accepted
+[Wed Jun  3 20:50:10 2026] 127.0.0.1:35168 Accepted
+[Wed Jun  3 20:50:11 2026] 127.0.0.1:35164 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:11 2026] 127.0.0.1:35164 Closing
+[Wed Jun  3 20:50:11 2026] 127.0.0.1:35168 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:11 2026] 127.0.0.1:35168 Closing
+[Wed Jun  3 20:50:12 2026] 127.0.0.1:35170 Accepted
+[Wed Jun  3 20:50:12 2026] 127.0.0.1:35170 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:12 2026] 127.0.0.1:35170 Closing
+[Wed Jun  3 20:50:12 2026] 127.0.0.1:35180 Accepted
+[Wed Jun  3 20:50:12 2026] 127.0.0.1:35180 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:12 2026] 127.0.0.1:35180 Closing
+[Wed Jun  3 20:50:14 2026] 127.0.0.1:35188 Accepted
+[Wed Jun  3 20:50:14 2026] 127.0.0.1:35198 Accepted
+[Wed Jun  3 20:50:14 2026] 127.0.0.1:35188 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:14 2026] 127.0.0.1:35188 Closing
+[Wed Jun  3 20:50:14 2026] 127.0.0.1:35198 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:14 2026] 127.0.0.1:35198 Closing
+[Wed Jun  3 20:50:15 2026] 127.0.0.1:57238 Accepted
+[Wed Jun  3 20:50:15 2026] 127.0.0.1:57238 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:15 2026] 127.0.0.1:57238 Closing
+[Wed Jun  3 20:50:15 2026] 127.0.0.1:57246 Accepted
+[Wed Jun  3 20:50:15 2026] 127.0.0.1:57246 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:15 2026] 127.0.0.1:57246 Closing
+[Wed Jun  3 20:50:16 2026] 127.0.0.1:57254 Accepted
+[Wed Jun  3 20:50:16 2026] 127.0.0.1:57262 Accepted
+[Wed Jun  3 20:50:17 2026] 127.0.0.1:57262 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:17 2026] 127.0.0.1:57262 Closing
+[Wed Jun  3 20:50:17 2026] 127.0.0.1:57254 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:17 2026] 127.0.0.1:57254 Closing
+[Wed Jun  3 20:50:18 2026] 127.0.0.1:57268 Accepted
+[Wed Jun  3 20:50:18 2026] 127.0.0.1:57268 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:18 2026] 127.0.0.1:57268 Closing
+[Wed Jun  3 20:50:18 2026] 127.0.0.1:57282 Accepted
+[Wed Jun  3 20:50:18 2026] 127.0.0.1:57282 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:18 2026] 127.0.0.1:57282 Closing
+[Wed Jun  3 20:50:19 2026] 127.0.0.1:57284 Accepted
+[Wed Jun  3 20:50:19 2026] 127.0.0.1:57284 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:50:19 2026] 127.0.0.1:57284 Closing
+[Wed Jun  3 20:50:19 2026] 127.0.0.1:57288 Accepted
+[Wed Jun  3 20:50:19 2026] 127.0.0.1:57290 Accepted
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57288 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57288 Closing
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57290 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57290 Closing
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57298 Accepted
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57310 Accepted
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57316 Accepted
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57298 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57310 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57316 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57298 Closing
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57310 Closing
+[Wed Jun  3 20:50:20 2026] 127.0.0.1:57316 Closing
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57324 Accepted
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57324 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57324 Closing
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57328 Accepted
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57328 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57328 Closing
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57344 Accepted
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57344 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:21 2026] 127.0.0.1:57344 Closing
+[Wed Jun  3 20:50:24 2026] 127.0.0.1:53516 Accepted
+[Wed Jun  3 20:50:24 2026] 127.0.0.1:53516 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:24 2026] 127.0.0.1:53516 Closing
+[Wed Jun  3 20:50:24 2026] 127.0.0.1:53518 Accepted
+[Wed Jun  3 20:50:24 2026] 127.0.0.1:53518 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:24 2026] 127.0.0.1:53518 Closing
+[Wed Jun  3 20:50:28 2026] 127.0.0.1:53522 Accepted
+[Wed Jun  3 20:50:28 2026] 127.0.0.1:53522 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:28 2026] 127.0.0.1:53522 Closing
+[Wed Jun  3 20:50:28 2026] 127.0.0.1:53534 Accepted
+[Wed Jun  3 20:50:28 2026] 127.0.0.1:53534 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:28 2026] 127.0.0.1:53534 Closing
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53546 Accepted
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53546 [200]: GET /frontend/view/desktop/vente.html
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53546 Closing
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53560 Accepted
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53564 Accepted
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53560 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53564 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53560 Closing
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53564 Closing
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53576 Accepted
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53576 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53576 Closing
+[Wed Jun  3 20:50:30 2026] 127.0.0.1:53590 Accepted
+[Wed Jun  3 20:50:31 2026] 127.0.0.1:53590 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:31 2026] 127.0.0.1:53590 Closing
+[Wed Jun  3 20:50:31 2026] 127.0.0.1:53592 Accepted
+[Wed Jun  3 20:50:32 2026] 127.0.0.1:53592 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:32 2026] 127.0.0.1:53592 Closing
+[Wed Jun  3 20:50:34 2026] 127.0.0.1:53598 Accepted
+[Wed Jun  3 20:50:34 2026] 127.0.0.1:53598 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:34 2026] 127.0.0.1:53598 Closing
+[Wed Jun  3 20:50:34 2026] 127.0.0.1:53606 Accepted
+[Wed Jun  3 20:50:34 2026] 127.0.0.1:53606 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:34 2026] 127.0.0.1:53606 Closing
+[Wed Jun  3 20:50:35 2026] 127.0.0.1:55700 Accepted
+[Wed Jun  3 20:50:35 2026] 127.0.0.1:55700 [200]: GET /frontend/view/desktop/table_entree.html
+[Wed Jun  3 20:50:35 2026] 127.0.0.1:55700 Closing
+[Wed Jun  3 20:50:36 2026] 127.0.0.1:55708 Accepted
+[Wed Jun  3 20:50:36 2026] 127.0.0.1:55718 Accepted
+[Wed Jun  3 20:50:36 2026] 127.0.0.1:55708 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:50:36 2026] 127.0.0.1:55718 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:50:36 2026] 127.0.0.1:55708 Closing
+[Wed Jun  3 20:50:36 2026] 127.0.0.1:55718 Closing
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55722 Accepted
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55722 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55722 Closing
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55738 Accepted
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55738 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55738 Closing
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55754 Accepted
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55754 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:37 2026] 127.0.0.1:55754 Closing
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55758 Accepted
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55758 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55758 Closing
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55774 Accepted
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55774 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55774 Closing
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55780 Accepted
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55780 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:40 2026] 127.0.0.1:55780 Closing
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55782 Accepted
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55786 Accepted
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55786 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55786 Closing
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55782 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55782 Closing
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55802 Accepted
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55802 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:43 2026] 127.0.0.1:55802 Closing
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52560 Accepted
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52560 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52560 Closing
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52570 Accepted
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52570 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52570 Closing
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52576 Accepted
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52576 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:46 2026] 127.0.0.1:52576 Closing
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52582 Accepted
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52582 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52582 Closing
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52584 Accepted
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52584 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52584 Closing
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52592 Accepted
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52592 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:49 2026] 127.0.0.1:52592 Closing
+[Wed Jun  3 20:50:52 2026] 127.0.0.1:52600 Accepted
+[Wed Jun  3 20:50:52 2026] 127.0.0.1:52600 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:52 2026] 127.0.0.1:52600 Closing
+[Wed Jun  3 20:50:52 2026] 127.0.0.1:52616 Accepted
+[Wed Jun  3 20:50:52 2026] 127.0.0.1:52616 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:52 2026] 127.0.0.1:52616 Closing
+[Wed Jun  3 20:50:53 2026] 127.0.0.1:52630 Accepted
+[Wed Jun  3 20:50:53 2026] 127.0.0.1:52630 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:53 2026] 127.0.0.1:52630 Closing
+[Wed Jun  3 20:50:55 2026] 127.0.0.1:50632 Accepted
+[Wed Jun  3 20:50:55 2026] 127.0.0.1:50632 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:55 2026] 127.0.0.1:50632 Closing
+[Wed Jun  3 20:50:55 2026] 127.0.0.1:50648 Accepted
+[Wed Jun  3 20:50:55 2026] 127.0.0.1:50648 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:55 2026] 127.0.0.1:50648 Closing
+[Wed Jun  3 20:50:56 2026] 127.0.0.1:50660 Accepted
+[Wed Jun  3 20:50:56 2026] 127.0.0.1:50660 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:56 2026] 127.0.0.1:50660 Closing
+[Wed Jun  3 20:50:58 2026] 127.0.0.1:50674 Accepted
+[Wed Jun  3 20:50:58 2026] 127.0.0.1:50674 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:50:58 2026] 127.0.0.1:50674 Closing
+[Wed Jun  3 20:50:58 2026] 127.0.0.1:50684 Accepted
+[Wed Jun  3 20:50:58 2026] 127.0.0.1:50684 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:50:58 2026] 127.0.0.1:50684 Closing
+[Wed Jun  3 20:50:59 2026] 127.0.0.1:50696 Accepted
+[Wed Jun  3 20:51:00 2026] 127.0.0.1:50696 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:00 2026] 127.0.0.1:50696 Closing
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50702 Accepted
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50702 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50702 Closing
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50712 Accepted
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50712 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50712 Closing
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50722 Accepted
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50722 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:01 2026] 127.0.0.1:50722 Closing
+[Wed Jun  3 20:51:04 2026] 127.0.0.1:50724 Accepted
+[Wed Jun  3 20:51:04 2026] 127.0.0.1:50724 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:04 2026] 127.0.0.1:50724 Closing
+[Wed Jun  3 20:51:04 2026] 127.0.0.1:50734 Accepted
+[Wed Jun  3 20:51:04 2026] 127.0.0.1:50734 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:04 2026] 127.0.0.1:50734 Closing
+[Wed Jun  3 20:51:05 2026] 127.0.0.1:50168 Accepted
+[Wed Jun  3 20:51:05 2026] 127.0.0.1:50168 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:05 2026] 127.0.0.1:50168 Closing
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50176 Accepted
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50176 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50176 Closing
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50192 Accepted
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50192 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50192 Closing
+[Wed Jun  3 20:51:07 2026] 127.0.0.1:50208 Accepted
+[Wed Jun  3 20:51:09 2026] 127.0.0.1:50208 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:09 2026] 127.0.0.1:50208 Closing
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50218 Accepted
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50218 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50218 Closing
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50222 Accepted
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50222 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50222 Closing
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50234 Accepted
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50234 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:10 2026] 127.0.0.1:50234 Closing
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50248 Accepted
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50248 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50248 Closing
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50250 Accepted
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50250 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50250 Closing
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50256 Accepted
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50256 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:13 2026] 127.0.0.1:50256 Closing
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42962 Accepted
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42962 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42962 Closing
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42970 Accepted
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42970 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42970 Closing
+[Wed Jun  3 20:51:16 2026] 127.0.0.1:42978 Accepted
+[Wed Jun  3 20:51:17 2026] 127.0.0.1:42978 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:17 2026] 127.0.0.1:42978 Closing
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:42982 Accepted
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:42982 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:42982 Closing
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:42994 Accepted
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:42994 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:42994 Closing
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:43000 Accepted
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:43000 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:19 2026] 127.0.0.1:43000 Closing
+[Wed Jun  3 20:51:22 2026] 127.0.0.1:43006 Accepted
+[Wed Jun  3 20:51:22 2026] 127.0.0.1:43006 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:22 2026] 127.0.0.1:43006 Closing
+[Wed Jun  3 20:51:22 2026] 127.0.0.1:43008 Accepted
+[Wed Jun  3 20:51:22 2026] 127.0.0.1:43008 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:22 2026] 127.0.0.1:43008 Closing
+[Wed Jun  3 20:51:23 2026] 127.0.0.1:43012 Accepted
+[Wed Jun  3 20:51:24 2026] 127.0.0.1:43012 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:24 2026] 127.0.0.1:43012 Closing
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51156 Accepted
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51156 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51156 Closing
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51162 Accepted
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51162 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51162 Closing
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51168 Accepted
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51168 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:25 2026] 127.0.0.1:51168 Closing
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51174 Accepted
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51174 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51174 Closing
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51184 Accepted
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51184 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51184 Closing
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51190 Accepted
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51190 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:28 2026] 127.0.0.1:51190 Closing
+[Wed Jun  3 20:51:31 2026] 127.0.0.1:51202 Accepted
+[Wed Jun  3 20:51:31 2026] 127.0.0.1:51202 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:31 2026] 127.0.0.1:51202 Closing
+[Wed Jun  3 20:51:31 2026] 127.0.0.1:51208 Accepted
+[Wed Jun  3 20:51:31 2026] 127.0.0.1:51208 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:31 2026] 127.0.0.1:51208 Closing
+[Wed Jun  3 20:51:32 2026] 127.0.0.1:51218 Accepted
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51222 Accepted
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51222 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51222 Closing
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51224 Accepted
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51224 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51224 Closing
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51218 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:51218 Closing
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:45314 Accepted
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:45314 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:34 2026] 127.0.0.1:45314 Closing
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45322 Accepted
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45322 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45322 Closing
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45338 Accepted
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45338 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45338 Closing
+[Wed Jun  3 20:51:37 2026] 127.0.0.1:45354 Accepted
+[Wed Jun  3 20:51:38 2026] 127.0.0.1:45354 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:38 2026] 127.0.0.1:45354 Closing
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45356 Accepted
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45356 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45356 Closing
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45360 Accepted
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45360 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45360 Closing
+[Wed Jun  3 20:51:40 2026] 127.0.0.1:45374 Accepted
+[Wed Jun  3 20:51:41 2026] 127.0.0.1:45374 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:41 2026] 127.0.0.1:45374 Closing
+[Wed Jun  3 20:51:43 2026] 127.0.0.1:45384 Accepted
+[Wed Jun  3 20:51:43 2026] 127.0.0.1:45384 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:43 2026] 127.0.0.1:45384 Closing
+[Wed Jun  3 20:51:43 2026] 127.0.0.1:45394 Accepted
+[Wed Jun  3 20:51:43 2026] 127.0.0.1:45394 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:43 2026] 127.0.0.1:45394 Closing
+[Wed Jun  3 20:51:44 2026] 127.0.0.1:54796 Accepted
+[Wed Jun  3 20:51:44 2026] 127.0.0.1:54804 Accepted
+[Wed Jun  3 20:51:44 2026] 127.0.0.1:54796 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:51:44 2026] 127.0.0.1:54796 Closing
+[Wed Jun  3 20:51:44 2026] 127.0.0.1:54804 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:44 2026] 127.0.0.1:54804 Closing
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54820 Accepted
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54834 Accepted
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54850 Accepted
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54850 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54820 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54834 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54850 Closing
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54820 Closing
+[Wed Jun  3 20:51:45 2026] 127.0.0.1:54834 Closing
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54864 Accepted
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54864 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54864 Closing
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54880 Accepted
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54880 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54880 Closing
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54894 Accepted
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54894 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:46 2026] 127.0.0.1:54894 Closing
+[Wed Jun  3 20:51:49 2026] 127.0.0.1:54896 Accepted
+[Wed Jun  3 20:51:49 2026] 127.0.0.1:54908 Accepted
+[Wed Jun  3 20:51:49 2026] 127.0.0.1:54896 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:49 2026] 127.0.0.1:54896 Closing
+[Wed Jun  3 20:51:49 2026] 127.0.0.1:54908 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:49 2026] 127.0.0.1:54908 Closing
+[Wed Jun  3 20:51:52 2026] 127.0.0.1:54918 Accepted
+[Wed Jun  3 20:51:52 2026] 127.0.0.1:54918 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:52 2026] 127.0.0.1:54918 Closing
+[Wed Jun  3 20:51:52 2026] 127.0.0.1:54930 Accepted
+[Wed Jun  3 20:51:52 2026] 127.0.0.1:54930 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:52 2026] 127.0.0.1:54930 Closing
+[Wed Jun  3 20:51:55 2026] 127.0.0.1:57570 Accepted
+[Wed Jun  3 20:51:55 2026] 127.0.0.1:57570 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:55 2026] 127.0.0.1:57570 Closing
+[Wed Jun  3 20:51:55 2026] 127.0.0.1:57576 Accepted
+[Wed Jun  3 20:51:55 2026] 127.0.0.1:57576 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:55 2026] 127.0.0.1:57576 Closing
+[Wed Jun  3 20:51:58 2026] 127.0.0.1:57582 Accepted
+[Wed Jun  3 20:51:58 2026] 127.0.0.1:57582 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:51:58 2026] 127.0.0.1:57582 Closing
+[Wed Jun  3 20:51:58 2026] 127.0.0.1:57598 Accepted
+[Wed Jun  3 20:51:58 2026] 127.0.0.1:57598 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:51:58 2026] 127.0.0.1:57598 Closing
+[Wed Jun  3 20:52:01 2026] 127.0.0.1:57604 Accepted
+[Wed Jun  3 20:52:01 2026] 127.0.0.1:57612 Accepted
+[Wed Jun  3 20:52:01 2026] 127.0.0.1:57604 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:01 2026] 127.0.0.1:57604 Closing
+[Wed Jun  3 20:52:01 2026] 127.0.0.1:57612 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:01 2026] 127.0.0.1:57612 Closing
+[Wed Jun  3 20:52:04 2026] 127.0.0.1:57626 Accepted
+[Wed Jun  3 20:52:04 2026] 127.0.0.1:57626 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:04 2026] 127.0.0.1:57626 Closing
+[Wed Jun  3 20:52:04 2026] 127.0.0.1:57642 Accepted
+[Wed Jun  3 20:52:04 2026] 127.0.0.1:57642 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:04 2026] 127.0.0.1:57642 Closing
+[Wed Jun  3 20:52:07 2026] 127.0.0.1:36448 Accepted
+[Wed Jun  3 20:52:07 2026] 127.0.0.1:36448 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:07 2026] 127.0.0.1:36448 Closing
+[Wed Jun  3 20:52:07 2026] 127.0.0.1:36450 Accepted
+[Wed Jun  3 20:52:07 2026] 127.0.0.1:36450 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:07 2026] 127.0.0.1:36450 Closing
+[Wed Jun  3 20:52:10 2026] 127.0.0.1:36464 Accepted
+[Wed Jun  3 20:52:10 2026] 127.0.0.1:36464 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:10 2026] 127.0.0.1:36464 Closing
+[Wed Jun  3 20:52:10 2026] 127.0.0.1:36470 Accepted
+[Wed Jun  3 20:52:10 2026] 127.0.0.1:36470 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:10 2026] 127.0.0.1:36470 Closing
+[Wed Jun  3 20:52:13 2026] 127.0.0.1:36478 Accepted
+[Wed Jun  3 20:52:13 2026] 127.0.0.1:36478 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:13 2026] 127.0.0.1:36478 Closing
+[Wed Jun  3 20:52:13 2026] 127.0.0.1:36492 Accepted
+[Wed Jun  3 20:52:13 2026] 127.0.0.1:36492 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:13 2026] 127.0.0.1:36492 Closing
+[Wed Jun  3 20:52:16 2026] 127.0.0.1:49520 Accepted
+[Wed Jun  3 20:52:16 2026] 127.0.0.1:49520 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:16 2026] 127.0.0.1:49520 Closing
+[Wed Jun  3 20:52:16 2026] 127.0.0.1:49530 Accepted
+[Wed Jun  3 20:52:16 2026] 127.0.0.1:49530 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:16 2026] 127.0.0.1:49530 Closing
+[Wed Jun  3 20:52:19 2026] 127.0.0.1:49542 Accepted
+[Wed Jun  3 20:52:19 2026] 127.0.0.1:49542 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:19 2026] 127.0.0.1:49542 Closing
+[Wed Jun  3 20:52:19 2026] 127.0.0.1:49546 Accepted
+[Wed Jun  3 20:52:19 2026] 127.0.0.1:49546 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:19 2026] 127.0.0.1:49546 Closing
+[Wed Jun  3 20:52:22 2026] 127.0.0.1:49550 Accepted
+[Wed Jun  3 20:52:22 2026] 127.0.0.1:49550 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:22 2026] 127.0.0.1:49550 Closing
+[Wed Jun  3 20:52:22 2026] 127.0.0.1:49558 Accepted
+[Wed Jun  3 20:52:22 2026] 127.0.0.1:49558 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:22 2026] 127.0.0.1:49558 Closing
+[Wed Jun  3 20:52:25 2026] 127.0.0.1:41910 Accepted
+[Wed Jun  3 20:52:25 2026] 127.0.0.1:41910 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:25 2026] 127.0.0.1:41910 Closing
+[Wed Jun  3 20:52:25 2026] 127.0.0.1:41916 Accepted
+[Wed Jun  3 20:52:25 2026] 127.0.0.1:41916 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:25 2026] 127.0.0.1:41916 Closing
+[Wed Jun  3 20:52:28 2026] 127.0.0.1:41930 Accepted
+[Wed Jun  3 20:52:28 2026] 127.0.0.1:41930 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:28 2026] 127.0.0.1:41930 Closing
+[Wed Jun  3 20:52:28 2026] 127.0.0.1:41934 Accepted
+[Wed Jun  3 20:52:28 2026] 127.0.0.1:41934 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:28 2026] 127.0.0.1:41934 Closing
+[Wed Jun  3 20:52:31 2026] 127.0.0.1:41936 Accepted
+[Wed Jun  3 20:52:31 2026] 127.0.0.1:41936 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:31 2026] 127.0.0.1:41936 Closing
+[Wed Jun  3 20:52:31 2026] 127.0.0.1:41950 Accepted
+[Wed Jun  3 20:52:31 2026] 127.0.0.1:41950 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:31 2026] 127.0.0.1:41950 Closing
+[Wed Jun  3 20:52:34 2026] 127.0.0.1:41966 Accepted
+[Wed Jun  3 20:52:34 2026] 127.0.0.1:41966 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:34 2026] 127.0.0.1:41966 Closing
+[Wed Jun  3 20:52:34 2026] 127.0.0.1:41970 Accepted
+[Wed Jun  3 20:52:34 2026] 127.0.0.1:41970 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:34 2026] 127.0.0.1:41970 Closing
+[Wed Jun  3 20:52:37 2026] 127.0.0.1:50154 Accepted
+[Wed Jun  3 20:52:37 2026] 127.0.0.1:50154 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:37 2026] 127.0.0.1:50154 Closing
+[Wed Jun  3 20:52:37 2026] 127.0.0.1:50164 Accepted
+[Wed Jun  3 20:52:37 2026] 127.0.0.1:50164 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:37 2026] 127.0.0.1:50164 Closing
+[Wed Jun  3 20:52:40 2026] 127.0.0.1:50178 Accepted
+[Wed Jun  3 20:52:40 2026] 127.0.0.1:50178 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:40 2026] 127.0.0.1:50178 Closing
+[Wed Jun  3 20:52:40 2026] 127.0.0.1:50194 Accepted
+[Wed Jun  3 20:52:40 2026] 127.0.0.1:50194 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:40 2026] 127.0.0.1:50194 Closing
+[Wed Jun  3 20:52:43 2026] 127.0.0.1:50204 Accepted
+[Wed Jun  3 20:52:43 2026] 127.0.0.1:50204 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:43 2026] 127.0.0.1:50204 Closing
+[Wed Jun  3 20:52:43 2026] 127.0.0.1:50210 Accepted
+[Wed Jun  3 20:52:43 2026] 127.0.0.1:50210 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:43 2026] 127.0.0.1:50210 Closing
+[Wed Jun  3 20:52:46 2026] 127.0.0.1:56418 Accepted
+[Wed Jun  3 20:52:46 2026] 127.0.0.1:56418 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:46 2026] 127.0.0.1:56418 Closing
+[Wed Jun  3 20:52:46 2026] 127.0.0.1:56422 Accepted
+[Wed Jun  3 20:52:46 2026] 127.0.0.1:56422 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:46 2026] 127.0.0.1:56422 Closing
+[Wed Jun  3 20:52:49 2026] 127.0.0.1:56432 Accepted
+[Wed Jun  3 20:52:49 2026] 127.0.0.1:56432 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:49 2026] 127.0.0.1:56432 Closing
+[Wed Jun  3 20:52:49 2026] 127.0.0.1:56434 Accepted
+[Wed Jun  3 20:52:49 2026] 127.0.0.1:56434 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:49 2026] 127.0.0.1:56434 Closing
+[Wed Jun  3 20:52:52 2026] 127.0.0.1:56438 Accepted
+[Wed Jun  3 20:52:52 2026] 127.0.0.1:56438 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:52 2026] 127.0.0.1:56438 Closing
+[Wed Jun  3 20:52:52 2026] 127.0.0.1:56448 Accepted
+[Wed Jun  3 20:52:52 2026] 127.0.0.1:56448 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:52 2026] 127.0.0.1:56448 Closing
+[Wed Jun  3 20:52:55 2026] 127.0.0.1:53824 Accepted
+[Wed Jun  3 20:52:55 2026] 127.0.0.1:53824 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:55 2026] 127.0.0.1:53824 Closing
+[Wed Jun  3 20:52:55 2026] 127.0.0.1:53834 Accepted
+[Wed Jun  3 20:52:55 2026] 127.0.0.1:53834 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:55 2026] 127.0.0.1:53834 Closing
+[Wed Jun  3 20:52:58 2026] 127.0.0.1:53844 Accepted
+[Wed Jun  3 20:52:58 2026] 127.0.0.1:53844 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:52:58 2026] 127.0.0.1:53844 Closing
+[Wed Jun  3 20:52:58 2026] 127.0.0.1:53852 Accepted
+[Wed Jun  3 20:52:58 2026] 127.0.0.1:53852 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:52:58 2026] 127.0.0.1:53852 Closing
+[Wed Jun  3 20:53:01 2026] 127.0.0.1:53854 Accepted
+[Wed Jun  3 20:53:01 2026] 127.0.0.1:53854 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:01 2026] 127.0.0.1:53854 Closing
+[Wed Jun  3 20:53:01 2026] 127.0.0.1:53868 Accepted
+[Wed Jun  3 20:53:01 2026] 127.0.0.1:53868 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:01 2026] 127.0.0.1:53868 Closing
+[Wed Jun  3 20:53:04 2026] 127.0.0.1:53870 Accepted
+[Wed Jun  3 20:53:04 2026] 127.0.0.1:53870 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:04 2026] 127.0.0.1:53870 Closing
+[Wed Jun  3 20:53:04 2026] 127.0.0.1:53880 Accepted
+[Wed Jun  3 20:53:04 2026] 127.0.0.1:53880 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:04 2026] 127.0.0.1:53880 Closing
+[Wed Jun  3 20:53:07 2026] 127.0.0.1:47054 Accepted
+[Wed Jun  3 20:53:07 2026] 127.0.0.1:47054 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:07 2026] 127.0.0.1:47054 Closing
+[Wed Jun  3 20:53:07 2026] 127.0.0.1:47056 Accepted
+[Wed Jun  3 20:53:07 2026] 127.0.0.1:47056 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:07 2026] 127.0.0.1:47056 Closing
+[Wed Jun  3 20:53:10 2026] 127.0.0.1:47060 Accepted
+[Wed Jun  3 20:53:10 2026] 127.0.0.1:47060 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:10 2026] 127.0.0.1:47060 Closing
+[Wed Jun  3 20:53:10 2026] 127.0.0.1:47072 Accepted
+[Wed Jun  3 20:53:10 2026] 127.0.0.1:47072 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:10 2026] 127.0.0.1:47072 Closing
+[Wed Jun  3 20:53:13 2026] 127.0.0.1:47082 Accepted
+[Wed Jun  3 20:53:13 2026] 127.0.0.1:47082 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:13 2026] 127.0.0.1:47082 Closing
+[Wed Jun  3 20:53:13 2026] 127.0.0.1:47092 Accepted
+[Wed Jun  3 20:53:13 2026] 127.0.0.1:47092 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:13 2026] 127.0.0.1:47092 Closing
+[Wed Jun  3 20:53:16 2026] 127.0.0.1:38836 Accepted
+[Wed Jun  3 20:53:16 2026] 127.0.0.1:38836 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:16 2026] 127.0.0.1:38836 Closing
+[Wed Jun  3 20:53:16 2026] 127.0.0.1:38848 Accepted
+[Wed Jun  3 20:53:16 2026] 127.0.0.1:38848 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:16 2026] 127.0.0.1:38848 Closing
+[Wed Jun  3 20:53:19 2026] 127.0.0.1:38858 Accepted
+[Wed Jun  3 20:53:19 2026] 127.0.0.1:38858 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:19 2026] 127.0.0.1:38858 Closing
+[Wed Jun  3 20:53:19 2026] 127.0.0.1:38862 Accepted
+[Wed Jun  3 20:53:19 2026] 127.0.0.1:38862 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:19 2026] 127.0.0.1:38862 Closing
+[Wed Jun  3 20:53:22 2026] 127.0.0.1:38878 Accepted
+[Wed Jun  3 20:53:22 2026] 127.0.0.1:38878 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:22 2026] 127.0.0.1:38878 Closing
+[Wed Jun  3 20:53:22 2026] 127.0.0.1:38880 Accepted
+[Wed Jun  3 20:53:22 2026] 127.0.0.1:38880 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:22 2026] 127.0.0.1:38880 Closing
+[Wed Jun  3 20:53:25 2026] 127.0.0.1:57846 Accepted
+[Wed Jun  3 20:53:25 2026] 127.0.0.1:57846 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:25 2026] 127.0.0.1:57846 Closing
+[Wed Jun  3 20:53:25 2026] 127.0.0.1:57848 Accepted
+[Wed Jun  3 20:53:25 2026] 127.0.0.1:57848 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:25 2026] 127.0.0.1:57848 Closing
+[Wed Jun  3 20:53:28 2026] 127.0.0.1:57854 Accepted
+[Wed Jun  3 20:53:28 2026] 127.0.0.1:57854 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:28 2026] 127.0.0.1:57854 Closing
+[Wed Jun  3 20:53:28 2026] 127.0.0.1:57860 Accepted
+[Wed Jun  3 20:53:28 2026] 127.0.0.1:57860 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:28 2026] 127.0.0.1:57860 Closing
+[Wed Jun  3 20:53:31 2026] 127.0.0.1:57870 Accepted
+[Wed Jun  3 20:53:31 2026] 127.0.0.1:57870 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:31 2026] 127.0.0.1:57870 Closing
+[Wed Jun  3 20:53:31 2026] 127.0.0.1:57872 Accepted
+[Wed Jun  3 20:53:31 2026] 127.0.0.1:57872 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:31 2026] 127.0.0.1:57872 Closing
+[Wed Jun  3 20:53:34 2026] 127.0.0.1:57886 Accepted
+[Wed Jun  3 20:53:34 2026] 127.0.0.1:57886 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:34 2026] 127.0.0.1:57886 Closing
+[Wed Jun  3 20:53:34 2026] 127.0.0.1:57888 Accepted
+[Wed Jun  3 20:53:34 2026] 127.0.0.1:57888 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:34 2026] 127.0.0.1:57888 Closing
+[Wed Jun  3 20:53:37 2026] 127.0.0.1:58350 Accepted
+[Wed Jun  3 20:53:37 2026] 127.0.0.1:58350 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:37 2026] 127.0.0.1:58350 Closing
+[Wed Jun  3 20:53:37 2026] 127.0.0.1:58356 Accepted
+[Wed Jun  3 20:53:37 2026] 127.0.0.1:58356 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:37 2026] 127.0.0.1:58356 Closing
+[Wed Jun  3 20:53:40 2026] 127.0.0.1:58358 Accepted
+[Wed Jun  3 20:53:40 2026] 127.0.0.1:58358 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:40 2026] 127.0.0.1:58358 Closing
+[Wed Jun  3 20:53:40 2026] 127.0.0.1:58368 Accepted
+[Wed Jun  3 20:53:40 2026] 127.0.0.1:58368 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:40 2026] 127.0.0.1:58368 Closing
+[Wed Jun  3 20:53:43 2026] 127.0.0.1:58376 Accepted
+[Wed Jun  3 20:53:43 2026] 127.0.0.1:58388 Accepted
+[Wed Jun  3 20:53:43 2026] 127.0.0.1:58376 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:43 2026] 127.0.0.1:58376 Closing
+[Wed Jun  3 20:53:43 2026] 127.0.0.1:58388 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:43 2026] 127.0.0.1:58388 Closing
+[Wed Jun  3 20:53:45 2026] 127.0.0.1:56408 Accepted
+[Wed Jun  3 20:53:45 2026] 127.0.0.1:56408 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:53:45 2026] 127.0.0.1:56408 Closing
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56410 Accepted
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56412 Accepted
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56426 Accepted
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56426 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56426 Closing
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56436 Accepted
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56436 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56436 Closing
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56410 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56410 Closing
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56412 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:53:46 2026] 127.0.0.1:56412 Closing
+[Wed Jun  3 20:53:47 2026] 127.0.0.1:56448 Accepted
+[Wed Jun  3 20:53:47 2026] 127.0.0.1:56462 Accepted
+[Wed Jun  3 20:53:47 2026] 127.0.0.1:56448 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:47 2026] 127.0.0.1:56448 Closing
+[Wed Jun  3 20:53:47 2026] 127.0.0.1:56462 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:47 2026] 127.0.0.1:56462 Closing
+[Wed Jun  3 20:53:49 2026] 127.0.0.1:56468 Accepted
+[Wed Jun  3 20:53:49 2026] 127.0.0.1:56468 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:49 2026] 127.0.0.1:56468 Closing
+[Wed Jun  3 20:53:49 2026] 127.0.0.1:56476 Accepted
+[Wed Jun  3 20:53:49 2026] 127.0.0.1:56476 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:49 2026] 127.0.0.1:56476 Closing
+[Wed Jun  3 20:53:51 2026] 127.0.0.1:56482 Accepted
+[Wed Jun  3 20:53:51 2026] 127.0.0.1:56482 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:53:51 2026] 127.0.0.1:56482 Closing
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56488 Accepted
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56488 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56488 Closing
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56500 Accepted
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56500 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56500 Closing
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56508 Accepted
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56520 Accepted
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56526 Accepted
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56508 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56520 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56508 Closing
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56520 Closing
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56526 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:53:52 2026] 127.0.0.1:56526 Closing
+[Wed Jun  3 20:53:54 2026] 127.0.0.1:56540 Accepted
+[Wed Jun  3 20:53:54 2026] 127.0.0.1:56540 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:54 2026] 127.0.0.1:56540 Closing
+[Wed Jun  3 20:53:55 2026] 127.0.0.1:59066 Accepted
+[Wed Jun  3 20:53:55 2026] 127.0.0.1:59066 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:55 2026] 127.0.0.1:59066 Closing
+[Wed Jun  3 20:53:55 2026] 127.0.0.1:59080 Accepted
+[Wed Jun  3 20:53:55 2026] 127.0.0.1:59080 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:55 2026] 127.0.0.1:59080 Closing
+[Wed Jun  3 20:53:58 2026] 127.0.0.1:59088 Accepted
+[Wed Jun  3 20:53:58 2026] 127.0.0.1:59088 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:53:58 2026] 127.0.0.1:59088 Closing
+[Wed Jun  3 20:53:58 2026] 127.0.0.1:59090 Accepted
+[Wed Jun  3 20:53:58 2026] 127.0.0.1:59090 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:53:58 2026] 127.0.0.1:59090 Closing
+[Wed Jun  3 20:54:01 2026] 127.0.0.1:59102 Accepted
+[Wed Jun  3 20:54:01 2026] 127.0.0.1:59102 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:01 2026] 127.0.0.1:59102 Closing
+[Wed Jun  3 20:54:01 2026] 127.0.0.1:59108 Accepted
+[Wed Jun  3 20:54:01 2026] 127.0.0.1:59108 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:01 2026] 127.0.0.1:59108 Closing
+[Wed Jun  3 20:54:04 2026] 127.0.0.1:59122 Accepted
+[Wed Jun  3 20:54:04 2026] 127.0.0.1:59122 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:04 2026] 127.0.0.1:59122 Closing
+[Wed Jun  3 20:54:04 2026] 127.0.0.1:59138 Accepted
+[Wed Jun  3 20:54:04 2026] 127.0.0.1:59138 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:04 2026] 127.0.0.1:59138 Closing
+[Wed Jun  3 20:54:07 2026] 127.0.0.1:45406 Accepted
+[Wed Jun  3 20:54:07 2026] 127.0.0.1:45406 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:07 2026] 127.0.0.1:45406 Closing
+[Wed Jun  3 20:54:07 2026] 127.0.0.1:45412 Accepted
+[Wed Jun  3 20:54:07 2026] 127.0.0.1:45412 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:07 2026] 127.0.0.1:45412 Closing
+[Wed Jun  3 20:54:08 2026] 127.0.0.1:45422 Accepted
+[Wed Jun  3 20:54:09 2026] 127.0.0.1:45422 [200]: GET /frontend/view/desktop/table_entree.html
+[Wed Jun  3 20:54:09 2026] 127.0.0.1:45422 Closing
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45438 Accepted
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45438 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45438 Closing
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45454 Accepted
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45454 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45454 Closing
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45464 Accepted
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45466 Accepted
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45464 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45466 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45464 Closing
+[Wed Jun  3 20:54:10 2026] 127.0.0.1:45466 Closing
+[Wed Jun  3 20:54:11 2026] 127.0.0.1:45470 Accepted
+[Wed Jun  3 20:54:12 2026] 127.0.0.1:45470 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:12 2026] 127.0.0.1:45470 Closing
+[Wed Jun  3 20:54:13 2026] 127.0.0.1:45480 Accepted
+[Wed Jun  3 20:54:13 2026] 127.0.0.1:45480 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:13 2026] 127.0.0.1:45480 Closing
+[Wed Jun  3 20:54:13 2026] 127.0.0.1:45482 Accepted
+[Wed Jun  3 20:54:13 2026] 127.0.0.1:45482 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:13 2026] 127.0.0.1:45482 Closing
+[Wed Jun  3 20:54:14 2026] 127.0.0.1:37398 Accepted
+[Wed Jun  3 20:54:15 2026] 127.0.0.1:37398 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:15 2026] 127.0.0.1:37398 Closing
+[Wed Jun  3 20:54:16 2026] 127.0.0.1:37400 Accepted
+[Wed Jun  3 20:54:16 2026] 127.0.0.1:37400 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:16 2026] 127.0.0.1:37400 Closing
+[Wed Jun  3 20:54:16 2026] 127.0.0.1:37416 Accepted
+[Wed Jun  3 20:54:16 2026] 127.0.0.1:37416 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:16 2026] 127.0.0.1:37416 Closing
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37420 Accepted
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37436 Accepted
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37420 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37420 Closing
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37438 Accepted
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37438 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37438 Closing
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37440 Accepted
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37440 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37440 Closing
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37436 [404]: GET /favicon.ico - No such file or directory
+[Wed Jun  3 20:54:19 2026] 127.0.0.1:37436 Closing
+[Wed Jun  3 20:54:21 2026] 127.0.0.1:37454 Accepted
+[Wed Jun  3 20:54:21 2026] 127.0.0.1:37454 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:21 2026] 127.0.0.1:37454 Closing
+[Wed Jun  3 20:54:22 2026] 127.0.0.1:37464 Accepted
+[Wed Jun  3 20:54:22 2026] 127.0.0.1:37464 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:22 2026] 127.0.0.1:37464 Closing
+[Wed Jun  3 20:54:22 2026] 127.0.0.1:37468 Accepted
+[Wed Jun  3 20:54:22 2026] 127.0.0.1:37468 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:22 2026] 127.0.0.1:37468 Closing
+[Wed Jun  3 20:54:24 2026] 127.0.0.1:51700 Accepted
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51700 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51700 Closing
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51702 Accepted
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51702 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51702 Closing
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51710 Accepted
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51710 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:25 2026] 127.0.0.1:51710 Closing
+[Wed Jun  3 20:54:26 2026] 127.0.0.1:51716 Accepted
+[Wed Jun  3 20:54:27 2026] 127.0.0.1:51716 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:27 2026] 127.0.0.1:51716 Closing
+[Wed Jun  3 20:54:28 2026] 127.0.0.1:51726 Accepted
+[Wed Jun  3 20:54:28 2026] 127.0.0.1:51726 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:28 2026] 127.0.0.1:51726 Closing
+[Wed Jun  3 20:54:28 2026] 127.0.0.1:51740 Accepted
+[Wed Jun  3 20:54:28 2026] 127.0.0.1:51740 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:28 2026] 127.0.0.1:51740 Closing
+[Wed Jun  3 20:54:30 2026] 127.0.0.1:51752 Accepted
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51754 Accepted
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51754 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51754 Closing
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51760 Accepted
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51760 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51760 Closing
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51752 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:31 2026] 127.0.0.1:51752 Closing
+[Wed Jun  3 20:54:32 2026] 127.0.0.1:51770 Accepted
+[Wed Jun  3 20:54:33 2026] 127.0.0.1:51770 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:33 2026] 127.0.0.1:51770 Closing
+[Wed Jun  3 20:54:34 2026] 127.0.0.1:51780 Accepted
+[Wed Jun  3 20:54:34 2026] 127.0.0.1:51780 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:34 2026] 127.0.0.1:51780 Closing
+[Wed Jun  3 20:54:34 2026] 127.0.0.1:51788 Accepted
+[Wed Jun  3 20:54:34 2026] 127.0.0.1:51788 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:34 2026] 127.0.0.1:51788 Closing
+[Wed Jun  3 20:54:36 2026] 127.0.0.1:47404 Accepted
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47404 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47404 Closing
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47410 Accepted
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47410 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47410 Closing
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47414 Accepted
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47414 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:37 2026] 127.0.0.1:47414 Closing
+[Wed Jun  3 20:54:39 2026] 127.0.0.1:47426 Accepted
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47434 Accepted
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47434 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47434 Closing
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47438 Accepted
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47438 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47438 Closing
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47426 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:40 2026] 127.0.0.1:47426 Closing
+[Wed Jun  3 20:54:41 2026] 127.0.0.1:47450 Accepted
+[Wed Jun  3 20:54:42 2026] 127.0.0.1:47450 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:42 2026] 127.0.0.1:47450 Closing
+[Wed Jun  3 20:54:43 2026] 127.0.0.1:47458 Accepted
+[Wed Jun  3 20:54:43 2026] 127.0.0.1:47458 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:43 2026] 127.0.0.1:47458 Closing
+[Wed Jun  3 20:54:43 2026] 127.0.0.1:47474 Accepted
+[Wed Jun  3 20:54:43 2026] 127.0.0.1:47474 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:43 2026] 127.0.0.1:47474 Closing
+[Wed Jun  3 20:54:45 2026] 127.0.0.1:52092 Accepted
+[Wed Jun  3 20:54:45 2026] 127.0.0.1:52092 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:45 2026] 127.0.0.1:52092 Closing
+[Wed Jun  3 20:54:46 2026] 127.0.0.1:52108 Accepted
+[Wed Jun  3 20:54:46 2026] 127.0.0.1:52108 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:46 2026] 127.0.0.1:52108 Closing
+[Wed Jun  3 20:54:46 2026] 127.0.0.1:52118 Accepted
+[Wed Jun  3 20:54:46 2026] 127.0.0.1:52118 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:46 2026] 127.0.0.1:52118 Closing
+[Wed Jun  3 20:54:47 2026] 127.0.0.1:52132 Accepted
+[Wed Jun  3 20:54:48 2026] 127.0.0.1:52132 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:48 2026] 127.0.0.1:52132 Closing
+[Wed Jun  3 20:54:49 2026] 127.0.0.1:52134 Accepted
+[Wed Jun  3 20:54:49 2026] 127.0.0.1:52134 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:49 2026] 127.0.0.1:52134 Closing
+[Wed Jun  3 20:54:49 2026] 127.0.0.1:52144 Accepted
+[Wed Jun  3 20:54:49 2026] 127.0.0.1:52144 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:49 2026] 127.0.0.1:52144 Closing
+[Wed Jun  3 20:54:51 2026] 127.0.0.1:52150 Accepted
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52166 Accepted
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52166 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52166 Closing
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52182 Accepted
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52182 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52182 Closing
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52150 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:52 2026] 127.0.0.1:52150 Closing
+[Wed Jun  3 20:54:53 2026] 127.0.0.1:52188 Accepted
+[Wed Jun  3 20:54:54 2026] 127.0.0.1:52188 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:54 2026] 127.0.0.1:52188 Closing
+[Wed Jun  3 20:54:55 2026] 127.0.0.1:47390 Accepted
+[Wed Jun  3 20:54:55 2026] 127.0.0.1:47390 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:55 2026] 127.0.0.1:47390 Closing
+[Wed Jun  3 20:54:55 2026] 127.0.0.1:47398 Accepted
+[Wed Jun  3 20:54:55 2026] 127.0.0.1:47398 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:55 2026] 127.0.0.1:47398 Closing
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47408 Accepted
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47408 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47408 Closing
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47422 Accepted
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47422 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47422 Closing
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47428 Accepted
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47428 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:54:58 2026] 127.0.0.1:47428 Closing
+[Wed Jun  3 20:54:59 2026] 127.0.0.1:47432 Accepted
+[Wed Jun  3 20:55:00 2026] 127.0.0.1:47432 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:00 2026] 127.0.0.1:47432 Closing
+[Wed Jun  3 20:55:01 2026] 127.0.0.1:47440 Accepted
+[Wed Jun  3 20:55:01 2026] 127.0.0.1:47440 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:01 2026] 127.0.0.1:47440 Closing
+[Wed Jun  3 20:55:01 2026] 127.0.0.1:47444 Accepted
+[Wed Jun  3 20:55:01 2026] 127.0.0.1:47444 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:01 2026] 127.0.0.1:47444 Closing
+[Wed Jun  3 20:55:02 2026] 127.0.0.1:47450 Accepted
+[Wed Jun  3 20:55:03 2026] 127.0.0.1:47450 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:03 2026] 127.0.0.1:47450 Closing
+[Wed Jun  3 20:55:04 2026] 127.0.0.1:47462 Accepted
+[Wed Jun  3 20:55:04 2026] 127.0.0.1:47462 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:04 2026] 127.0.0.1:47462 Closing
+[Wed Jun  3 20:55:04 2026] 127.0.0.1:47472 Accepted
+[Wed Jun  3 20:55:04 2026] 127.0.0.1:47472 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:04 2026] 127.0.0.1:47472 Closing
+[Wed Jun  3 20:55:06 2026] 127.0.0.1:58056 Accepted
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58066 Accepted
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58066 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58066 Closing
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58076 Accepted
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58076 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58076 Closing
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58056 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:07 2026] 127.0.0.1:58056 Closing
+[Wed Jun  3 20:55:08 2026] 127.0.0.1:58092 Accepted
+[Wed Jun  3 20:55:09 2026] 127.0.0.1:58092 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:09 2026] 127.0.0.1:58092 Closing
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58094 Accepted
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58100 Accepted
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58100 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58100 Closing
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58116 Accepted
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58116 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58116 Closing
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58094 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:55:10 2026] 127.0.0.1:58094 Closing
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58120 Accepted
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58136 Accepted
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58150 Accepted
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58120 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58136 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58150 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58120 Closing
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58136 Closing
+[Wed Jun  3 20:55:11 2026] 127.0.0.1:58150 Closing
+[Wed Jun  3 20:55:12 2026] 127.0.0.1:58156 Accepted
+[Wed Jun  3 20:55:12 2026] 127.0.0.1:58156 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:12 2026] 127.0.0.1:58156 Closing
+[Wed Jun  3 20:55:13 2026] 127.0.0.1:58168 Accepted
+[Wed Jun  3 20:55:13 2026] 127.0.0.1:58168 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:13 2026] 127.0.0.1:58168 Closing
+[Wed Jun  3 20:55:13 2026] 127.0.0.1:58174 Accepted
+[Wed Jun  3 20:55:13 2026] 127.0.0.1:58174 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:13 2026] 127.0.0.1:58174 Closing
+[Wed Jun  3 20:55:16 2026] 127.0.0.1:50478 Accepted
+[Wed Jun  3 20:55:16 2026] 127.0.0.1:50478 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:16 2026] 127.0.0.1:50478 Closing
+[Wed Jun  3 20:55:16 2026] 127.0.0.1:50490 Accepted
+[Wed Jun  3 20:55:16 2026] 127.0.0.1:50490 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:16 2026] 127.0.0.1:50490 Closing
+[Wed Jun  3 20:55:19 2026] 127.0.0.1:50502 Accepted
+[Wed Jun  3 20:55:19 2026] 127.0.0.1:50502 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:19 2026] 127.0.0.1:50502 Closing
+[Wed Jun  3 20:55:19 2026] 127.0.0.1:50518 Accepted
+[Wed Jun  3 20:55:19 2026] 127.0.0.1:50518 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:19 2026] 127.0.0.1:50518 Closing
+[Wed Jun  3 20:55:22 2026] 127.0.0.1:50528 Accepted
+[Wed Jun  3 20:55:22 2026] 127.0.0.1:50528 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:22 2026] 127.0.0.1:50528 Closing
+[Wed Jun  3 20:55:22 2026] 127.0.0.1:50534 Accepted
+[Wed Jun  3 20:55:22 2026] 127.0.0.1:50534 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:22 2026] 127.0.0.1:50534 Closing
+[Wed Jun  3 20:55:25 2026] 127.0.0.1:36062 Accepted
+[Wed Jun  3 20:55:25 2026] 127.0.0.1:36062 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:25 2026] 127.0.0.1:36062 Closing
+[Wed Jun  3 20:55:25 2026] 127.0.0.1:36070 Accepted
+[Wed Jun  3 20:55:25 2026] 127.0.0.1:36070 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:25 2026] 127.0.0.1:36070 Closing
+[Wed Jun  3 20:55:28 2026] 127.0.0.1:36086 Accepted
+[Wed Jun  3 20:55:28 2026] 127.0.0.1:36086 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:28 2026] 127.0.0.1:36086 Closing
+[Wed Jun  3 20:55:28 2026] 127.0.0.1:36098 Accepted
+[Wed Jun  3 20:55:28 2026] 127.0.0.1:36098 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:28 2026] 127.0.0.1:36098 Closing
+[Wed Jun  3 20:55:31 2026] 127.0.0.1:36110 Accepted
+[Wed Jun  3 20:55:31 2026] 127.0.0.1:36110 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:31 2026] 127.0.0.1:36110 Closing
+[Wed Jun  3 20:55:31 2026] 127.0.0.1:36116 Accepted
+[Wed Jun  3 20:55:31 2026] 127.0.0.1:36116 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:31 2026] 127.0.0.1:36116 Closing
+[Wed Jun  3 20:55:34 2026] 127.0.0.1:45802 Accepted
+[Wed Jun  3 20:55:34 2026] 127.0.0.1:45812 Accepted
+[Wed Jun  3 20:55:34 2026] 127.0.0.1:45802 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:34 2026] 127.0.0.1:45802 Closing
+[Wed Jun  3 20:55:34 2026] 127.0.0.1:45812 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:34 2026] 127.0.0.1:45812 Closing
+[Wed Jun  3 20:55:37 2026] 127.0.0.1:45820 Accepted
+[Wed Jun  3 20:55:37 2026] 127.0.0.1:45820 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:37 2026] 127.0.0.1:45820 Closing
+[Wed Jun  3 20:55:37 2026] 127.0.0.1:45822 Accepted
+[Wed Jun  3 20:55:37 2026] 127.0.0.1:45822 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:37 2026] 127.0.0.1:45822 Closing
+[Wed Jun  3 20:55:40 2026] 127.0.0.1:45834 Accepted
+[Wed Jun  3 20:55:40 2026] 127.0.0.1:45834 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:40 2026] 127.0.0.1:45834 Closing
+[Wed Jun  3 20:55:40 2026] 127.0.0.1:45844 Accepted
+[Wed Jun  3 20:55:40 2026] 127.0.0.1:45844 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:40 2026] 127.0.0.1:45844 Closing
+[Wed Jun  3 20:55:43 2026] 127.0.0.1:45850 Accepted
+[Wed Jun  3 20:55:43 2026] 127.0.0.1:45850 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:43 2026] 127.0.0.1:45850 Closing
+[Wed Jun  3 20:55:43 2026] 127.0.0.1:45864 Accepted
+[Wed Jun  3 20:55:43 2026] 127.0.0.1:45864 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:43 2026] 127.0.0.1:45864 Closing
+[Wed Jun  3 20:55:46 2026] 127.0.0.1:41244 Accepted
+[Wed Jun  3 20:55:46 2026] 127.0.0.1:41244 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:46 2026] 127.0.0.1:41244 Closing
+[Wed Jun  3 20:55:46 2026] 127.0.0.1:41250 Accepted
+[Wed Jun  3 20:55:46 2026] 127.0.0.1:41250 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:46 2026] 127.0.0.1:41250 Closing
+[Wed Jun  3 20:55:48 2026] 127.0.0.1:41252 Accepted
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41252 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41252 Closing
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41260 Accepted
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41276 Accepted
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41276 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41260 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41276 Closing
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41260 Closing
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41288 Accepted
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41288 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41288 Closing
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41290 Accepted
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41290 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:49 2026] 127.0.0.1:41290 Closing
+[Wed Jun  3 20:55:50 2026] 127.0.0.1:41300 Accepted
+[Wed Jun  3 20:55:50 2026] 127.0.0.1:41302 Accepted
+[Wed Jun  3 20:55:50 2026] 127.0.0.1:41302 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:50 2026] 127.0.0.1:41302 Closing
+[Wed Jun  3 20:55:50 2026] 127.0.0.1:41300 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:50 2026] 127.0.0.1:41300 Closing
+[Wed Jun  3 20:55:52 2026] 127.0.0.1:41308 Accepted
+[Wed Jun  3 20:55:52 2026] 127.0.0.1:41308 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:52 2026] 127.0.0.1:41308 Closing
+[Wed Jun  3 20:55:52 2026] 127.0.0.1:41314 Accepted
+[Wed Jun  3 20:55:52 2026] 127.0.0.1:41314 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:52 2026] 127.0.0.1:41314 Closing
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42356 Accepted
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42360 Accepted
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42372 Accepted
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42372 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42372 Closing
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42376 Accepted
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42376 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:55 2026] 127.0.0.1:42376 Closing
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42356 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42356 Closing
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42360 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42360 Closing
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42390 Accepted
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42400 Accepted
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42390 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42390 Closing
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42400 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:56 2026] 127.0.0.1:42400 Closing
+[Wed Jun  3 20:55:58 2026] 127.0.0.1:42412 Accepted
+[Wed Jun  3 20:55:58 2026] 127.0.0.1:42412 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:55:58 2026] 127.0.0.1:42412 Closing
+[Wed Jun  3 20:55:58 2026] 127.0.0.1:42420 Accepted
+[Wed Jun  3 20:55:58 2026] 127.0.0.1:42420 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:55:58 2026] 127.0.0.1:42420 Closing
+[Wed Jun  3 20:56:00 2026] 127.0.0.1:42434 Accepted
+[Wed Jun  3 20:56:00 2026] 127.0.0.1:42444 Accepted
+[Wed Jun  3 20:56:00 2026] 127.0.0.1:42434 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:00 2026] 127.0.0.1:42434 Closing
+[Wed Jun  3 20:56:00 2026] 127.0.0.1:42444 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:00 2026] 127.0.0.1:42444 Closing
+[Wed Jun  3 20:56:01 2026] 127.0.0.1:42448 Accepted
+[Wed Jun  3 20:56:01 2026] 127.0.0.1:42448 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:01 2026] 127.0.0.1:42448 Closing
+[Wed Jun  3 20:56:01 2026] 127.0.0.1:42460 Accepted
+[Wed Jun  3 20:56:01 2026] 127.0.0.1:42460 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:01 2026] 127.0.0.1:42460 Closing
+[Wed Jun  3 20:56:04 2026] 127.0.0.1:42468 Accepted
+[Wed Jun  3 20:56:04 2026] 127.0.0.1:41466 Accepted
+[Wed Jun  3 20:56:04 2026] 127.0.0.1:42468 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:04 2026] 127.0.0.1:42468 Closing
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41466 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41466 Closing
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41472 Accepted
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41472 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41472 Closing
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41476 Accepted
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41476 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41476 Closing
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41478 Accepted
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41478 [404]: GET /favicon.ico - No such file or directory
+[Wed Jun  3 20:56:05 2026] 127.0.0.1:41478 Closing
+[Wed Jun  3 20:56:06 2026] 127.0.0.1:41486 Accepted
+[Wed Jun  3 20:56:06 2026] 127.0.0.1:41488 Accepted
+[Wed Jun  3 20:56:06 2026] 127.0.0.1:41486 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:06 2026] 127.0.0.1:41486 Closing
+[Wed Jun  3 20:56:06 2026] 127.0.0.1:41488 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:06 2026] 127.0.0.1:41488 Closing
+[Wed Jun  3 20:56:08 2026] 127.0.0.1:41498 Accepted
+[Wed Jun  3 20:56:08 2026] 127.0.0.1:41498 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:08 2026] 127.0.0.1:41498 Closing
+[Wed Jun  3 20:56:08 2026] 127.0.0.1:41512 Accepted
+[Wed Jun  3 20:56:08 2026] 127.0.0.1:41512 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:08 2026] 127.0.0.1:41512 Closing
+[Wed Jun  3 20:56:09 2026] 127.0.0.1:41528 Accepted
+[Wed Jun  3 20:56:10 2026] 127.0.0.1:41532 Accepted
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41542 Accepted
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41552 Accepted
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41542 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41542 Closing
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41552 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41552 Closing
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41528 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41528 Closing
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41532 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:11 2026] 127.0.0.1:41532 Closing
+[Wed Jun  3 20:56:12 2026] 127.0.0.1:41554 Accepted
+[Wed Jun  3 20:56:12 2026] 127.0.0.1:41570 Accepted
+[Wed Jun  3 20:56:12 2026] 127.0.0.1:41554 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:12 2026] 127.0.0.1:41554 Closing
+[Wed Jun  3 20:56:12 2026] 127.0.0.1:41570 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:12 2026] 127.0.0.1:41570 Closing
+[Wed Jun  3 20:56:14 2026] 127.0.0.1:41582 Accepted
+[Wed Jun  3 20:56:14 2026] 127.0.0.1:41582 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:14 2026] 127.0.0.1:41582 Closing
+[Wed Jun  3 20:56:14 2026] 127.0.0.1:41594 Accepted
+[Wed Jun  3 20:56:14 2026] 127.0.0.1:41594 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:14 2026] 127.0.0.1:41594 Closing
+[Wed Jun  3 20:56:15 2026] 127.0.0.1:57428 Accepted
+[Wed Jun  3 20:56:15 2026] 127.0.0.1:57430 Accepted
+[Wed Jun  3 20:56:15 2026] 127.0.0.1:57430 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:15 2026] 127.0.0.1:57430 Closing
+[Wed Jun  3 20:56:15 2026] 127.0.0.1:57428 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:15 2026] 127.0.0.1:57428 Closing
+[Wed Jun  3 20:56:17 2026] 127.0.0.1:57446 Accepted
+[Wed Jun  3 20:56:17 2026] 127.0.0.1:57446 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:17 2026] 127.0.0.1:57446 Closing
+[Wed Jun  3 20:56:17 2026] 127.0.0.1:57452 Accepted
+[Wed Jun  3 20:56:17 2026] 127.0.0.1:57452 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:17 2026] 127.0.0.1:57452 Closing
+[Wed Jun  3 20:56:18 2026] 127.0.0.1:57462 Accepted
+[Wed Jun  3 20:56:18 2026] 127.0.0.1:57468 Accepted
+[Wed Jun  3 20:56:19 2026] 127.0.0.1:57462 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:19 2026] 127.0.0.1:57462 Closing
+[Wed Jun  3 20:56:19 2026] 127.0.0.1:57468 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:19 2026] 127.0.0.1:57468 Closing
+[Wed Jun  3 20:56:20 2026] 127.0.0.1:57476 Accepted
+[Wed Jun  3 20:56:20 2026] 127.0.0.1:57476 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:20 2026] 127.0.0.1:57476 Closing
+[Wed Jun  3 20:56:20 2026] 127.0.0.1:57488 Accepted
+[Wed Jun  3 20:56:20 2026] 127.0.0.1:57488 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:20 2026] 127.0.0.1:57488 Closing
+[Wed Jun  3 20:56:21 2026] 127.0.0.1:57502 Accepted
+[Wed Jun  3 20:56:21 2026] 127.0.0.1:57506 Accepted
+[Wed Jun  3 20:56:21 2026] 127.0.0.1:57502 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:21 2026] 127.0.0.1:57502 Closing
+[Wed Jun  3 20:56:21 2026] 127.0.0.1:57506 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:21 2026] 127.0.0.1:57506 Closing
+[Wed Jun  3 20:56:23 2026] 127.0.0.1:57522 Accepted
+[Wed Jun  3 20:56:23 2026] 127.0.0.1:57522 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:23 2026] 127.0.0.1:57522 Closing
+[Wed Jun  3 20:56:23 2026] 127.0.0.1:57528 Accepted
+[Wed Jun  3 20:56:23 2026] 127.0.0.1:57528 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:23 2026] 127.0.0.1:57528 Closing
+[Wed Jun  3 20:56:24 2026] 127.0.0.1:57538 Accepted
+[Wed Jun  3 20:56:25 2026] 127.0.0.1:55094 Accepted
+[Wed Jun  3 20:56:25 2026] 127.0.0.1:55108 Accepted
+[Wed Jun  3 20:56:25 2026] 127.0.0.1:57538 [200]: GET /
+[Wed Jun  3 20:56:25 2026] 127.0.0.1:55094 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:25 2026] 127.0.0.1:55094 Closing
+[Wed Jun  3 20:56:25 2026] 127.0.0.1:57538 Closing
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55108 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55108 Closing
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55122 Accepted
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55122 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55122 Closing
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55126 Accepted
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55126 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:26 2026] 127.0.0.1:55126 Closing
+[Wed Jun  3 20:56:27 2026] 127.0.0.1:55138 Accepted
+[Wed Jun  3 20:56:27 2026] 127.0.0.1:55142 Accepted
+[Wed Jun  3 20:56:27 2026] 127.0.0.1:55138 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:27 2026] 127.0.0.1:55138 Closing
+[Wed Jun  3 20:56:27 2026] 127.0.0.1:55142 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:27 2026] 127.0.0.1:55142 Closing
+[Wed Jun  3 20:56:29 2026] 127.0.0.1:55158 Accepted
+[Wed Jun  3 20:56:29 2026] 127.0.0.1:55158 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:29 2026] 127.0.0.1:55158 Closing
+[Wed Jun  3 20:56:29 2026] 127.0.0.1:55164 Accepted
+[Wed Jun  3 20:56:29 2026] 127.0.0.1:55164 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:29 2026] 127.0.0.1:55164 Closing
+[Wed Jun  3 20:56:30 2026] 127.0.0.1:55168 Accepted
+[Wed Jun  3 20:56:30 2026] 127.0.0.1:55184 Accepted
+[Wed Jun  3 20:56:30 2026] 127.0.0.1:55168 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:30 2026] 127.0.0.1:55168 Closing
+[Wed Jun  3 20:56:30 2026] 127.0.0.1:55184 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:30 2026] 127.0.0.1:55184 Closing
+[Wed Jun  3 20:56:31 2026] 127.0.0.1:55188 Accepted
+[Wed Jun  3 20:56:31 2026] 127.0.0.1:55188 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:56:31 2026] 127.0.0.1:55188 Closing
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55198 Accepted
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55198 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55198 Closing
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55208 Accepted
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55208 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55208 Closing
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55210 Accepted
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55220 Accepted
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55210 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:56:32 2026] 127.0.0.1:55210 Closing
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55220 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55220 Closing
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55226 Accepted
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55234 Accepted
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55226 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55226 Closing
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55234 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:33 2026] 127.0.0.1:55234 Closing
+[Wed Jun  3 20:56:35 2026] 127.0.0.1:53830 Accepted
+[Wed Jun  3 20:56:35 2026] 127.0.0.1:53842 Accepted
+[Wed Jun  3 20:56:35 2026] 127.0.0.1:53830 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:35 2026] 127.0.0.1:53830 Closing
+[Wed Jun  3 20:56:35 2026] 127.0.0.1:53842 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:35 2026] 127.0.0.1:53842 Closing
+[Wed Jun  3 20:56:36 2026] 127.0.0.1:53854 Accepted
+[Wed Jun  3 20:56:36 2026] 127.0.0.1:53866 Accepted
+[Wed Jun  3 20:56:36 2026] 127.0.0.1:53854 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:36 2026] 127.0.0.1:53854 Closing
+[Wed Jun  3 20:56:36 2026] 127.0.0.1:53866 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:36 2026] 127.0.0.1:53866 Closing
+[Wed Jun  3 20:56:37 2026] 127.0.0.1:53868 Accepted
+[Wed Jun  3 20:56:37 2026] 127.0.0.1:53878 Accepted
+[Wed Jun  3 20:56:37 2026] 127.0.0.1:53868 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:37 2026] 127.0.0.1:53868 Closing
+[Wed Jun  3 20:56:37 2026] 127.0.0.1:53878 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:37 2026] 127.0.0.1:53878 Closing
+[Wed Jun  3 20:56:38 2026] 127.0.0.1:53884 Accepted
+[Wed Jun  3 20:56:38 2026] 127.0.0.1:53884 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:38 2026] 127.0.0.1:53884 Closing
+[Wed Jun  3 20:56:38 2026] 127.0.0.1:53900 Accepted
+[Wed Jun  3 20:56:38 2026] 127.0.0.1:53900 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:38 2026] 127.0.0.1:53900 Closing
+[Wed Jun  3 20:56:39 2026] 127.0.0.1:53910 Accepted
+[Wed Jun  3 20:56:39 2026] 127.0.0.1:53920 Accepted
+[Wed Jun  3 20:56:39 2026] 127.0.0.1:53910 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:39 2026] 127.0.0.1:53910 Closing
+[Wed Jun  3 20:56:39 2026] 127.0.0.1:53920 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:39 2026] 127.0.0.1:53920 Closing
+[Wed Jun  3 20:56:40 2026] 127.0.0.1:53926 Accepted
+[Wed Jun  3 20:56:40 2026] 127.0.0.1:53936 Accepted
+[Wed Jun  3 20:56:40 2026] 127.0.0.1:53926 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:40 2026] 127.0.0.1:53926 Closing
+[Wed Jun  3 20:56:40 2026] 127.0.0.1:53936 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:40 2026] 127.0.0.1:53936 Closing
+[Wed Jun  3 20:56:41 2026] 127.0.0.1:53950 Accepted
+[Wed Jun  3 20:56:41 2026] 127.0.0.1:53950 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:41 2026] 127.0.0.1:53950 Closing
+[Wed Jun  3 20:56:41 2026] 127.0.0.1:53960 Accepted
+[Wed Jun  3 20:56:41 2026] 127.0.0.1:53960 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:41 2026] 127.0.0.1:53960 Closing
+[Wed Jun  3 20:56:42 2026] 127.0.0.1:53970 Accepted
+[Wed Jun  3 20:56:42 2026] 127.0.0.1:53986 Accepted
+[Wed Jun  3 20:56:42 2026] 127.0.0.1:53986 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:42 2026] 127.0.0.1:53986 Closing
+[Wed Jun  3 20:56:42 2026] 127.0.0.1:53970 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:42 2026] 127.0.0.1:53970 Closing
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:53998 Accepted
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:54012 Accepted
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:53998 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:53998 Closing
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:54012 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:54012 Closing
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:54024 Accepted
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:54024 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:56:43 2026] 127.0.0.1:54024 Closing
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:54040 Accepted
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:54040 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:54040 Closing
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:54054 Accepted
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:54054 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:54054 Closing
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34054 Accepted
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34058 Accepted
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34068 Accepted
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34054 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34058 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34054 Closing
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34058 Closing
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34068 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:56:44 2026] 127.0.0.1:34068 Closing
+[Wed Jun  3 20:56:45 2026] 127.0.0.1:34082 Accepted
+[Wed Jun  3 20:56:45 2026] 127.0.0.1:34086 Accepted
+[Wed Jun  3 20:56:45 2026] 127.0.0.1:34086 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:45 2026] 127.0.0.1:34086 Closing
+[Wed Jun  3 20:56:45 2026] 127.0.0.1:34082 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:45 2026] 127.0.0.1:34082 Closing
+[Wed Jun  3 20:56:47 2026] 127.0.0.1:34088 Accepted
+[Wed Jun  3 20:56:47 2026] 127.0.0.1:34088 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:47 2026] 127.0.0.1:34088 Closing
+[Wed Jun  3 20:56:47 2026] 127.0.0.1:34100 Accepted
+[Wed Jun  3 20:56:47 2026] 127.0.0.1:34100 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:47 2026] 127.0.0.1:34100 Closing
+[Wed Jun  3 20:56:48 2026] 127.0.0.1:34110 Accepted
+[Wed Jun  3 20:56:48 2026] 127.0.0.1:34118 Accepted
+[Wed Jun  3 20:56:48 2026] 127.0.0.1:34110 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:48 2026] 127.0.0.1:34110 Closing
+[Wed Jun  3 20:56:48 2026] 127.0.0.1:34118 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:48 2026] 127.0.0.1:34118 Closing
+[Wed Jun  3 20:56:49 2026] 127.0.0.1:34132 Accepted
+[Wed Jun  3 20:56:49 2026] 127.0.0.1:34132 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:49 2026] 127.0.0.1:34132 Closing
+[Wed Jun  3 20:56:50 2026] 127.0.0.1:34140 Accepted
+[Wed Jun  3 20:56:50 2026] 127.0.0.1:34140 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:50 2026] 127.0.0.1:34140 Closing
+[Wed Jun  3 20:56:50 2026] 127.0.0.1:34144 Accepted
+[Wed Jun  3 20:56:50 2026] 127.0.0.1:34144 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:50 2026] 127.0.0.1:34144 Closing
+[Wed Jun  3 20:56:51 2026] 127.0.0.1:34158 Accepted
+[Wed Jun  3 20:56:51 2026] 127.0.0.1:34170 Accepted
+[Wed Jun  3 20:56:51 2026] 127.0.0.1:34158 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:51 2026] 127.0.0.1:34158 Closing
+[Wed Jun  3 20:56:51 2026] 127.0.0.1:34170 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:51 2026] 127.0.0.1:34170 Closing
+[Wed Jun  3 20:56:53 2026] 127.0.0.1:34182 Accepted
+[Wed Jun  3 20:56:53 2026] 127.0.0.1:34182 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:53 2026] 127.0.0.1:34182 Closing
+[Wed Jun  3 20:56:53 2026] 127.0.0.1:34192 Accepted
+[Wed Jun  3 20:56:53 2026] 127.0.0.1:34192 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:53 2026] 127.0.0.1:34192 Closing
+[Wed Jun  3 20:56:54 2026] 127.0.0.1:46032 Accepted
+[Wed Jun  3 20:56:54 2026] 127.0.0.1:46044 Accepted
+[Wed Jun  3 20:56:54 2026] 127.0.0.1:46032 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:54 2026] 127.0.0.1:46032 Closing
+[Wed Jun  3 20:56:54 2026] 127.0.0.1:46044 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:54 2026] 127.0.0.1:46044 Closing
+[Wed Jun  3 20:56:56 2026] 127.0.0.1:46046 Accepted
+[Wed Jun  3 20:56:56 2026] 127.0.0.1:46046 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:56 2026] 127.0.0.1:46046 Closing
+[Wed Jun  3 20:56:56 2026] 127.0.0.1:46058 Accepted
+[Wed Jun  3 20:56:56 2026] 127.0.0.1:46058 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:56 2026] 127.0.0.1:46058 Closing
+[Wed Jun  3 20:56:58 2026] 127.0.0.1:46070 Accepted
+[Wed Jun  3 20:56:58 2026] 127.0.0.1:46076 Accepted
+[Wed Jun  3 20:56:58 2026] 127.0.0.1:46070 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:58 2026] 127.0.0.1:46070 Closing
+[Wed Jun  3 20:56:58 2026] 127.0.0.1:46076 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:58 2026] 127.0.0.1:46076 Closing
+[Wed Jun  3 20:56:59 2026] 127.0.0.1:46088 Accepted
+[Wed Jun  3 20:56:59 2026] 127.0.0.1:46088 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:56:59 2026] 127.0.0.1:46088 Closing
+[Wed Jun  3 20:56:59 2026] 127.0.0.1:46100 Accepted
+[Wed Jun  3 20:56:59 2026] 127.0.0.1:46100 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:56:59 2026] 127.0.0.1:46100 Closing
+[Wed Jun  3 20:57:00 2026] 127.0.0.1:46112 Accepted
+[Wed Jun  3 20:57:00 2026] 127.0.0.1:46124 Accepted
+[Wed Jun  3 20:57:00 2026] 127.0.0.1:46112 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:00 2026] 127.0.0.1:46112 Closing
+[Wed Jun  3 20:57:00 2026] 127.0.0.1:46124 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:00 2026] 127.0.0.1:46124 Closing
+[Wed Jun  3 20:57:02 2026] 127.0.0.1:46136 Accepted
+[Wed Jun  3 20:57:02 2026] 127.0.0.1:46148 Accepted
+[Wed Jun  3 20:57:02 2026] 127.0.0.1:46148 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:02 2026] 127.0.0.1:46148 Closing
+[Wed Jun  3 20:57:02 2026] 127.0.0.1:46136 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:02 2026] 127.0.0.1:46136 Closing
+[Wed Jun  3 20:57:04 2026] 127.0.0.1:46150 Accepted
+[Wed Jun  3 20:57:04 2026] 127.0.0.1:46160 Accepted
+[Wed Jun  3 20:57:04 2026] 127.0.0.1:46150 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:04 2026] 127.0.0.1:46150 Closing
+[Wed Jun  3 20:57:04 2026] 127.0.0.1:46160 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:04 2026] 127.0.0.1:46160 Closing
+[Wed Jun  3 20:57:05 2026] 127.0.0.1:43870 Accepted
+[Wed Jun  3 20:57:05 2026] 127.0.0.1:43870 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:05 2026] 127.0.0.1:43870 Closing
+[Wed Jun  3 20:57:05 2026] 127.0.0.1:43872 Accepted
+[Wed Jun  3 20:57:05 2026] 127.0.0.1:43872 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:05 2026] 127.0.0.1:43872 Closing
+[Wed Jun  3 20:57:06 2026] 127.0.0.1:43886 Accepted
+[Wed Jun  3 20:57:06 2026] 127.0.0.1:43896 Accepted
+[Wed Jun  3 20:57:06 2026] 127.0.0.1:43886 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:06 2026] 127.0.0.1:43886 Closing
+[Wed Jun  3 20:57:06 2026] 127.0.0.1:43896 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:06 2026] 127.0.0.1:43896 Closing
+[Wed Jun  3 20:57:08 2026] 127.0.0.1:43898 Accepted
+[Wed Jun  3 20:57:08 2026] 127.0.0.1:43898 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:08 2026] 127.0.0.1:43898 Closing
+[Wed Jun  3 20:57:08 2026] 127.0.0.1:43900 Accepted
+[Wed Jun  3 20:57:08 2026] 127.0.0.1:43900 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:08 2026] 127.0.0.1:43900 Closing
+[Wed Jun  3 20:57:09 2026] 127.0.0.1:43906 Accepted
+[Wed Jun  3 20:57:09 2026] 127.0.0.1:43922 Accepted
+[Wed Jun  3 20:57:10 2026] 127.0.0.1:43906 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:10 2026] 127.0.0.1:43906 Closing
+[Wed Jun  3 20:57:10 2026] 127.0.0.1:43922 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:10 2026] 127.0.0.1:43922 Closing
+[Wed Jun  3 20:57:11 2026] 127.0.0.1:43924 Accepted
+[Wed Jun  3 20:57:11 2026] 127.0.0.1:43924 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:11 2026] 127.0.0.1:43924 Closing
+[Wed Jun  3 20:57:11 2026] 127.0.0.1:43938 Accepted
+[Wed Jun  3 20:57:11 2026] 127.0.0.1:43938 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:11 2026] 127.0.0.1:43938 Closing
+[Wed Jun  3 20:57:13 2026] 127.0.0.1:43952 Accepted
+[Wed Jun  3 20:57:13 2026] 127.0.0.1:43966 Accepted
+[Wed Jun  3 20:57:13 2026] 127.0.0.1:43970 Accepted
+[Wed Jun  3 20:57:13 2026] 127.0.0.1:43966 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:57:13 2026] 127.0.0.1:43966 Closing
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43952 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43970 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43952 Closing
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43970 Closing
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43980 Accepted
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43992 Accepted
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43992 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43992 Closing
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43994 Accepted
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43994 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43994 Closing
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43980 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:57:14 2026] 127.0.0.1:43980 Closing
+[Wed Jun  3 20:57:15 2026] 127.0.0.1:59864 Accepted
+[Wed Jun  3 20:57:15 2026] 127.0.0.1:59864 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:15 2026] 127.0.0.1:59864 Closing
+[Wed Jun  3 20:57:17 2026] 127.0.0.1:59872 Accepted
+[Wed Jun  3 20:57:17 2026] 127.0.0.1:59872 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:17 2026] 127.0.0.1:59872 Closing
+[Wed Jun  3 20:57:17 2026] 127.0.0.1:59886 Accepted
+[Wed Jun  3 20:57:17 2026] 127.0.0.1:59886 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:17 2026] 127.0.0.1:59886 Closing
+[Wed Jun  3 20:57:20 2026] 127.0.0.1:59896 Accepted
+[Wed Jun  3 20:57:20 2026] 127.0.0.1:59908 Accepted
+[Wed Jun  3 20:57:20 2026] 127.0.0.1:59896 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:20 2026] 127.0.0.1:59896 Closing
+[Wed Jun  3 20:57:20 2026] 127.0.0.1:59908 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:20 2026] 127.0.0.1:59908 Closing
+[Wed Jun  3 20:57:23 2026] 127.0.0.1:59910 Accepted
+[Wed Jun  3 20:57:23 2026] 127.0.0.1:59910 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:23 2026] 127.0.0.1:59910 Closing
+[Wed Jun  3 20:57:23 2026] 127.0.0.1:59918 Accepted
+[Wed Jun  3 20:57:23 2026] 127.0.0.1:59918 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:23 2026] 127.0.0.1:59918 Closing
+[Wed Jun  3 20:57:26 2026] 127.0.0.1:39060 Accepted
+[Wed Jun  3 20:57:26 2026] 127.0.0.1:39060 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:26 2026] 127.0.0.1:39060 Closing
+[Wed Jun  3 20:57:26 2026] 127.0.0.1:39070 Accepted
+[Wed Jun  3 20:57:26 2026] 127.0.0.1:39070 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:26 2026] 127.0.0.1:39070 Closing
+[Wed Jun  3 20:57:29 2026] 127.0.0.1:39082 Accepted
+[Wed Jun  3 20:57:29 2026] 127.0.0.1:39082 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:29 2026] 127.0.0.1:39082 Closing
+[Wed Jun  3 20:57:29 2026] 127.0.0.1:39092 Accepted
+[Wed Jun  3 20:57:29 2026] 127.0.0.1:39092 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:29 2026] 127.0.0.1:39092 Closing
+[Wed Jun  3 20:57:32 2026] 127.0.0.1:39106 Accepted
+[Wed Jun  3 20:57:32 2026] 127.0.0.1:39106 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:32 2026] 127.0.0.1:39106 Closing
+[Wed Jun  3 20:57:32 2026] 127.0.0.1:39108 Accepted
+[Wed Jun  3 20:57:32 2026] 127.0.0.1:39108 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:32 2026] 127.0.0.1:39108 Closing
+[Wed Jun  3 20:57:33 2026] 127.0.0.1:39112 Accepted
+[Wed Jun  3 20:57:34 2026] 127.0.0.1:39112 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:57:34 2026] 127.0.0.1:39112 Closing
+[Wed Jun  3 20:57:34 2026] 127.0.0.1:43130 Accepted
+[Wed Jun  3 20:57:34 2026] 127.0.0.1:43136 Accepted
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43136 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43130 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43136 Closing
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43130 Closing
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43150 Accepted
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43150 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43150 Closing
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43160 Accepted
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43160 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:35 2026] 127.0.0.1:43160 Closing
+[Wed Jun  3 20:57:36 2026] 127.0.0.1:43166 Accepted
+[Wed Jun  3 20:57:36 2026] 127.0.0.1:43168 Accepted
+[Wed Jun  3 20:57:36 2026] 127.0.0.1:43166 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:36 2026] 127.0.0.1:43166 Closing
+[Wed Jun  3 20:57:36 2026] 127.0.0.1:43168 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:36 2026] 127.0.0.1:43168 Closing
+[Wed Jun  3 20:57:38 2026] 127.0.0.1:43170 Accepted
+[Wed Jun  3 20:57:38 2026] 127.0.0.1:43170 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:38 2026] 127.0.0.1:43170 Closing
+[Wed Jun  3 20:57:38 2026] 127.0.0.1:43180 Accepted
+[Wed Jun  3 20:57:38 2026] 127.0.0.1:43180 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:38 2026] 127.0.0.1:43180 Closing
+[Wed Jun  3 20:57:39 2026] 127.0.0.1:43190 Accepted
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43206 Accepted
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43190 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43190 Closing
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43208 Accepted
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43208 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43208 Closing
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43224 Accepted
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43224 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43224 Closing
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43206 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:41 2026] 127.0.0.1:43206 Closing
+[Wed Jun  3 20:57:42 2026] 127.0.0.1:43234 Accepted
+[Wed Jun  3 20:57:42 2026] 127.0.0.1:43250 Accepted
+[Wed Jun  3 20:57:42 2026] 127.0.0.1:43234 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:42 2026] 127.0.0.1:43234 Closing
+[Wed Jun  3 20:57:42 2026] 127.0.0.1:43250 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:42 2026] 127.0.0.1:43250 Closing
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43256 Accepted
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43270 Accepted
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43270 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43270 Closing
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43280 Accepted
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43280 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43280 Closing
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43256 [200]: GET /frontend/view/desktop/generer_qr.html
+[Wed Jun  3 20:57:44 2026] 127.0.0.1:43256 Closing
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38482 Accepted
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38488 Accepted
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38500 Accepted
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38488 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38500 [200]: GET /frontend/css/generer_qr.css
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38488 Closing
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38500 Closing
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38482 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:57:45 2026] 127.0.0.1:38482 Closing
+[Wed Jun  3 20:57:47 2026] 127.0.0.1:38516 Accepted
+[Wed Jun  3 20:57:47 2026] 127.0.0.1:38516 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:47 2026] 127.0.0.1:38516 Closing
+[Wed Jun  3 20:57:47 2026] 127.0.0.1:38528 Accepted
+[Wed Jun  3 20:57:47 2026] 127.0.0.1:38528 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:47 2026] 127.0.0.1:38528 Closing
+[Wed Jun  3 20:57:50 2026] 127.0.0.1:38544 Accepted
+[Wed Jun  3 20:57:50 2026] 127.0.0.1:38544 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:50 2026] 127.0.0.1:38544 Closing
+[Wed Jun  3 20:57:50 2026] 127.0.0.1:38558 Accepted
+[Wed Jun  3 20:57:50 2026] 127.0.0.1:38558 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:50 2026] 127.0.0.1:38558 Closing
+[Wed Jun  3 20:57:53 2026] 127.0.0.1:38564 Accepted
+[Wed Jun  3 20:57:53 2026] 127.0.0.1:38564 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:53 2026] 127.0.0.1:38564 Closing
+[Wed Jun  3 20:57:53 2026] 127.0.0.1:38580 Accepted
+[Wed Jun  3 20:57:53 2026] 127.0.0.1:38580 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:53 2026] 127.0.0.1:38580 Closing
+[Wed Jun  3 20:57:56 2026] 127.0.0.1:36562 Accepted
+[Wed Jun  3 20:57:56 2026] 127.0.0.1:36562 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:56 2026] 127.0.0.1:36562 Closing
+[Wed Jun  3 20:57:56 2026] 127.0.0.1:36576 Accepted
+[Wed Jun  3 20:57:56 2026] 127.0.0.1:36576 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:56 2026] 127.0.0.1:36576 Closing
+[Wed Jun  3 20:57:59 2026] 127.0.0.1:36580 Accepted
+[Wed Jun  3 20:57:59 2026] 127.0.0.1:36580 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:57:59 2026] 127.0.0.1:36580 Closing
+[Wed Jun  3 20:57:59 2026] 127.0.0.1:36582 Accepted
+[Wed Jun  3 20:57:59 2026] 127.0.0.1:36582 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:57:59 2026] 127.0.0.1:36582 Closing
+[Wed Jun  3 20:58:02 2026] 127.0.0.1:36592 Accepted
+[Wed Jun  3 20:58:02 2026] 127.0.0.1:36592 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:02 2026] 127.0.0.1:36592 Closing
+[Wed Jun  3 20:58:02 2026] 127.0.0.1:36598 Accepted
+[Wed Jun  3 20:58:02 2026] 127.0.0.1:36598 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:02 2026] 127.0.0.1:36598 Closing
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48572 Accepted
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48572 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48572 Closing
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48578 Accepted
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48578 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48578 Closing
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48594 Accepted
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48594 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:05 2026] 127.0.0.1:48594 Closing
+[Wed Jun  3 20:58:08 2026] 127.0.0.1:48602 Accepted
+[Wed Jun  3 20:58:08 2026] 127.0.0.1:48602 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:08 2026] 127.0.0.1:48602 Closing
+[Wed Jun  3 20:58:08 2026] 127.0.0.1:48618 Accepted
+[Wed Jun  3 20:58:08 2026] 127.0.0.1:48618 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:08 2026] 127.0.0.1:48618 Closing
+[Wed Jun  3 20:58:11 2026] 127.0.0.1:48626 Accepted
+[Wed Jun  3 20:58:11 2026] 127.0.0.1:48626 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:11 2026] 127.0.0.1:48626 Closing
+[Wed Jun  3 20:58:11 2026] 127.0.0.1:48636 Accepted
+[Wed Jun  3 20:58:11 2026] 127.0.0.1:48636 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:11 2026] 127.0.0.1:48636 Closing
+[Wed Jun  3 20:58:14 2026] 127.0.0.1:48650 Accepted
+[Wed Jun  3 20:58:14 2026] 127.0.0.1:48650 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:14 2026] 127.0.0.1:48650 Closing
+[Wed Jun  3 20:58:14 2026] 127.0.0.1:48662 Accepted
+[Wed Jun  3 20:58:14 2026] 127.0.0.1:48662 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:14 2026] 127.0.0.1:48662 Closing
+[Wed Jun  3 20:58:17 2026] 127.0.0.1:42072 Accepted
+[Wed Jun  3 20:58:17 2026] 127.0.0.1:42072 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:17 2026] 127.0.0.1:42072 Closing
+[Wed Jun  3 20:58:17 2026] 127.0.0.1:42086 Accepted
+[Wed Jun  3 20:58:17 2026] 127.0.0.1:42086 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:17 2026] 127.0.0.1:42086 Closing
+[Wed Jun  3 20:58:20 2026] 127.0.0.1:42090 Accepted
+[Wed Jun  3 20:58:20 2026] 127.0.0.1:42090 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:20 2026] 127.0.0.1:42090 Closing
+[Wed Jun  3 20:58:20 2026] 127.0.0.1:42094 Accepted
+[Wed Jun  3 20:58:20 2026] 127.0.0.1:42094 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:20 2026] 127.0.0.1:42094 Closing
+[Wed Jun  3 20:58:22 2026] 127.0.0.1:42100 Accepted
+[Wed Jun  3 20:58:22 2026] 127.0.0.1:42100 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 20:58:22 2026] 127.0.0.1:42100 Closing
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42110 Accepted
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42110 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42110 Closing
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42126 Accepted
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42126 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42126 Closing
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42128 Accepted
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42140 Accepted
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42128 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42140 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42128 Closing
+[Wed Jun  3 20:58:23 2026] 127.0.0.1:42140 Closing
+[Wed Jun  3 20:58:24 2026] 127.0.0.1:59942 Accepted
+[Wed Jun  3 20:58:24 2026] 127.0.0.1:59958 Accepted
+[Wed Jun  3 20:58:25 2026] 127.0.0.1:59942 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:25 2026] 127.0.0.1:59942 Closing
+[Wed Jun  3 20:58:25 2026] 127.0.0.1:59958 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:25 2026] 127.0.0.1:59958 Closing
+[Wed Jun  3 20:58:26 2026] 127.0.0.1:59974 Accepted
+[Wed Jun  3 20:58:26 2026] 127.0.0.1:59974 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:26 2026] 127.0.0.1:59974 Closing
+[Wed Jun  3 20:58:26 2026] 127.0.0.1:59990 Accepted
+[Wed Jun  3 20:58:26 2026] 127.0.0.1:59990 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:26 2026] 127.0.0.1:59990 Closing
+[Wed Jun  3 20:58:28 2026] 127.0.0.1:60002 Accepted
+[Wed Jun  3 20:58:28 2026] 127.0.0.1:60018 Accepted
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60002 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60002 Closing
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60034 Accepted
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60034 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60034 Closing
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60046 Accepted
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60046 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60046 Closing
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60018 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:29 2026] 127.0.0.1:60018 Closing
+[Wed Jun  3 20:58:31 2026] 127.0.0.1:60062 Accepted
+[Wed Jun  3 20:58:31 2026] 127.0.0.1:60072 Accepted
+[Wed Jun  3 20:58:31 2026] 127.0.0.1:60072 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:31 2026] 127.0.0.1:60072 Closing
+[Wed Jun  3 20:58:31 2026] 127.0.0.1:60062 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:31 2026] 127.0.0.1:60062 Closing
+[Wed Jun  3 20:58:32 2026] 127.0.0.1:60086 Accepted
+[Wed Jun  3 20:58:32 2026] 127.0.0.1:60086 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:32 2026] 127.0.0.1:60086 Closing
+[Wed Jun  3 20:58:32 2026] 127.0.0.1:60096 Accepted
+[Wed Jun  3 20:58:32 2026] 127.0.0.1:60096 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:32 2026] 127.0.0.1:60096 Closing
+[Wed Jun  3 20:58:33 2026] 127.0.0.1:60106 Accepted
+[Wed Jun  3 20:58:33 2026] 127.0.0.1:60122 Accepted
+[Wed Jun  3 20:58:34 2026] 127.0.0.1:60106 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:34 2026] 127.0.0.1:60106 Closing
+[Wed Jun  3 20:58:34 2026] 127.0.0.1:60122 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:34 2026] 127.0.0.1:60122 Closing
+[Wed Jun  3 20:58:35 2026] 127.0.0.1:47478 Accepted
+[Wed Jun  3 20:58:35 2026] 127.0.0.1:47478 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:35 2026] 127.0.0.1:47478 Closing
+[Wed Jun  3 20:58:35 2026] 127.0.0.1:47494 Accepted
+[Wed Jun  3 20:58:35 2026] 127.0.0.1:47494 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:35 2026] 127.0.0.1:47494 Closing
+[Wed Jun  3 20:58:37 2026] 127.0.0.1:47508 Accepted
+[Wed Jun  3 20:58:37 2026] 127.0.0.1:47512 Accepted
+[Wed Jun  3 20:58:37 2026] 127.0.0.1:47512 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:37 2026] 127.0.0.1:47512 Closing
+[Wed Jun  3 20:58:37 2026] 127.0.0.1:47508 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:37 2026] 127.0.0.1:47508 Closing
+[Wed Jun  3 20:58:38 2026] 127.0.0.1:47528 Accepted
+[Wed Jun  3 20:58:38 2026] 127.0.0.1:47528 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:38 2026] 127.0.0.1:47528 Closing
+[Wed Jun  3 20:58:38 2026] 127.0.0.1:47538 Accepted
+[Wed Jun  3 20:58:38 2026] 127.0.0.1:47538 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:38 2026] 127.0.0.1:47538 Closing
+[Wed Jun  3 20:58:40 2026] 127.0.0.1:47542 Accepted
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47556 Accepted
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47558 Accepted
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47558 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47558 Closing
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47562 Accepted
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47542 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47542 Closing
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47562 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47562 Closing
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47556 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:41 2026] 127.0.0.1:47556 Closing
+[Wed Jun  3 20:58:43 2026] 127.0.0.1:47568 Accepted
+[Wed Jun  3 20:58:43 2026] 127.0.0.1:47578 Accepted
+[Wed Jun  3 20:58:43 2026] 127.0.0.1:47568 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:43 2026] 127.0.0.1:47568 Closing
+[Wed Jun  3 20:58:43 2026] 127.0.0.1:47578 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:43 2026] 127.0.0.1:47578 Closing
+[Wed Jun  3 20:58:44 2026] 127.0.0.1:47584 Accepted
+[Wed Jun  3 20:58:44 2026] 127.0.0.1:47584 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:44 2026] 127.0.0.1:47584 Closing
+[Wed Jun  3 20:58:44 2026] 127.0.0.1:47600 Accepted
+[Wed Jun  3 20:58:44 2026] 127.0.0.1:47600 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:44 2026] 127.0.0.1:47600 Closing
+[Wed Jun  3 20:58:46 2026] 127.0.0.1:48348 Accepted
+[Wed Jun  3 20:58:46 2026] 127.0.0.1:48362 Accepted
+[Wed Jun  3 20:58:46 2026] 127.0.0.1:48348 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:46 2026] 127.0.0.1:48348 Closing
+[Wed Jun  3 20:58:46 2026] 127.0.0.1:48362 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:46 2026] 127.0.0.1:48362 Closing
+[Wed Jun  3 20:58:47 2026] 127.0.0.1:48374 Accepted
+[Wed Jun  3 20:58:47 2026] 127.0.0.1:48374 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:47 2026] 127.0.0.1:48374 Closing
+[Wed Jun  3 20:58:47 2026] 127.0.0.1:48388 Accepted
+[Wed Jun  3 20:58:47 2026] 127.0.0.1:48388 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:47 2026] 127.0.0.1:48388 Closing
+[Wed Jun  3 20:58:50 2026] 127.0.0.1:48392 Accepted
+[Wed Jun  3 20:58:50 2026] 127.0.0.1:48392 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:50 2026] 127.0.0.1:48392 Closing
+[Wed Jun  3 20:58:50 2026] 127.0.0.1:48406 Accepted
+[Wed Jun  3 20:58:50 2026] 127.0.0.1:48406 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:50 2026] 127.0.0.1:48406 Closing
+[Wed Jun  3 20:58:51 2026] 127.0.0.1:48416 Accepted
+[Wed Jun  3 20:58:51 2026] 127.0.0.1:48432 Accepted
+[Wed Jun  3 20:58:51 2026] 127.0.0.1:48416 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:51 2026] 127.0.0.1:48416 Closing
+[Wed Jun  3 20:58:51 2026] 127.0.0.1:48432 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:51 2026] 127.0.0.1:48432 Closing
+[Wed Jun  3 20:58:52 2026] 127.0.0.1:48442 Accepted
+[Wed Jun  3 20:58:52 2026] 127.0.0.1:48442 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:52 2026] 127.0.0.1:48442 Closing
+[Wed Jun  3 20:58:52 2026] 127.0.0.1:48448 Accepted
+[Wed Jun  3 20:58:52 2026] 127.0.0.1:48448 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:52 2026] 127.0.0.1:48448 Closing
+[Wed Jun  3 20:58:53 2026] 127.0.0.1:48454 Accepted
+[Wed Jun  3 20:58:53 2026] 127.0.0.1:48454 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:53 2026] 127.0.0.1:48454 Closing
+[Wed Jun  3 20:58:53 2026] 127.0.0.1:48462 Accepted
+[Wed Jun  3 20:58:53 2026] 127.0.0.1:48462 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:53 2026] 127.0.0.1:48462 Closing
+[Wed Jun  3 20:58:55 2026] 127.0.0.1:44020 Accepted
+[Wed Jun  3 20:58:55 2026] 127.0.0.1:44030 Accepted
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44020 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44020 Closing
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44038 Accepted
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44038 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44038 Closing
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44050 Accepted
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44050 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44050 Closing
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44030 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:56 2026] 127.0.0.1:44030 Closing
+[Wed Jun  3 20:58:58 2026] 127.0.0.1:44056 Accepted
+[Wed Jun  3 20:58:58 2026] 127.0.0.1:44072 Accepted
+[Wed Jun  3 20:58:58 2026] 127.0.0.1:44056 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:58 2026] 127.0.0.1:44056 Closing
+[Wed Jun  3 20:58:58 2026] 127.0.0.1:44072 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:58 2026] 127.0.0.1:44072 Closing
+[Wed Jun  3 20:58:59 2026] 127.0.0.1:44088 Accepted
+[Wed Jun  3 20:58:59 2026] 127.0.0.1:44094 Accepted
+[Wed Jun  3 20:58:59 2026] 127.0.0.1:44094 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:58:59 2026] 127.0.0.1:44094 Closing
+[Wed Jun  3 20:58:59 2026] 127.0.0.1:44088 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:58:59 2026] 127.0.0.1:44088 Closing
+[Wed Jun  3 20:59:01 2026] 127.0.0.1:44100 Accepted
+[Wed Jun  3 20:59:01 2026] 127.0.0.1:44108 Accepted
+[Wed Jun  3 20:59:01 2026] 127.0.0.1:44100 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:01 2026] 127.0.0.1:44100 Closing
+[Wed Jun  3 20:59:01 2026] 127.0.0.1:44108 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:01 2026] 127.0.0.1:44108 Closing
+[Wed Jun  3 20:59:02 2026] 127.0.0.1:44122 Accepted
+[Wed Jun  3 20:59:02 2026] 127.0.0.1:44122 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:02 2026] 127.0.0.1:44122 Closing
+[Wed Jun  3 20:59:02 2026] 127.0.0.1:44138 Accepted
+[Wed Jun  3 20:59:02 2026] 127.0.0.1:44138 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:02 2026] 127.0.0.1:44138 Closing
+[Wed Jun  3 20:59:04 2026] 127.0.0.1:44150 Accepted
+[Wed Jun  3 20:59:04 2026] 127.0.0.1:44162 Accepted
+[Wed Jun  3 20:59:04 2026] 127.0.0.1:44150 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:04 2026] 127.0.0.1:44150 Closing
+[Wed Jun  3 20:59:04 2026] 127.0.0.1:44162 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:04 2026] 127.0.0.1:44162 Closing
+[Wed Jun  3 20:59:05 2026] 127.0.0.1:53912 Accepted
+[Wed Jun  3 20:59:05 2026] 127.0.0.1:53912 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:05 2026] 127.0.0.1:53912 Closing
+[Wed Jun  3 20:59:05 2026] 127.0.0.1:53914 Accepted
+[Wed Jun  3 20:59:05 2026] 127.0.0.1:53914 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:05 2026] 127.0.0.1:53914 Closing
+[Wed Jun  3 20:59:07 2026] 127.0.0.1:53920 Accepted
+[Wed Jun  3 20:59:07 2026] 127.0.0.1:53926 Accepted
+[Wed Jun  3 20:59:07 2026] 127.0.0.1:53920 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:07 2026] 127.0.0.1:53920 Closing
+[Wed Jun  3 20:59:07 2026] 127.0.0.1:53926 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:07 2026] 127.0.0.1:53926 Closing
+[Wed Jun  3 20:59:08 2026] 127.0.0.1:53930 Accepted
+[Wed Jun  3 20:59:08 2026] 127.0.0.1:53930 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:08 2026] 127.0.0.1:53930 Closing
+[Wed Jun  3 20:59:08 2026] 127.0.0.1:53944 Accepted
+[Wed Jun  3 20:59:08 2026] 127.0.0.1:53944 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:08 2026] 127.0.0.1:53944 Closing
+[Wed Jun  3 20:59:10 2026] 127.0.0.1:53958 Accepted
+[Wed Jun  3 20:59:10 2026] 127.0.0.1:53962 Accepted
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53958 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53958 Closing
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53962 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53962 Closing
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53976 Accepted
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53978 Accepted
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53976 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53976 Closing
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53978 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:11 2026] 127.0.0.1:53978 Closing
+[Wed Jun  3 20:59:13 2026] 127.0.0.1:53988 Accepted
+[Wed Jun  3 20:59:13 2026] 127.0.0.1:54004 Accepted
+[Wed Jun  3 20:59:13 2026] 127.0.0.1:53988 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:13 2026] 127.0.0.1:53988 Closing
+[Wed Jun  3 20:59:13 2026] 127.0.0.1:54004 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:13 2026] 127.0.0.1:54004 Closing
+[Wed Jun  3 20:59:14 2026] 127.0.0.1:37670 Accepted
+[Wed Jun  3 20:59:14 2026] 127.0.0.1:37670 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:14 2026] 127.0.0.1:37670 Closing
+[Wed Jun  3 20:59:14 2026] 127.0.0.1:37680 Accepted
+[Wed Jun  3 20:59:14 2026] 127.0.0.1:37680 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:14 2026] 127.0.0.1:37680 Closing
+[Wed Jun  3 20:59:16 2026] 127.0.0.1:37682 Accepted
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37686 Accepted
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37690 Accepted
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37690 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37690 Closing
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37700 Accepted
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37700 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37700 Closing
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37682 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:17 2026] 127.0.0.1:37682 Closing
+[Wed Jun  3 20:59:18 2026] 127.0.0.1:37686 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:18 2026] 127.0.0.1:37686 Closing
+[Wed Jun  3 20:59:19 2026] 127.0.0.1:37714 Accepted
+[Wed Jun  3 20:59:19 2026] 127.0.0.1:37728 Accepted
+[Wed Jun  3 20:59:19 2026] 127.0.0.1:37728 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:19 2026] 127.0.0.1:37728 Closing
+[Wed Jun  3 20:59:19 2026] 127.0.0.1:37714 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:19 2026] 127.0.0.1:37714 Closing
+[Wed Jun  3 20:59:20 2026] 127.0.0.1:37742 Accepted
+[Wed Jun  3 20:59:20 2026] 127.0.0.1:37742 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:20 2026] 127.0.0.1:37742 Closing
+[Wed Jun  3 20:59:20 2026] 127.0.0.1:37744 Accepted
+[Wed Jun  3 20:59:20 2026] 127.0.0.1:37744 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:20 2026] 127.0.0.1:37744 Closing
+[Wed Jun  3 20:59:22 2026] 127.0.0.1:37750 Accepted
+[Wed Jun  3 20:59:22 2026] 127.0.0.1:37758 Accepted
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37750 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37750 Closing
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37758 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37758 Closing
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37760 Accepted
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37760 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37760 Closing
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37766 Accepted
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37766 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:23 2026] 127.0.0.1:37766 Closing
+[Wed Jun  3 20:59:25 2026] 127.0.0.1:46442 Accepted
+[Wed Jun  3 20:59:25 2026] 127.0.0.1:46458 Accepted
+[Wed Jun  3 20:59:26 2026] 127.0.0.1:46474 Accepted
+[Wed Jun  3 20:59:26 2026] 127.0.0.1:46474 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:26 2026] 127.0.0.1:46474 Closing
+[Wed Jun  3 20:59:26 2026] 127.0.0.1:46480 Accepted
+[Wed Jun  3 20:59:26 2026] 127.0.0.1:46480 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:26 2026] 127.0.0.1:46480 Closing
+[Wed Jun  3 20:59:27 2026] 127.0.0.1:46442 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:27 2026] 127.0.0.1:46442 Closing
+[Wed Jun  3 20:59:27 2026] 127.0.0.1:46458 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:27 2026] 127.0.0.1:46458 Closing
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46496 Accepted
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46506 Accepted
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46496 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46496 Closing
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46506 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46506 Closing
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46508 Accepted
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46508 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46508 Closing
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46522 Accepted
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46522 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:29 2026] 127.0.0.1:46522 Closing
+[Wed Jun  3 20:59:31 2026] 127.0.0.1:46538 Accepted
+[Wed Jun  3 20:59:31 2026] 127.0.0.1:46554 Accepted
+[Wed Jun  3 20:59:31 2026] 127.0.0.1:46538 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:31 2026] 127.0.0.1:46538 Closing
+[Wed Jun  3 20:59:31 2026] 127.0.0.1:46554 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:31 2026] 127.0.0.1:46554 Closing
+[Wed Jun  3 20:59:32 2026] 127.0.0.1:46566 Accepted
+[Wed Jun  3 20:59:32 2026] 127.0.0.1:46566 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:32 2026] 127.0.0.1:46566 Closing
+[Wed Jun  3 20:59:32 2026] 127.0.0.1:46582 Accepted
+[Wed Jun  3 20:59:32 2026] 127.0.0.1:46582 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:32 2026] 127.0.0.1:46582 Closing
+[Wed Jun  3 20:59:34 2026] 127.0.0.1:46584 Accepted
+[Wed Jun  3 20:59:34 2026] 127.0.0.1:46598 Accepted
+[Wed Jun  3 20:59:34 2026] 127.0.0.1:46584 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:34 2026] 127.0.0.1:46584 Closing
+[Wed Jun  3 20:59:34 2026] 127.0.0.1:46598 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:34 2026] 127.0.0.1:46598 Closing
+[Wed Jun  3 20:59:35 2026] 127.0.0.1:43538 Accepted
+[Wed Jun  3 20:59:35 2026] 127.0.0.1:43538 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:35 2026] 127.0.0.1:43538 Closing
+[Wed Jun  3 20:59:35 2026] 127.0.0.1:43546 Accepted
+[Wed Jun  3 20:59:35 2026] 127.0.0.1:43546 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:35 2026] 127.0.0.1:43546 Closing
+[Wed Jun  3 20:59:37 2026] 127.0.0.1:43550 Accepted
+[Wed Jun  3 20:59:37 2026] 127.0.0.1:43564 Accepted
+[Wed Jun  3 20:59:37 2026] 127.0.0.1:43564 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:37 2026] 127.0.0.1:43564 Closing
+[Wed Jun  3 20:59:37 2026] 127.0.0.1:43550 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:37 2026] 127.0.0.1:43550 Closing
+[Wed Jun  3 20:59:38 2026] 127.0.0.1:43570 Accepted
+[Wed Jun  3 20:59:38 2026] 127.0.0.1:43570 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:38 2026] 127.0.0.1:43570 Closing
+[Wed Jun  3 20:59:38 2026] 127.0.0.1:43586 Accepted
+[Wed Jun  3 20:59:38 2026] 127.0.0.1:43586 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:38 2026] 127.0.0.1:43586 Closing
+[Wed Jun  3 20:59:40 2026] 127.0.0.1:43594 Accepted
+[Wed Jun  3 20:59:40 2026] 127.0.0.1:43608 Accepted
+[Wed Jun  3 20:59:40 2026] 127.0.0.1:43594 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:40 2026] 127.0.0.1:43594 Closing
+[Wed Jun  3 20:59:40 2026] 127.0.0.1:43608 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:40 2026] 127.0.0.1:43608 Closing
+[Wed Jun  3 20:59:41 2026] 127.0.0.1:43612 Accepted
+[Wed Jun  3 20:59:41 2026] 127.0.0.1:43612 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:41 2026] 127.0.0.1:43612 Closing
+[Wed Jun  3 20:59:41 2026] 127.0.0.1:43624 Accepted
+[Wed Jun  3 20:59:41 2026] 127.0.0.1:43624 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:41 2026] 127.0.0.1:43624 Closing
+[Wed Jun  3 20:59:43 2026] 127.0.0.1:43634 Accepted
+[Wed Jun  3 20:59:43 2026] 127.0.0.1:43646 Accepted
+[Wed Jun  3 20:59:43 2026] 127.0.0.1:43634 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:43 2026] 127.0.0.1:43634 Closing
+[Wed Jun  3 20:59:43 2026] 127.0.0.1:43646 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:43 2026] 127.0.0.1:43646 Closing
+[Wed Jun  3 20:59:44 2026] 127.0.0.1:43914 Accepted
+[Wed Jun  3 20:59:44 2026] 127.0.0.1:43914 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:44 2026] 127.0.0.1:43914 Closing
+[Wed Jun  3 20:59:44 2026] 127.0.0.1:43920 Accepted
+[Wed Jun  3 20:59:44 2026] 127.0.0.1:43920 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:44 2026] 127.0.0.1:43920 Closing
+[Wed Jun  3 20:59:46 2026] 127.0.0.1:43926 Accepted
+[Wed Jun  3 20:59:46 2026] 127.0.0.1:43930 Accepted
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43926 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43926 Closing
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43930 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43930 Closing
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43946 Accepted
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43946 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43946 Closing
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43960 Accepted
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43960 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:47 2026] 127.0.0.1:43960 Closing
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:43972 Accepted
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:43976 Accepted
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:43990 Accepted
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:43990 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:43990 Closing
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:44002 Accepted
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:44002 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:50 2026] 127.0.0.1:44002 Closing
+[Wed Jun  3 20:59:51 2026] 127.0.0.1:43972 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:51 2026] 127.0.0.1:43972 Closing
+[Wed Jun  3 20:59:51 2026] 127.0.0.1:43976 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:51 2026] 127.0.0.1:43976 Closing
+[Wed Jun  3 20:59:53 2026] 127.0.0.1:44018 Accepted
+[Wed Jun  3 20:59:53 2026] 127.0.0.1:44018 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:53 2026] 127.0.0.1:44018 Closing
+[Wed Jun  3 20:59:53 2026] 127.0.0.1:44024 Accepted
+[Wed Jun  3 20:59:53 2026] 127.0.0.1:44024 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:53 2026] 127.0.0.1:44024 Closing
+[Wed Jun  3 20:59:55 2026] 127.0.0.1:33666 Accepted
+[Wed Jun  3 20:59:55 2026] 127.0.0.1:33678 Accepted
+[Wed Jun  3 20:59:56 2026] 127.0.0.1:33686 Accepted
+[Wed Jun  3 20:59:56 2026] 127.0.0.1:33700 Accepted
+[Wed Jun  3 20:59:56 2026] 127.0.0.1:33686 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:56 2026] 127.0.0.1:33686 Closing
+[Wed Jun  3 20:59:56 2026] 127.0.0.1:33700 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:56 2026] 127.0.0.1:33700 Closing
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33666 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33666 Closing
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33678 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33678 Closing
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33706 Accepted
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33706 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33706 Closing
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33718 Accepted
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33718 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 20:59:59 2026] 127.0.0.1:33718 Closing
+[Wed Jun  3 21:00:02 2026] 127.0.0.1:33720 Accepted
+[Wed Jun  3 21:00:02 2026] 127.0.0.1:33720 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:02 2026] 127.0.0.1:33720 Closing
+[Wed Jun  3 21:00:02 2026] 127.0.0.1:33732 Accepted
+[Wed Jun  3 21:00:02 2026] 127.0.0.1:33732 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:02 2026] 127.0.0.1:33732 Closing
+[Wed Jun  3 21:00:03 2026] 127.0.0.1:33746 Accepted
+[Wed Jun  3 21:00:03 2026] 127.0.0.1:33762 Accepted
+[Wed Jun  3 21:00:04 2026] 127.0.0.1:33764 Accepted
+[Wed Jun  3 21:00:04 2026] 127.0.0.1:33778 Accepted
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52846 Accepted
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52854 Accepted
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52858 Accepted
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52868 Accepted
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52858 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52858 Closing
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52868 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:05 2026] 127.0.0.1:52868 Closing
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33746 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33746 Closing
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33762 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33762 Closing
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52870 Accepted
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52876 Accepted
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33764 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33764 Closing
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33778 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:33778 Closing
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52890 Accepted
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52890 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52890 Closing
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52900 Accepted
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52900 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:08 2026] 127.0.0.1:52900 Closing
+[Wed Jun  3 21:00:09 2026] 127.0.0.1:52846 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:09 2026] 127.0.0.1:52846 Closing
+[Wed Jun  3 21:00:09 2026] 127.0.0.1:52854 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:09 2026] 127.0.0.1:52854 Closing
+[Wed Jun  3 21:00:09 2026] 127.0.0.1:52916 Accepted
+[Wed Jun  3 21:00:09 2026] 127.0.0.1:52926 Accepted
+[Wed Jun  3 21:00:10 2026] 127.0.0.1:52870 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:10 2026] 127.0.0.1:52870 Closing
+[Wed Jun  3 21:00:10 2026] 127.0.0.1:52876 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:10 2026] 127.0.0.1:52876 Closing
+[Wed Jun  3 21:00:11 2026] 127.0.0.1:52940 Accepted
+[Wed Jun  3 21:00:11 2026] 127.0.0.1:52940 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:11 2026] 127.0.0.1:52940 Closing
+[Wed Jun  3 21:00:11 2026] 127.0.0.1:52950 Accepted
+[Wed Jun  3 21:00:11 2026] 127.0.0.1:52950 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:11 2026] 127.0.0.1:52950 Closing
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:49998 Accepted
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:49998 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:49998 Closing
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:50002 Accepted
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:50002 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:50002 Closing
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:52916 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:52916 Closing
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:52926 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:14 2026] 127.0.0.1:52926 Closing
+[Wed Jun  3 21:00:17 2026] 127.0.0.1:50006 Accepted
+[Wed Jun  3 21:00:17 2026] 127.0.0.1:50006 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:17 2026] 127.0.0.1:50006 Closing
+[Wed Jun  3 21:00:17 2026] 127.0.0.1:50014 Accepted
+[Wed Jun  3 21:00:17 2026] 127.0.0.1:50014 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:17 2026] 127.0.0.1:50014 Closing
+[Wed Jun  3 21:00:18 2026] 127.0.0.1:50020 Accepted
+[Wed Jun  3 21:00:18 2026] 127.0.0.1:50022 Accepted
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50032 Accepted
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50036 Accepted
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50022 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50022 Closing
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50020 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50020 Closing
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50052 Accepted
+[Wed Jun  3 21:00:19 2026] 127.0.0.1:50068 Accepted
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50036 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50036 Closing
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50032 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50032 Closing
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50084 Accepted
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50084 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50084 Closing
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50088 Accepted
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50088 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50088 Closing
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50052 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50052 Closing
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50068 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:20 2026] 127.0.0.1:50068 Closing
+[Wed Jun  3 21:00:23 2026] 127.0.0.1:50098 Accepted
+[Wed Jun  3 21:00:23 2026] 127.0.0.1:50098 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:23 2026] 127.0.0.1:50098 Closing
+[Wed Jun  3 21:00:23 2026] 127.0.0.1:50106 Accepted
+[Wed Jun  3 21:00:23 2026] 127.0.0.1:50106 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:23 2026] 127.0.0.1:50106 Closing
+[Wed Jun  3 21:00:24 2026] 127.0.0.1:50114 Accepted
+[Wed Jun  3 21:00:24 2026] 127.0.0.1:50126 Accepted
+[Wed Jun  3 21:00:24 2026] 127.0.0.1:50114 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:24 2026] 127.0.0.1:50114 Closing
+[Wed Jun  3 21:00:24 2026] 127.0.0.1:50126 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:24 2026] 127.0.0.1:50126 Closing
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53792 Accepted
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53792 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53792 Closing
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53802 Accepted
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53802 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53802 Closing
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53810 Accepted
+[Wed Jun  3 21:00:26 2026] 127.0.0.1:53820 Accepted
+[Wed Jun  3 21:00:29 2026] 127.0.0.1:53834 Accepted
+[Wed Jun  3 21:00:29 2026] 127.0.0.1:53834 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:29 2026] 127.0.0.1:53834 Closing
+[Wed Jun  3 21:00:29 2026] 127.0.0.1:53844 Accepted
+[Wed Jun  3 21:00:29 2026] 127.0.0.1:53844 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:29 2026] 127.0.0.1:53844 Closing
+[Wed Jun  3 21:00:30 2026] 127.0.0.1:53810 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:30 2026] 127.0.0.1:53810 Closing
+[Wed Jun  3 21:00:30 2026] 127.0.0.1:53820 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:30 2026] 127.0.0.1:53820 Closing
+[Wed Jun  3 21:00:32 2026] 127.0.0.1:53858 Accepted
+[Wed Jun  3 21:00:32 2026] 127.0.0.1:53858 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:32 2026] 127.0.0.1:53858 Closing
+[Wed Jun  3 21:00:32 2026] 127.0.0.1:53862 Accepted
+[Wed Jun  3 21:00:32 2026] 127.0.0.1:53862 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:32 2026] 127.0.0.1:53862 Closing
+[Wed Jun  3 21:00:33 2026] 127.0.0.1:53872 Accepted
+[Wed Jun  3 21:00:35 2026] 127.0.0.1:48564 Accepted
+[Wed Jun  3 21:00:35 2026] 127.0.0.1:48564 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:35 2026] 127.0.0.1:48564 Closing
+[Wed Jun  3 21:00:35 2026] 127.0.0.1:48572 Accepted
+[Wed Jun  3 21:00:35 2026] 127.0.0.1:48572 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:35 2026] 127.0.0.1:48572 Closing
+[Wed Jun  3 21:00:38 2026] 127.0.0.1:48576 Accepted
+[Wed Jun  3 21:00:38 2026] 127.0.0.1:48576 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:38 2026] 127.0.0.1:48576 Closing
+[Wed Jun  3 21:00:38 2026] 127.0.0.1:48580 Accepted
+[Wed Jun  3 21:00:38 2026] 127.0.0.1:48580 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:38 2026] 127.0.0.1:48580 Closing
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:48582 Accepted
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:48598 Accepted
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:48608 Accepted
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:53872 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:53872 Closing
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:48616 Accepted
+[Wed Jun  3 21:00:40 2026] 127.0.0.1:48630 Accepted
+[Wed Jun  3 21:00:41 2026] 127.0.0.1:48644 Accepted
+[Wed Jun  3 21:00:41 2026] 127.0.0.1:48644 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:41 2026] 127.0.0.1:48644 Closing
+[Wed Jun  3 21:00:41 2026] 127.0.0.1:48646 Accepted
+[Wed Jun  3 21:00:41 2026] 127.0.0.1:48646 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:41 2026] 127.0.0.1:48646 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35692 Accepted
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35692 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35692 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35708 Accepted
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35708 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35708 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:35714 Accepted
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48582 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48582 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48598 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48608 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48608 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48598 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48616 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48616 Closing
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48630 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:44 2026] 127.0.0.1:48630 Closing
+[Wed Jun  3 21:00:45 2026] 127.0.0.1:35714 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 21:00:45 2026] 127.0.0.1:35714 Closing
+[Wed Jun  3 21:00:45 2026] 127.0.0.1:35724 Accepted
+[Wed Jun  3 21:00:45 2026] 127.0.0.1:35724 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 21:00:45 2026] 127.0.0.1:35724 Closing
+[Wed Jun  3 21:00:46 2026] 127.0.0.1:35738 Accepted
+[Wed Jun  3 21:00:46 2026] 127.0.0.1:35742 Accepted
+[Wed Jun  3 21:00:46 2026] 127.0.0.1:35738 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:46 2026] 127.0.0.1:35738 Closing
+[Wed Jun  3 21:00:46 2026] 127.0.0.1:35742 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:46 2026] 127.0.0.1:35742 Closing
+[Wed Jun  3 21:00:47 2026] 127.0.0.1:35750 Accepted
+[Wed Jun  3 21:00:47 2026] 127.0.0.1:35750 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:47 2026] 127.0.0.1:35750 Closing
+[Wed Jun  3 21:00:47 2026] 127.0.0.1:35764 Accepted
+[Wed Jun  3 21:00:47 2026] 127.0.0.1:35764 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:47 2026] 127.0.0.1:35764 Closing
+[Wed Jun  3 21:00:49 2026] 127.0.0.1:35770 Accepted
+[Wed Jun  3 21:00:49 2026] 127.0.0.1:35780 Accepted
+[Wed Jun  3 21:00:49 2026] 127.0.0.1:35770 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:49 2026] 127.0.0.1:35770 Closing
+[Wed Jun  3 21:00:49 2026] 127.0.0.1:35780 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:49 2026] 127.0.0.1:35780 Closing
+[Wed Jun  3 21:00:50 2026] 127.0.0.1:35782 Accepted
+[Wed Jun  3 21:00:50 2026] 127.0.0.1:35782 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:50 2026] 127.0.0.1:35782 Closing
+[Wed Jun  3 21:00:50 2026] 127.0.0.1:35788 Accepted
+[Wed Jun  3 21:00:50 2026] 127.0.0.1:35788 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:50 2026] 127.0.0.1:35788 Closing
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35800 Accepted
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35804 Accepted
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35800 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35800 Closing
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35804 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35804 Closing
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35812 Accepted
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35812 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35812 Closing
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35826 Accepted
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35826 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:53 2026] 127.0.0.1:35826 Closing
+[Wed Jun  3 21:00:55 2026] 127.0.0.1:57644 Accepted
+[Wed Jun  3 21:00:55 2026] 127.0.0.1:57648 Accepted
+[Wed Jun  3 21:00:55 2026] 127.0.0.1:57644 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:55 2026] 127.0.0.1:57644 Closing
+[Wed Jun  3 21:00:55 2026] 127.0.0.1:57648 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:55 2026] 127.0.0.1:57648 Closing
+[Wed Jun  3 21:00:56 2026] 127.0.0.1:57658 Accepted
+[Wed Jun  3 21:00:56 2026] 127.0.0.1:57658 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:56 2026] 127.0.0.1:57658 Closing
+[Wed Jun  3 21:00:56 2026] 127.0.0.1:57666 Accepted
+[Wed Jun  3 21:00:56 2026] 127.0.0.1:57666 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:56 2026] 127.0.0.1:57666 Closing
+[Wed Jun  3 21:00:59 2026] 127.0.0.1:57678 Accepted
+[Wed Jun  3 21:00:59 2026] 127.0.0.1:57678 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:00:59 2026] 127.0.0.1:57678 Closing
+[Wed Jun  3 21:00:59 2026] 127.0.0.1:57686 Accepted
+[Wed Jun  3 21:00:59 2026] 127.0.0.1:57686 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:00:59 2026] 127.0.0.1:57686 Closing
+[Wed Jun  3 21:01:00 2026] 127.0.0.1:57688 Accepted
+[Wed Jun  3 21:01:00 2026] 127.0.0.1:57694 Accepted
+[Wed Jun  3 21:01:00 2026] 127.0.0.1:57688 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:00 2026] 127.0.0.1:57688 Closing
+[Wed Jun  3 21:01:00 2026] 127.0.0.1:57694 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:00 2026] 127.0.0.1:57694 Closing
+[Wed Jun  3 21:01:01 2026] 127.0.0.1:57698 Accepted
+[Wed Jun  3 21:01:01 2026] 127.0.0.1:57708 Accepted
+[Wed Jun  3 21:01:01 2026] 127.0.0.1:57698 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:01 2026] 127.0.0.1:57698 Closing
+[Wed Jun  3 21:01:01 2026] 127.0.0.1:57708 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:01 2026] 127.0.0.1:57708 Closing
+[Wed Jun  3 21:01:02 2026] 127.0.0.1:57724 Accepted
+[Wed Jun  3 21:01:02 2026] 127.0.0.1:57724 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:02 2026] 127.0.0.1:57724 Closing
+[Wed Jun  3 21:01:02 2026] 127.0.0.1:57728 Accepted
+[Wed Jun  3 21:01:02 2026] 127.0.0.1:57728 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:02 2026] 127.0.0.1:57728 Closing
+[Wed Jun  3 21:01:04 2026] 127.0.0.1:56232 Accepted
+[Wed Jun  3 21:01:04 2026] 127.0.0.1:56238 Accepted
+[Wed Jun  3 21:01:04 2026] 127.0.0.1:56232 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:04 2026] 127.0.0.1:56232 Closing
+[Wed Jun  3 21:01:04 2026] 127.0.0.1:56238 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:04 2026] 127.0.0.1:56238 Closing
+[Wed Jun  3 21:01:05 2026] 127.0.0.1:56248 Accepted
+[Wed Jun  3 21:01:05 2026] 127.0.0.1:56248 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:05 2026] 127.0.0.1:56248 Closing
+[Wed Jun  3 21:01:05 2026] 127.0.0.1:56252 Accepted
+[Wed Jun  3 21:01:05 2026] 127.0.0.1:56252 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:05 2026] 127.0.0.1:56252 Closing
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56258 Accepted
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56258 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56258 Closing
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56268 Accepted
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56268 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56268 Closing
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56280 Accepted
+[Wed Jun  3 21:01:08 2026] 127.0.0.1:56294 Accepted
+[Wed Jun  3 21:01:09 2026] 127.0.0.1:56280 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:09 2026] 127.0.0.1:56280 Closing
+[Wed Jun  3 21:01:09 2026] 127.0.0.1:56294 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:09 2026] 127.0.0.1:56294 Closing
+[Wed Jun  3 21:01:11 2026] 127.0.0.1:56302 Accepted
+[Wed Jun  3 21:01:11 2026] 127.0.0.1:56302 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:11 2026] 127.0.0.1:56302 Closing
+[Wed Jun  3 21:01:11 2026] 127.0.0.1:56314 Accepted
+[Wed Jun  3 21:01:11 2026] 127.0.0.1:56314 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:11 2026] 127.0.0.1:56314 Closing
+[Wed Jun  3 21:01:12 2026] 127.0.0.1:56328 Accepted
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56344 Accepted
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56328 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56328 Closing
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56344 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56344 Closing
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56348 Accepted
+[Wed Jun  3 21:01:13 2026] 127.0.0.1:56354 Accepted
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:56348 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:56348 Closing
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:56354 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:56354 Closing
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:46410 Accepted
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:46410 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:46410 Closing
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:46422 Accepted
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:46422 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:14 2026] 127.0.0.1:46422 Closing
+[Wed Jun  3 21:01:16 2026] 127.0.0.1:46424 Accepted
+[Wed Jun  3 21:01:16 2026] 127.0.0.1:46434 Accepted
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46424 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46424 Closing
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46434 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46434 Closing
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46438 Accepted
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46438 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46438 Closing
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46446 Accepted
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46446 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:17 2026] 127.0.0.1:46446 Closing
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46452 Accepted
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46464 Accepted
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46464 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46464 Closing
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46472 Accepted
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46472 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46472 Closing
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46486 Accepted
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46452 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:20 2026] 127.0.0.1:46452 Closing
+[Wed Jun  3 21:01:21 2026] 127.0.0.1:46486 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:21 2026] 127.0.0.1:46486 Closing
+[Wed Jun  3 21:01:22 2026] 127.0.0.1:46496 Accepted
+[Wed Jun  3 21:01:22 2026] 127.0.0.1:46512 Accepted
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46496 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46496 Closing
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46512 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46512 Closing
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46522 Accepted
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46522 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46522 Closing
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46528 Accepted
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46528 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:23 2026] 127.0.0.1:46528 Closing
+[Wed Jun  3 21:01:25 2026] 127.0.0.1:45070 Accepted
+[Wed Jun  3 21:01:25 2026] 127.0.0.1:45084 Accepted
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45084 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45084 Closing
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45070 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45070 Closing
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45094 Accepted
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45094 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45094 Closing
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45100 Accepted
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45100 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:26 2026] 127.0.0.1:45100 Closing
+[Wed Jun  3 21:01:29 2026] 127.0.0.1:45108 Accepted
+[Wed Jun  3 21:01:29 2026] 127.0.0.1:45108 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:29 2026] 127.0.0.1:45108 Closing
+[Wed Jun  3 21:01:29 2026] 127.0.0.1:45114 Accepted
+[Wed Jun  3 21:01:29 2026] 127.0.0.1:45114 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:29 2026] 127.0.0.1:45114 Closing
+[Wed Jun  3 21:01:30 2026] 127.0.0.1:45128 Accepted
+[Wed Jun  3 21:01:30 2026] 127.0.0.1:45130 Accepted
+[Wed Jun  3 21:01:30 2026] 127.0.0.1:45128 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:30 2026] 127.0.0.1:45128 Closing
+[Wed Jun  3 21:01:30 2026] 127.0.0.1:45130 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:30 2026] 127.0.0.1:45130 Closing
+[Wed Jun  3 21:01:31 2026] 127.0.0.1:45132 Accepted
+[Wed Jun  3 21:01:31 2026] 127.0.0.1:45134 Accepted
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45132 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45132 Closing
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45134 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45134 Closing
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45146 Accepted
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45146 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45146 Closing
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45160 Accepted
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45160 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:32 2026] 127.0.0.1:45160 Closing
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37794 Accepted
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37810 Accepted
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37794 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37794 Closing
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37810 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37810 Closing
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37812 Accepted
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37812 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37812 Closing
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37828 Accepted
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37828 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:35 2026] 127.0.0.1:37828 Closing
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37832 Accepted
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37846 Accepted
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37846 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37846 Closing
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37850 Accepted
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37850 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37850 Closing
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37832 [200]: GET /frontend/view/desktop/dashboard.html
+[Wed Jun  3 21:01:38 2026] 127.0.0.1:37832 Closing
+[Wed Jun  3 21:01:39 2026] 127.0.0.1:37864 Accepted
+[Wed Jun  3 21:01:39 2026] 127.0.0.1:37878 Accepted
+[Wed Jun  3 21:01:39 2026] 127.0.0.1:37864 [200]: GET /frontend/js/dashboard.js
+[Wed Jun  3 21:01:39 2026] 127.0.0.1:37864 Closing
+[Wed Jun  3 21:01:39 2026] 127.0.0.1:37878 [200]: GET /frontend/css/dashboard.css
+[Wed Jun  3 21:01:39 2026] 127.0.0.1:37878 Closing
+[Wed Jun  3 21:01:40 2026] 127.0.0.1:37886 Accepted
+[Wed Jun  3 21:01:40 2026] 127.0.0.1:37896 Accepted
+[Wed Jun  3 21:01:40 2026] 127.0.0.1:37886 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:40 2026] 127.0.0.1:37886 Closing
+[Wed Jun  3 21:01:40 2026] 127.0.0.1:37896 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:40 2026] 127.0.0.1:37896 Closing
+[Wed Jun  3 21:01:41 2026] 127.0.0.1:37908 Accepted
+[Wed Jun  3 21:01:41 2026] 127.0.0.1:37908 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:41 2026] 127.0.0.1:37908 Closing
+[Wed Jun  3 21:01:41 2026] 127.0.0.1:37922 Accepted
+[Wed Jun  3 21:01:41 2026] 127.0.0.1:37922 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:41 2026] 127.0.0.1:37922 Closing
+[Wed Jun  3 21:01:43 2026] 127.0.0.1:37934 Accepted
+[Wed Jun  3 21:01:43 2026] 127.0.0.1:37942 Accepted
+[Wed Jun  3 21:01:43 2026] 127.0.0.1:37934 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:43 2026] 127.0.0.1:37934 Closing
+[Wed Jun  3 21:01:43 2026] 127.0.0.1:37942 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:43 2026] 127.0.0.1:37942 Closing
+[Wed Jun  3 21:01:44 2026] 127.0.0.1:32776 Accepted
+[Wed Jun  3 21:01:44 2026] 127.0.0.1:32776 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:44 2026] 127.0.0.1:32776 Closing
+[Wed Jun  3 21:01:44 2026] 127.0.0.1:32790 Accepted
+[Wed Jun  3 21:01:44 2026] 127.0.0.1:32790 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:44 2026] 127.0.0.1:32790 Closing
+[Wed Jun  3 21:01:46 2026] 127.0.0.1:32798 Accepted
+[Wed Jun  3 21:01:46 2026] 127.0.0.1:32808 Accepted
+[Wed Jun  3 21:01:46 2026] 127.0.0.1:32798 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:46 2026] 127.0.0.1:32798 Closing
+[Wed Jun  3 21:01:46 2026] 127.0.0.1:32808 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:46 2026] 127.0.0.1:32808 Closing
+[Wed Jun  3 21:01:47 2026] 127.0.0.1:32812 Accepted
+[Wed Jun  3 21:01:47 2026] 127.0.0.1:32812 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:47 2026] 127.0.0.1:32812 Closing
+[Wed Jun  3 21:01:47 2026] 127.0.0.1:32822 Accepted
+[Wed Jun  3 21:01:47 2026] 127.0.0.1:32822 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:47 2026] 127.0.0.1:32822 Closing
+[Wed Jun  3 21:01:49 2026] 127.0.0.1:32826 Accepted
+[Wed Jun  3 21:01:49 2026] 127.0.0.1:32834 Accepted
+[Wed Jun  3 21:01:49 2026] 127.0.0.1:32826 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:49 2026] 127.0.0.1:32826 Closing
+[Wed Jun  3 21:01:49 2026] 127.0.0.1:32834 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:49 2026] 127.0.0.1:32834 Closing
+[Wed Jun  3 21:01:50 2026] 127.0.0.1:32850 Accepted
+[Wed Jun  3 21:01:50 2026] 127.0.0.1:32850 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:50 2026] 127.0.0.1:32850 Closing
+[Wed Jun  3 21:01:50 2026] 127.0.0.1:32864 Accepted
+[Wed Jun  3 21:01:50 2026] 127.0.0.1:32864 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:50 2026] 127.0.0.1:32864 Closing
+[Wed Jun  3 21:01:51 2026] 127.0.0.1:32878 Accepted
+[Wed Jun  3 21:01:52 2026] 127.0.0.1:32878 [404]: GET /favicon.ico - No such file or directory
+[Wed Jun  3 21:01:52 2026] 127.0.0.1:32878 Closing
+[Wed Jun  3 21:01:52 2026] 127.0.0.1:32886 Accepted
+[Wed Jun  3 21:01:52 2026] 127.0.0.1:32894 Accepted
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32886 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32886 Closing
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32894 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32894 Closing
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32904 Accepted
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32904 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32904 Closing
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32916 Accepted
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32916 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:53 2026] 127.0.0.1:32916 Closing
+[Wed Jun  3 21:01:56 2026] 127.0.0.1:39070 Accepted
+[Wed Jun  3 21:01:56 2026] 127.0.0.1:39070 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:56 2026] 127.0.0.1:39070 Closing
+[Wed Jun  3 21:01:56 2026] 127.0.0.1:39082 Accepted
+[Wed Jun  3 21:01:56 2026] 127.0.0.1:39082 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:56 2026] 127.0.0.1:39082 Closing
+[Wed Jun  3 21:01:57 2026] 127.0.0.1:39090 Accepted
+[Wed Jun  3 21:01:57 2026] 127.0.0.1:39100 Accepted
+[Wed Jun  3 21:01:57 2026] 127.0.0.1:39090 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:57 2026] 127.0.0.1:39090 Closing
+[Wed Jun  3 21:01:57 2026] 127.0.0.1:39100 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:57 2026] 127.0.0.1:39100 Closing
+[Wed Jun  3 21:01:58 2026] 127.0.0.1:39104 Accepted
+[Wed Jun  3 21:01:58 2026] 127.0.0.1:39114 Accepted
+[Wed Jun  3 21:01:58 2026] 127.0.0.1:39104 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:58 2026] 127.0.0.1:39104 Closing
+[Wed Jun  3 21:01:58 2026] 127.0.0.1:39114 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:58 2026] 127.0.0.1:39114 Closing
+[Wed Jun  3 21:01:59 2026] 127.0.0.1:39116 Accepted
+[Wed Jun  3 21:01:59 2026] 127.0.0.1:39116 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:01:59 2026] 127.0.0.1:39116 Closing
+[Wed Jun  3 21:01:59 2026] 127.0.0.1:39118 Accepted
+[Wed Jun  3 21:01:59 2026] 127.0.0.1:39118 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:01:59 2026] 127.0.0.1:39118 Closing
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39128 Accepted
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39134 Accepted
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39140 Accepted
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39140 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39140 Closing
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39154 Accepted
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39154 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:02 2026] 127.0.0.1:39154 Closing
+[Wed Jun  3 21:02:03 2026] 127.0.0.1:39134 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:03 2026] 127.0.0.1:39134 Closing
+[Wed Jun  3 21:02:03 2026] 127.0.0.1:39128 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:03 2026] 127.0.0.1:39128 Closing
+[Wed Jun  3 21:02:04 2026] 127.0.0.1:50472 Accepted
+[Wed Jun  3 21:02:04 2026] 127.0.0.1:50488 Accepted
+[Wed Jun  3 21:02:04 2026] 127.0.0.1:50472 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:04 2026] 127.0.0.1:50472 Closing
+[Wed Jun  3 21:02:04 2026] 127.0.0.1:50488 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:04 2026] 127.0.0.1:50488 Closing
+[Wed Jun  3 21:02:05 2026] 127.0.0.1:50490 Accepted
+[Wed Jun  3 21:02:05 2026] 127.0.0.1:50490 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:05 2026] 127.0.0.1:50490 Closing
+[Wed Jun  3 21:02:05 2026] 127.0.0.1:50494 Accepted
+[Wed Jun  3 21:02:05 2026] 127.0.0.1:50494 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:05 2026] 127.0.0.1:50494 Closing
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50498 Accepted
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50502 Accepted
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50498 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50498 Closing
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50502 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50502 Closing
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50512 Accepted
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50512 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50512 Closing
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50526 Accepted
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50526 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:08 2026] 127.0.0.1:50526 Closing
+[Wed Jun  3 21:02:10 2026] 127.0.0.1:50542 Accepted
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50554 Accepted
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50542 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50542 Closing
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50554 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50554 Closing
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50556 Accepted
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50556 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50556 Closing
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50562 Accepted
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50562 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:11 2026] 127.0.0.1:50562 Closing
+[Wed Jun  3 21:02:14 2026] 127.0.0.1:35834 Accepted
+[Wed Jun  3 21:02:14 2026] 127.0.0.1:35834 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:14 2026] 127.0.0.1:35834 Closing
+[Wed Jun  3 21:02:14 2026] 127.0.0.1:35848 Accepted
+[Wed Jun  3 21:02:14 2026] 127.0.0.1:35848 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:14 2026] 127.0.0.1:35848 Closing
+[Wed Jun  3 21:02:15 2026] 127.0.0.1:35864 Accepted
+[Wed Jun  3 21:02:15 2026] 127.0.0.1:35866 Accepted
+[Wed Jun  3 21:02:15 2026] 127.0.0.1:35864 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:15 2026] 127.0.0.1:35864 Closing
+[Wed Jun  3 21:02:15 2026] 127.0.0.1:35866 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:15 2026] 127.0.0.1:35866 Closing
+[Wed Jun  3 21:02:16 2026] 127.0.0.1:35874 Accepted
+[Wed Jun  3 21:02:16 2026] 127.0.0.1:35886 Accepted
+[Wed Jun  3 21:02:16 2026] 127.0.0.1:35874 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:16 2026] 127.0.0.1:35874 Closing
+[Wed Jun  3 21:02:16 2026] 127.0.0.1:35886 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:16 2026] 127.0.0.1:35886 Closing
+[Wed Jun  3 21:02:17 2026] 127.0.0.1:35888 Accepted
+[Wed Jun  3 21:02:17 2026] 127.0.0.1:35888 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:17 2026] 127.0.0.1:35888 Closing
+[Wed Jun  3 21:02:17 2026] 127.0.0.1:35896 Accepted
+[Wed Jun  3 21:02:17 2026] 127.0.0.1:35896 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:17 2026] 127.0.0.1:35896 Closing
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35902 Accepted
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35904 Accepted
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35918 Accepted
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35918 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35918 Closing
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35926 Accepted
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35926 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35926 Closing
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35902 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35902 Closing
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35904 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:20 2026] 127.0.0.1:35904 Closing
+[Wed Jun  3 21:02:22 2026] 127.0.0.1:35934 Accepted
+[Wed Jun  3 21:02:22 2026] 127.0.0.1:35944 Accepted
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35934 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35934 Closing
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35944 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35944 Closing
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35948 Accepted
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35948 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35948 Closing
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35954 Accepted
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35954 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:23 2026] 127.0.0.1:35954 Closing
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42594 Accepted
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42602 Accepted
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42606 Accepted
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42606 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42606 Closing
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42622 Accepted
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42622 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:26 2026] 127.0.0.1:42622 Closing
+[Wed Jun  3 21:02:27 2026] 127.0.0.1:42594 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:27 2026] 127.0.0.1:42594 Closing
+[Wed Jun  3 21:02:27 2026] 127.0.0.1:42602 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:27 2026] 127.0.0.1:42602 Closing
+[Wed Jun  3 21:02:28 2026] 127.0.0.1:42626 Accepted
+[Wed Jun  3 21:02:28 2026] 127.0.0.1:42628 Accepted
+[Wed Jun  3 21:02:28 2026] 127.0.0.1:42626 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:28 2026] 127.0.0.1:42626 Closing
+[Wed Jun  3 21:02:28 2026] 127.0.0.1:42628 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:28 2026] 127.0.0.1:42628 Closing
+[Wed Jun  3 21:02:29 2026] 127.0.0.1:42644 Accepted
+[Wed Jun  3 21:02:29 2026] 127.0.0.1:42644 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:29 2026] 127.0.0.1:42644 Closing
+[Wed Jun  3 21:02:29 2026] 127.0.0.1:42646 Accepted
+[Wed Jun  3 21:02:29 2026] 127.0.0.1:42646 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:29 2026] 127.0.0.1:42646 Closing
+[Wed Jun  3 21:02:32 2026] 127.0.0.1:42660 Accepted
+[Wed Jun  3 21:02:32 2026] 127.0.0.1:42660 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:32 2026] 127.0.0.1:42660 Closing
+[Wed Jun  3 21:02:32 2026] 127.0.0.1:42668 Accepted
+[Wed Jun  3 21:02:32 2026] 127.0.0.1:42668 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:32 2026] 127.0.0.1:42668 Closing
+[Wed Jun  3 21:02:33 2026] 127.0.0.1:42680 Accepted
+[Wed Jun  3 21:02:33 2026] 127.0.0.1:42692 Accepted
+[Wed Jun  3 21:02:33 2026] 127.0.0.1:42680 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:33 2026] 127.0.0.1:42680 Closing
+[Wed Jun  3 21:02:33 2026] 127.0.0.1:42692 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:33 2026] 127.0.0.1:42692 Closing
+[Wed Jun  3 21:02:34 2026] 127.0.0.1:34190 Accepted
+[Wed Jun  3 21:02:34 2026] 127.0.0.1:34192 Accepted
+[Wed Jun  3 21:02:35 2026] 127.0.0.1:34206 Accepted
+[Wed Jun  3 21:02:35 2026] 127.0.0.1:34206 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:35 2026] 127.0.0.1:34206 Closing
+[Wed Jun  3 21:02:35 2026] 127.0.0.1:34210 Accepted
+[Wed Jun  3 21:02:35 2026] 127.0.0.1:34210 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:35 2026] 127.0.0.1:34210 Closing
+[Wed Jun  3 21:02:37 2026] 127.0.0.1:34190 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:37 2026] 127.0.0.1:34190 Closing
+[Wed Jun  3 21:02:37 2026] 127.0.0.1:34192 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:37 2026] 127.0.0.1:34192 Closing
+[Wed Jun  3 21:02:37 2026] 127.0.0.1:34220 Accepted
+[Wed Jun  3 21:02:37 2026] 127.0.0.1:34232 Accepted
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34220 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34220 Closing
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34232 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34232 Closing
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34236 Accepted
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34236 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34236 Closing
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34238 Accepted
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34238 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:38 2026] 127.0.0.1:34238 Closing
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34246 Accepted
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34258 Accepted
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34270 Accepted
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34270 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34270 Closing
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34278 Accepted
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34278 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34278 Closing
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34246 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34246 Closing
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34258 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:41 2026] 127.0.0.1:34258 Closing
+[Wed Jun  3 21:02:43 2026] 127.0.0.1:34284 Accepted
+[Wed Jun  3 21:02:43 2026] 127.0.0.1:34286 Accepted
+[Wed Jun  3 21:02:43 2026] 127.0.0.1:34286 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:43 2026] 127.0.0.1:34286 Closing
+[Wed Jun  3 21:02:43 2026] 127.0.0.1:34284 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:43 2026] 127.0.0.1:34284 Closing
+[Wed Jun  3 21:02:44 2026] 127.0.0.1:52900 Accepted
+[Wed Jun  3 21:02:44 2026] 127.0.0.1:52900 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:44 2026] 127.0.0.1:52900 Closing
+[Wed Jun  3 21:02:44 2026] 127.0.0.1:52912 Accepted
+[Wed Jun  3 21:02:44 2026] 127.0.0.1:52912 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:44 2026] 127.0.0.1:52912 Closing
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52916 Accepted
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52922 Accepted
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52916 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52916 Closing
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52922 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52922 Closing
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52932 Accepted
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52932 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52932 Closing
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52944 Accepted
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52944 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:47 2026] 127.0.0.1:52944 Closing
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52954 Accepted
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52962 Accepted
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52954 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52954 Closing
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52962 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52962 Closing
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52968 Accepted
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52968 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52968 Closing
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52978 Accepted
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52978 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:50 2026] 127.0.0.1:52978 Closing
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:52988 Accepted
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:52988 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:52988 Closing
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:52994 Accepted
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:52994 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:52994 Closing
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:53002 Accepted
+[Wed Jun  3 21:02:53 2026] 127.0.0.1:53004 Accepted
+[Wed Jun  3 21:02:54 2026] 127.0.0.1:53002 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:54 2026] 127.0.0.1:53002 Closing
+[Wed Jun  3 21:02:54 2026] 127.0.0.1:53004 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:54 2026] 127.0.0.1:53004 Closing
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56348 Accepted
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56348 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56348 Closing
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56360 Accepted
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56360 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56360 Closing
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56364 Accepted
+[Wed Jun  3 21:02:56 2026] 127.0.0.1:56376 Accepted
+[Wed Jun  3 21:02:57 2026] 127.0.0.1:56364 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:57 2026] 127.0.0.1:56364 Closing
+[Wed Jun  3 21:02:57 2026] 127.0.0.1:56376 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:57 2026] 127.0.0.1:56376 Closing
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56390 Accepted
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56404 Accepted
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56390 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56390 Closing
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56404 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56404 Closing
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56420 Accepted
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56420 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56420 Closing
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56422 Accepted
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56422 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:02:59 2026] 127.0.0.1:56422 Closing
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56428 Accepted
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56428 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56428 Closing
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56444 Accepted
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56444 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56444 Closing
+[Wed Jun  3 21:03:02 2026] 127.0.0.1:56454 Accepted
+[Wed Jun  3 21:03:03 2026] 127.0.0.1:56466 Accepted
+[Wed Jun  3 21:03:03 2026] 127.0.0.1:56454 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:03 2026] 127.0.0.1:56454 Closing
+[Wed Jun  3 21:03:03 2026] 127.0.0.1:56466 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:03 2026] 127.0.0.1:56466 Closing
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39816 Accepted
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39826 Accepted
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39816 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39816 Closing
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39826 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39826 Closing
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39834 Accepted
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39834 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39834 Closing
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39842 Accepted
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39842 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:05 2026] 127.0.0.1:39842 Closing
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39852 Accepted
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39858 Accepted
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39866 Accepted
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39866 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39866 Closing
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39868 Accepted
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39868 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39868 Closing
+[Wed Jun  3 21:03:08 2026] 127.0.0.1:39858 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:09 2026] 127.0.0.1:39858 Closing
+[Wed Jun  3 21:03:09 2026] 127.0.0.1:39852 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:09 2026] 127.0.0.1:39852 Closing
+[Wed Jun  3 21:03:11 2026] 127.0.0.1:39874 Accepted
+[Wed Jun  3 21:03:11 2026] 127.0.0.1:39874 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:11 2026] 127.0.0.1:39874 Closing
+[Wed Jun  3 21:03:11 2026] 127.0.0.1:39878 Accepted
+[Wed Jun  3 21:03:11 2026] 127.0.0.1:39878 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:11 2026] 127.0.0.1:39878 Closing
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39894 Accepted
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39900 Accepted
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39894 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39894 Closing
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39900 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39900 Closing
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39912 Accepted
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39912 [200]: GET /
+[Wed Jun  3 21:03:12 2026] 127.0.0.1:39912 Closing
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:39918 Accepted
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:39920 Accepted
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:39918 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:39918 Closing
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:39920 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:39920 Closing
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:58350 Accepted
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:58350 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:58350 Closing
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:58364 Accepted
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:58364 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:14 2026] 127.0.0.1:58364 Closing
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58380 Accepted
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58380 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58380 Closing
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58384 Accepted
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58384 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58384 Closing
+[Wed Jun  3 21:03:17 2026] 127.0.0.1:58394 Accepted
+[Wed Jun  3 21:03:18 2026] 127.0.0.1:58398 Accepted
+[Wed Jun  3 21:03:18 2026] 127.0.0.1:58394 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:18 2026] 127.0.0.1:58394 Closing
+[Wed Jun  3 21:03:18 2026] 127.0.0.1:58398 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:18 2026] 127.0.0.1:58398 Closing
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58414 Accepted
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58420 Accepted
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58414 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58414 Closing
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58420 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58420 Closing
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58434 Accepted
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58434 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58434 Closing
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58448 Accepted
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58448 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:20 2026] 127.0.0.1:58448 Closing
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58454 Accepted
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58464 Accepted
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58454 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58454 Closing
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58464 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58464 Closing
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58480 Accepted
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58480 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58480 Closing
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58496 Accepted
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58496 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:23 2026] 127.0.0.1:58496 Closing
+[Wed Jun  3 21:03:26 2026] 127.0.0.1:56436 Accepted
+[Wed Jun  3 21:03:26 2026] 127.0.0.1:56436 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:26 2026] 127.0.0.1:56436 Closing
+[Wed Jun  3 21:03:26 2026] 127.0.0.1:56438 Accepted
+[Wed Jun  3 21:03:26 2026] 127.0.0.1:56438 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:26 2026] 127.0.0.1:56438 Closing
+[Wed Jun  3 21:03:27 2026] 127.0.0.1:56444 Accepted
+[Wed Jun  3 21:03:27 2026] 127.0.0.1:56446 Accepted
+[Wed Jun  3 21:03:27 2026] 127.0.0.1:56444 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:27 2026] 127.0.0.1:56444 Closing
+[Wed Jun  3 21:03:27 2026] 127.0.0.1:56446 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:27 2026] 127.0.0.1:56446 Closing
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56448 Accepted
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56452 Accepted
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56454 Accepted
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56454 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56454 Closing
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56460 Accepted
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56460 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56460 Closing
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56448 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56448 Closing
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56452 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:29 2026] 127.0.0.1:56452 Closing
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56476 Accepted
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56476 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56476 Closing
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56482 Accepted
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56482 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56482 Closing
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56496 Accepted
+[Wed Jun  3 21:03:32 2026] 127.0.0.1:56502 Accepted
+[Wed Jun  3 21:03:33 2026] 127.0.0.1:56496 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:33 2026] 127.0.0.1:56496 Closing
+[Wed Jun  3 21:03:33 2026] 127.0.0.1:56502 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:33 2026] 127.0.0.1:56502 Closing
+[Wed Jun  3 21:03:35 2026] 127.0.0.1:35082 Accepted
+[Wed Jun  3 21:03:35 2026] 127.0.0.1:35082 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:35 2026] 127.0.0.1:35082 Closing
+[Wed Jun  3 21:03:35 2026] 127.0.0.1:35094 Accepted
+[Wed Jun  3 21:03:35 2026] 127.0.0.1:35094 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:35 2026] 127.0.0.1:35094 Closing
+[Wed Jun  3 21:03:36 2026] 127.0.0.1:35108 Accepted
+[Wed Jun  3 21:03:36 2026] 127.0.0.1:35112 Accepted
+[Wed Jun  3 21:03:36 2026] 127.0.0.1:35108 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:36 2026] 127.0.0.1:35108 Closing
+[Wed Jun  3 21:03:36 2026] 127.0.0.1:35112 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:36 2026] 127.0.0.1:35112 Closing
+[Wed Jun  3 21:03:38 2026] 127.0.0.1:35114 Accepted
+[Wed Jun  3 21:03:38 2026] 127.0.0.1:35114 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:38 2026] 127.0.0.1:35114 Closing
+[Wed Jun  3 21:03:38 2026] 127.0.0.1:35122 Accepted
+[Wed Jun  3 21:03:38 2026] 127.0.0.1:35122 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:38 2026] 127.0.0.1:35122 Closing
+[Wed Jun  3 21:03:39 2026] 127.0.0.1:35138 Accepted
+[Wed Jun  3 21:03:39 2026] 127.0.0.1:35154 Accepted
+[Wed Jun  3 21:03:39 2026] 127.0.0.1:35138 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:39 2026] 127.0.0.1:35138 Closing
+[Wed Jun  3 21:03:39 2026] 127.0.0.1:35154 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:39 2026] 127.0.0.1:35154 Closing
+[Wed Jun  3 21:03:41 2026] 127.0.0.1:35166 Accepted
+[Wed Jun  3 21:03:41 2026] 127.0.0.1:35166 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:41 2026] 127.0.0.1:35166 Closing
+[Wed Jun  3 21:03:41 2026] 127.0.0.1:35172 Accepted
+[Wed Jun  3 21:03:41 2026] 127.0.0.1:35172 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:41 2026] 127.0.0.1:35172 Closing
+[Wed Jun  3 21:03:44 2026] 127.0.0.1:50688 Accepted
+[Wed Jun  3 21:03:44 2026] 127.0.0.1:50688 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:44 2026] 127.0.0.1:50688 Closing
+[Wed Jun  3 21:03:44 2026] 127.0.0.1:50690 Accepted
+[Wed Jun  3 21:03:44 2026] 127.0.0.1:50690 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:44 2026] 127.0.0.1:50690 Closing
+[Wed Jun  3 21:03:47 2026] 127.0.0.1:50704 Accepted
+[Wed Jun  3 21:03:47 2026] 127.0.0.1:50704 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:47 2026] 127.0.0.1:50704 Closing
+[Wed Jun  3 21:03:47 2026] 127.0.0.1:50710 Accepted
+[Wed Jun  3 21:03:47 2026] 127.0.0.1:50710 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:47 2026] 127.0.0.1:50710 Closing
+[Wed Jun  3 21:03:50 2026] 127.0.0.1:50724 Accepted
+[Wed Jun  3 21:03:50 2026] 127.0.0.1:50724 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:50 2026] 127.0.0.1:50724 Closing
+[Wed Jun  3 21:03:50 2026] 127.0.0.1:50736 Accepted
+[Wed Jun  3 21:03:50 2026] 127.0.0.1:50736 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:50 2026] 127.0.0.1:50736 Closing
+[Wed Jun  3 21:03:53 2026] 127.0.0.1:50750 Accepted
+[Wed Jun  3 21:03:53 2026] 127.0.0.1:50750 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:53 2026] 127.0.0.1:50750 Closing
+[Wed Jun  3 21:03:53 2026] 127.0.0.1:50766 Accepted
+[Wed Jun  3 21:03:53 2026] 127.0.0.1:50766 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:53 2026] 127.0.0.1:50766 Closing
+[Wed Jun  3 21:03:56 2026] 127.0.0.1:53124 Accepted
+[Wed Jun  3 21:03:56 2026] 127.0.0.1:53124 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:56 2026] 127.0.0.1:53124 Closing
+[Wed Jun  3 21:03:56 2026] 127.0.0.1:53130 Accepted
+[Wed Jun  3 21:03:56 2026] 127.0.0.1:53130 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:56 2026] 127.0.0.1:53130 Closing
+[Wed Jun  3 21:03:59 2026] 127.0.0.1:53136 Accepted
+[Wed Jun  3 21:03:59 2026] 127.0.0.1:53136 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:03:59 2026] 127.0.0.1:53136 Closing
+[Wed Jun  3 21:03:59 2026] 127.0.0.1:53144 Accepted
+[Wed Jun  3 21:03:59 2026] 127.0.0.1:53144 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:03:59 2026] 127.0.0.1:53144 Closing
+[Wed Jun  3 21:04:02 2026] 127.0.0.1:53148 Accepted
+[Wed Jun  3 21:04:02 2026] 127.0.0.1:53148 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:02 2026] 127.0.0.1:53148 Closing
+[Wed Jun  3 21:04:02 2026] 127.0.0.1:53160 Accepted
+[Wed Jun  3 21:04:02 2026] 127.0.0.1:53160 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:02 2026] 127.0.0.1:53160 Closing
+[Wed Jun  3 21:04:05 2026] 127.0.0.1:37660 Accepted
+[Wed Jun  3 21:04:05 2026] 127.0.0.1:37660 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:05 2026] 127.0.0.1:37660 Closing
+[Wed Jun  3 21:04:05 2026] 127.0.0.1:37666 Accepted
+[Wed Jun  3 21:04:05 2026] 127.0.0.1:37666 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:05 2026] 127.0.0.1:37666 Closing
+[Wed Jun  3 21:04:08 2026] 127.0.0.1:37668 Accepted
+[Wed Jun  3 21:04:08 2026] 127.0.0.1:37668 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:08 2026] 127.0.0.1:37668 Closing
+[Wed Jun  3 21:04:08 2026] 127.0.0.1:37676 Accepted
+[Wed Jun  3 21:04:08 2026] 127.0.0.1:37676 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:08 2026] 127.0.0.1:37676 Closing
+[Wed Jun  3 21:04:11 2026] 127.0.0.1:37684 Accepted
+[Wed Jun  3 21:04:11 2026] 127.0.0.1:37684 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:11 2026] 127.0.0.1:37684 Closing
+[Wed Jun  3 21:04:11 2026] 127.0.0.1:37696 Accepted
+[Wed Jun  3 21:04:11 2026] 127.0.0.1:37696 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:11 2026] 127.0.0.1:37696 Closing
+[Wed Jun  3 21:04:14 2026] 127.0.0.1:49810 Accepted
+[Wed Jun  3 21:04:14 2026] 127.0.0.1:49810 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:14 2026] 127.0.0.1:49810 Closing
+[Wed Jun  3 21:04:14 2026] 127.0.0.1:49820 Accepted
+[Wed Jun  3 21:04:14 2026] 127.0.0.1:49820 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:14 2026] 127.0.0.1:49820 Closing
+[Wed Jun  3 21:04:17 2026] 127.0.0.1:49826 Accepted
+[Wed Jun  3 21:04:17 2026] 127.0.0.1:49826 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:17 2026] 127.0.0.1:49826 Closing
+[Wed Jun  3 21:04:17 2026] 127.0.0.1:49830 Accepted
+[Wed Jun  3 21:04:17 2026] 127.0.0.1:49830 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:17 2026] 127.0.0.1:49830 Closing
+[Wed Jun  3 21:04:20 2026] 127.0.0.1:49836 Accepted
+[Wed Jun  3 21:04:20 2026] 127.0.0.1:49836 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:20 2026] 127.0.0.1:49836 Closing
+[Wed Jun  3 21:04:20 2026] 127.0.0.1:49850 Accepted
+[Wed Jun  3 21:04:20 2026] 127.0.0.1:49850 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:20 2026] 127.0.0.1:49850 Closing
+[Wed Jun  3 21:04:23 2026] 127.0.0.1:49866 Accepted
+[Wed Jun  3 21:04:23 2026] 127.0.0.1:49866 [200]: GET /backend/lister_tickets.php
+[Wed Jun  3 21:04:23 2026] 127.0.0.1:49866 Closing
+[Wed Jun  3 21:04:23 2026] 127.0.0.1:49876 Accepted
+[Wed Jun  3 21:04:23 2026] 127.0.0.1:49876 [200]: GET /backend/recuperer_stats.php
+[Wed Jun  3 21:04:23 2026] 127.0.0.1:49876 Closing

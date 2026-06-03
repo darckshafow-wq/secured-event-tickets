@@ -1,5 +1,6 @@
 <?php
 // backend/enregistrer.php
+session_start();
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
@@ -37,6 +38,13 @@ try {
     $majOk = $ticketModel->enregistrerVente($id_qr);
 
     if ($majOk) {
+        // Enregistrement de l'activité du scanner
+        if (isset($_SESSION['username'])) {
+            try {
+                $stmtTrack = $pdo->prepare("UPDATE activite_scanners SET nombre_scans = nombre_scans + 1, derniere_activite = NOW() WHERE nom_utilisateur = ?");
+                $stmtTrack->execute([$_SESSION['username']]);
+            } catch (Exception $e) {}
+        }
         echo json_encode([
             'succes' => true,
             'message' => 'Ticket payé et activé avec succès !'

@@ -1,5 +1,6 @@
 <?php
 // backend/verifier_ticket.php
+session_start();
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *'); // Évite les blocages de la caméra mobile en réseau local
 
@@ -62,6 +63,13 @@ try {
     $enregistrementOk = $ticketModel->enregistrerEntree($id_ticket);
 
     if ($enregistrementOk) {
+        // Enregistrement de l'activité du scanner
+        if (isset($_SESSION['username'])) {
+            try {
+                $stmtTrack = $pdo->prepare("UPDATE activite_scanners SET nombre_scans = nombre_scans + 1, derniere_activite = NOW() WHERE nom_utilisateur = ?");
+                $stmtTrack->execute([$_SESSION['username']]);
+            } catch (Exception $e) {}
+        }
         echo json_encode([
             'succes' => true,
             'statut_scan' => 'acceptation',

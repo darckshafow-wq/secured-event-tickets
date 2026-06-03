@@ -11,6 +11,17 @@ $ticketModel = new Ticket($pdo);
 try {
     $stats = $ticketModel->getAllStats();
     
+    // Récupérer les scanneurs actifs
+    $stmtScanners = $pdo->query("SELECT * FROM activite_scanners ORDER BY derniere_activite DESC");
+    $scanneurs = $stmtScanners->fetchAll(PDO::FETCH_ASSOC);
+
+    // Récupérer l'état d'activation du guichet
+    $stmtConfig = $pdo->query("SELECT valeur FROM configuration WHERE cle = 'guichet_actif'");
+    $guichetActif = $stmtConfig->fetchColumn();
+    if ($guichetActif === false) {
+        $guichetActif = '1';
+    }
+    
     echo json_encode([
         'succes' => true,
         'stats' => [
@@ -19,7 +30,9 @@ try {
             'taux_remplissage' => $stats['taux_remplissage']
         ],
         'onglet_vente' => $stats['onglet_vente'],
-        'onglet_entree' => $stats['onglet_entree']
+        'onglet_entree' => $stats['onglet_entree'],
+        'scanneurs' => $scanneurs,
+        'guichet_actif' => $guichetActif
     ]);
 
 } catch (Exception $e) {
