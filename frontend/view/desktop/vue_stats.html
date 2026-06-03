@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPI Gala 2026 - Statistiques</title>
+    <link rel="stylesheet" href="../../css/dashboard.css">
+    <style>
+        /* Styles spécifiques aux cartes statistiques */
+        .card-icon { font-size: 28px; padding: 12px; border-radius: 12px; }
+        .card-footer { color: var(--text-muted); font-size: 13px; font-weight: 500; display: flex; align-items: center; gap: 8px; margin-top: 20px; }
+    </style>
+</head>
+<body class="desktop-layout">
+
+    <div class="sidebar glass-panel" style="border-radius:0;border:none;border-right:1px solid rgba(255,255,255,0.08);">
+        <div>
+            <div class="brand">
+                <div class="brand-logo-container">
+                    <span style="color:var(--text-muted);font-size:11px;font-weight:700;">LOGO EPI</span>
+                </div>
+                <h3>EPI-GALA 2026</h3>
+                <small>Supervision</small>
+            </div>
+            <div class="nav-menu">
+                <a href="dashboard.html" class="nav-link">🏠 Accueil</a>
+                <a href="vue_stats.html" class="nav-link active">📊 Statistiques</a>
+                <a href="generer_qr.html" class="nav-link">🖨️ Générer QR</a>
+                <a href="vente.html" class="nav-link">🎟️ Suivi Ventes</a>
+                <a href="table_entree.html" class="nav-link">🚪 Suivi Entrées</a>
+                <a href="../mobile/controle.html" class="nav-link" style="border:1px solid rgba(16,185,129,0.3);color:#34d399;background:rgba(16,185,129,0.05);margin-top:8px;">📱 Scanner Mobile</a>
+            </div>
+        </div>
+        <div class="sidebar-footer">Admin · Dark Shadow</div>
+    </div>
+
+    <div class="main-content">
+        <div class="header" style="border:none;padding-bottom:0;margin-bottom:35px;">
+            <div>
+                <h1>📊 Statistiques Générales</h1>
+                <p>Analyse des flux de l'événement en temps réel · BAL-EPI-2026-XXX</p>
+            </div>
+            <div style="display:flex;gap:10px;align-items:center;">
+                <span style="width:10px;height:10px;background:#10b981;border-radius:50%;display:inline-block;box-shadow:0 0 8px #10b981;animation:pulse 2s infinite;"></span>
+                <span style="color:var(--text-muted);font-size:14px;font-weight:600;">EN DIRECT</span>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="card blue glass-panel">
+                <div style="display:flex;justify-content:space-between;align-items:center;">
+                    <div class="card-title">Tickets Vendus</div>
+                    <span class="card-icon" style="background:rgba(59,130,246,0.1);color:#60a5fa;">🎟️</span>
+                </div>
+                <div class="card-value">
+                    <span id="stat-total-vendus" style="color:#fff;">0</span>
+                </div>
+                <div class="card-footer">
+                    <span style="color:#60a5fa;font-size:18px;">●</span> Enregistrés au guichet
+                </div>
+            </div>
+
+            <div class="card green glass-panel">
+                <div style="display:flex;justify-content:space-between;align-items:center;">
+                    <div class="card-title">Présents en Salle</div>
+                    <span class="card-icon" style="background:rgba(16,185,129,0.1);color:#34d399;">🚪</span>
+                </div>
+                <div class="card-value">
+                    <span id="stat-scannes" style="color:#fff;">0</span>
+                </div>
+                <div class="card-footer">
+                    <span style="color:#34d399;font-size:18px;">●</span> Scans validés à la porte
+                </div>
+            </div>
+
+            <div class="card yellow glass-panel">
+                <div style="display:flex;justify-content:space-between;align-items:center;">
+                    <div class="card-title">Taux d'Arrivée</div>
+                    <span class="card-icon" style="background:rgba(245,158,11,0.1);color:#fbbf24;">📊</span>
+                </div>
+                <div class="card-value">
+                    <span id="stat-taux" style="color:#fff;">0%</span>
+                </div>
+                <div class="card-footer">
+                    <span style="color:#fbbf24;font-size:18px;">●</span> Ratio Entrées / Ventes
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../../js/dashboard.js"></script>
+</body>
+</html>

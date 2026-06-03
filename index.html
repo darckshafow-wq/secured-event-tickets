@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGest Pro - Hub de Navigation</title>
+    <style>
+        :root {
+            --bg-dark: #121214;
+            --card-bg: #1a1a1e;
+            --text-main: #ffffff;
+            --text-muted: #a0a0a5;
+            --primary: #3498db;
+            --success: #2ecc71;
+            --warning: #f1c40f;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .hub-container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .brand-header {
+            margin-bottom: 35px;
+        }
+
+        .brand-header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .brand-header p {
+            color: var(--text-muted);
+            margin: 8px 0 0 0;
+            font-size: 15px;
+        }
+
+        /* Liste des boutons du Menu */
+        .menu-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .menu-card {
+            background-color: var(--card-bg);
+            border: 1px solid #252529;
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Variations de bordures au survol pour le style */
+        .menu-card.blue:hover {
+            border-color: var(--primary);
+        }
+
+        .menu-card.yellow:hover {
+            border-color: var(--warning);
+        }
+
+        .menu-card.green:hover {
+            border-color: var(--success);
+        }
+
+        .menu-icon {
+            font-size: 32px;
+            margin-right: 20px;
+            background-color: #121214;
+            padding: 12px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+        }
+
+        .menu-info {
+            flex: 1;
+        }
+
+        .menu-info h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .menu-info p {
+            margin: 4px 0 0 0;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .arrow {
+            font-size: 18px;
+            color: var(--text-muted);
+            transition: transform 0.2s;
+        }
+
+        .menu-card:hover .arrow {
+            transform: translateX(5px);
+            color: white;
+        }
+
+        /* Petit badge discret pour indiquer la détection automatique */
+        .detection-badge {
+            margin-top: 30px;
+            font-size: 12px;
+            color: var(--text-muted);
+            background: #1a1a1e;
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid #252529;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hub-container">
+
+        <div class="brand-header">
+            <h1>EduGest Pro</h1>
+            <p>Gestionnaire & Sécurisation du Bal de l'EPI</p>
+        </div>
+
+        <div class="menu-grid">
+
+            <a href="frontend/view/desktop/dashboard.html" class="menu-card blue">
+                <div class="menu-icon">📊</div>
+                <div class="menu-info">
+                    <h3>Tableau de Bord</h3>
+                    <p>Statistiques des ventes et entrées en temps réel</p>
+                </div>
+                <div class="arrow">➔</div>
+            </a>
+
+            <a href="frontend/view/desktop/vente.html" class="menu-card yellow">
+                <div class="menu-icon">📝</div>
+                <div class="menu-info">
+                    <h3>Guichet d'Enrôlement</h3>
+                    <p>Scanner, associer et activer les tickets physiques</p>
+                </div>
+                <div class="arrow">➔</div>
+            </a>
+
+            <a href="frontend/view/mobile/controle.html" class="menu-card green">
+                <div class="menu-icon">📱</div>
+                <div class="menu-info">
+                    <h3>Contrôle d'Accès</h3>
+                    <p>Interface scanner pour les smartphones aux portes</p>
+                </div>
+                <div class="arrow">➔</div>
+            </a>
+
+        </div>
+
+        <div class="detection-badge" id="device-info">
+            Analyse du système...
+        </div>
+
+    </div>
+
+    <script>
+        // Ce petit script détecte l'appareil juste pour afficher une info à l'écran
+        window.onload = function () {
+            const estMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            const badge = document.getElementById('device-info');
+
+            if (estMobile) {
+                badge.innerHTML = "📱 Mode <strong>Smartphone</strong> détecté (Interface Contrôle recommandée)";
+                badge.style.borderColor = "var(--success)";
+            } else {
+                badge.innerHTML = "💻 Mode <strong>Ordinateur / PC</strong> détecté (Interfaces Desktop recommandées)";
+                badge.style.borderColor = "var(--primary)";
+            }
+        };
+    </script>
+</body>
+
+</html>

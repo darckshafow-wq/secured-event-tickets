@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>EPI Gala 2026 - Scanner Mobile</title>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <link rel="stylesheet" href="../../css/mobile/controle.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="app-header">
+        <div class="app-logo">EPI<span>-GALA</span> 2026</div>
+        <div style="display:flex; gap:10px;">
+            <a href="../desktop/dashboard.html" class="app-back">🖥️ PC</a>
+            <button onclick="seDeconnecter()" class="app-back" style="color:#f87171; border-color:rgba(248,113,113,0.3);">Déconnexion</button>
+        </div>
+    </div>
+
+    <!-- === ÉCRAN 1 : MENU === -->
+    <div id="screen-menu">
+        <div class="screen-title">Scanner Mobile</div>
+        <div class="screen-subtitle">Sélectionnez l'opération à effectuer</div>
+
+        <button class="mode-card vente" onclick="lancerScanner('vente')">
+            <div class="mode-icon">🎟️</div>
+            <div class="mode-info">
+                <h3>Mode Guichet / Vente</h3>
+                <p>Scanner un ticket vierge pour enregistrer son paiement (15 000 FCFA).</p>
+            </div>
+        </button>
+
+        <button class="mode-card porte" onclick="lancerScanner('porte')">
+            <div class="mode-icon">🚪</div>
+            <div class="mode-info">
+                <h3>Mode Contrôle / Porte</h3>
+                <p>Scanner un ticket payé pour valider l'entrée dans la salle le Jour J.</p>
+            </div>
+        </button>
+    </div>
+
+    <!-- === ÉCRAN 2 : SCANNER === -->
+    <div id="screen-scanner">
+        <div class="scanner-header">
+            <button class="btn-back-scan" onclick="retourMenu()">← Retour</button>
+            <div class="mode-label" id="modeLabelTitle">Mode</div>
+        </div>
+
+        <!-- Lecteur caméra -->
+        <div id="reader"></div>
+
+        <!-- Résultat -->
+        <div id="resultBox" class="result-box">
+            <div class="result-icon" id="resultIcon"></div>
+            <div class="result-title" id="resultTitle"></div>
+            <div class="result-detail" id="resultDetail"></div>
+        </div>
+
+        <!-- Compteur session -->
+        <div class="session-counter">
+            <div class="counter-item">
+                <span class="counter-val ok" id="cntOk">0</span>
+                <span class="counter-lbl">Acceptés</span>
+            </div>
+            <div class="counter-item">
+                <span class="counter-val ko" id="cntKo">0</span>
+                <span class="counter-lbl">Refusés</span>
+            </div>
+            <div class="counter-item">
+                <span class="counter-val" id="cntTotal" style="color:#e4e4e7;">0</span>
+                <span class="counter-lbl">Total</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../js/mobile/controle.js"></script>
+</body>
+
+</html>

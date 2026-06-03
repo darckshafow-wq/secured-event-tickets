@@ -1,0 +1,205 @@
+/* ============================================================
+   frontend/css/mobile/controle.css
+   Styles de l'interface Scanner Mobile - Gala EPI 2026
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0f172a;
+    background-image:
+        radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.12), transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(16, 185, 129, 0.1), transparent 40%);
+    color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px 40px;
+}
+
+/* === HEADER === */
+.app-header {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 25px;
+}
+
+.app-logo {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.app-logo span { color: #3b82f6; }
+
+.app-back {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #94a3b8;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* === MENU DE SÉLECTION DU MODE === */
+#screen-menu {
+    width: 100%;
+    max-width: 420px;
+}
+
+.screen-title {
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.screen-subtitle {
+    color: #64748b;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.mode-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 22px 20px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: left;
+    width: 100%;
+}
+
+.mode-card:hover,
+.mode-card:active {
+    transform: scale(0.98);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.mode-card.vente { border-color: rgba(59, 130, 246, 0.4); }
+.mode-card.vente:hover { box-shadow: 0 8px 30px rgba(59, 130, 246, 0.2); }
+.mode-card.porte { border-color: rgba(16, 185, 129, 0.4); }
+.mode-card.porte:hover { box-shadow: 0 8px 30px rgba(16, 185, 129, 0.2); }
+
+.mode-icon { font-size: 40px; flex-shrink: 0; }
+
+.mode-info h3 { font-size: 17px; font-weight: 700; margin-bottom: 4px; }
+.mode-info p { font-size: 13px; color: #64748b; line-height: 1.5; }
+.mode-card.vente .mode-info h3 { color: #60a5fa; }
+.mode-card.porte .mode-info h3 { color: #34d399; }
+
+/* === ÉCRAN SCANNER === */
+#screen-scanner {
+    width: 100%;
+    max-width: 420px;
+    display: none;
+}
+
+.scanner-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-back-scan {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #94a3b8;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.mode-label { font-size: 18px; font-weight: 800; }
+.mode-label.vente { color: #60a5fa; }
+.mode-label.porte { color: #34d399; }
+
+/* Conteneur QR Reader */
+#reader {
+    width: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    background: #000;
+    margin-bottom: 20px;
+}
+
+/* Boîte de résultat */
+.result-box {
+    border-radius: 16px;
+    padding: 22px 20px;
+    text-align: center;
+    display: none;
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-bottom: 16px;
+}
+
+.result-box.success {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    box-shadow: 0 0 25px rgba(16, 185, 129, 0.2);
+}
+
+.result-box.error {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.2);
+}
+
+.result-icon { font-size: 42px; margin-bottom: 8px; }
+.result-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+.result-title.success { color: #34d399; }
+.result-title.error { color: #f87171; }
+.result-detail { font-size: 14px; color: #94a3b8; line-height: 1.6; }
+.result-id { font-family: monospace; font-weight: 700; color: #e2e8f0; font-size: 13px; }
+
+/* Compteur de la session */
+.session-counter {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.counter-item { display: flex; flex-direction: column; gap: 4px; }
+.counter-val { font-size: 28px; font-weight: 800; }
+.counter-val.ok { color: #34d399; }
+.counter-val.ko { color: #f87171; }
+.counter-lbl { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+
+@keyframes popIn {
+    0%   { transform: scale(0.88); opacity: 0; }
+    100% { transform: scale(1);    opacity: 1; }
+}
+
+/* Surcharge du style html5-qrcode */
+#reader video { border-radius: 16px; }
+#reader__scan_region { border-radius: 16px !important; }
