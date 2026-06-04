@@ -91,3 +91,31 @@ body {
     margin-bottom: 20px;
     display: none;
 }
+
+/* === RESPONSIVITÉ (CONNEXION & INSCRIPTION) === */
+@media (max-width: 380px) {
+    body {
+        padding: 10px;
+    }
+    .login-box {
+        padding: 25px 15px;
+        border-radius: 16px;
+    }
+    .brand-header {
+        margin-bottom: 20px;
+    }
+    .app-logo {
+        font-size: 21px;
+    }
+    .input-group {
+        margin-bottom: 15px;
+    }
+    .input-group input {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .btn-login {
+        padding: 13px;
+        font-size: 15px;
+    }
+}
