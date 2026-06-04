@@ -135,7 +135,7 @@
     }
 
     .qr-card::before {
-        content: "GALA EPI 2026 - TICKET OFFICIEL";
+        content: "BAL EPI 2026 - TICKET OFFICIEL";
         position: absolute; top: 15px; left: 0; width: 100%;
         text-align: center; font-size: 16px; font-weight: 800; color: #000;
     }

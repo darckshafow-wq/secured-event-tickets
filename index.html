@@ -4,211 +4,417 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduGest Pro - Hub de Navigation</title>
+    <title>EduGest Pro - BAL EPI 2026</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
         :root {
-            --bg-dark: #121214;
-            --card-bg: #1a1a1e;
-            --text-main: #ffffff;
-            --text-muted: #a0a0a5;
-            --primary: #3498db;
-            --success: #2ecc71;
-            --warning: #f1c40f;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --primary: #2563eb;
+            --success: #10b981;
+            --warning: #f59e0b;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-dark);
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f3ff;
+            background-image: 
+                radial-gradient(at 80% 0%, hsla(189, 100%, 75%, 0.6) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, hsla(333, 100%, 85%, 0.6) 0px, transparent 50%),
+                radial-gradient(at 80% 100%, hsla(242, 100%, 85%, 0.6) 0px, transparent 50%),
+                radial-gradient(at 0% 0%, hsla(343, 100%, 85%, 0.6) 0px, transparent 50%);
+            background-attachment: fixed;
+            background-size: cover;
             color: var(--text-main);
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
             min-height: 100vh;
-            box-sizing: border-box;
         }
 
-        .hub-container {
+        /* NavBar */
+        nav {
             width: 100%;
-            max-width: 500px;
-            padding: 20px;
-            text-align: center;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             box-sizing: border-box;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            position: fixed;
+            top: 0;
+            z-index: 100;
         }
 
-        .brand-header {
-            margin-bottom: 35px;
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--text-main);
         }
 
-        .brand-header h1 {
-            margin: 0;
-            font-size: 32px;
-            font-weight: 700;
-            letter-spacing: 0.5px;
+        .logo span {
+            color: var(--primary);
         }
 
-        .brand-header p {
+        .nav-links a {
+            text-decoration: none;
             color: var(--text-muted);
-            margin: 8px 0 0 0;
-            font-size: 15px;
+            font-weight: 600;
+            margin-left: 30px;
+            transition: color 0.3s;
         }
 
-        /* Liste des boutons du Menu */
-        .menu-grid {
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .btn-nav {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: #fff !important;
+            padding: 10px 24px;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            flex: 1;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 150px 20px 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin: 0;
+            max-width: 800px;
+            background: linear-gradient(135deg, #0f172a, #3b82f6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: var(--text-muted);
+            margin: 20px 0 40px 0;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .btn-hero {
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-left: 1px solid rgba(255, 255, 255, 0.8);
+            color: var(--primary);
+            font-size: 18px;
+            font-weight: 700;
+            padding: 16px 40px;
+            border-radius: 50px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+            transition: all 0.3s ease;
+        }
+
+        .btn-hero:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+        }
+
+        /* Portal Section */
+        .portal {
+            padding: 60px 20px 100px 20px;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .portal-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 40px;
+            color: #1e293b;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
         }
 
         .menu-card {
-            background-color: var(--card-bg);
-            border: 1px solid #252529;
-            border-radius: 16px;
-            padding: 20px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-left: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 30px;
             display: flex;
-            align-items: center;
+            flex-direction: column;
             text-align: left;
             text-decoration: none;
             color: var(--text-main);
-            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
         }
 
         .menu-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Variations de bordures au survol pour le style */
-        .menu-card.blue:hover {
-            border-color: var(--primary);
-        }
-
-        .menu-card.yellow:hover {
-            border-color: var(--warning);
-        }
-
-        .menu-card.green:hover {
-            border-color: var(--success);
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 15px 40px 0 rgba(31, 38, 135, 0.15);
         }
 
         .menu-icon {
-            font-size: 32px;
-            margin-right: 20px;
-            background-color: #121214;
-            padding: 12px;
-            border-radius: 12px;
-            display: flex;
+            font-size: 40px;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-top: 1px solid rgba(255, 255, 255, 0.9);
+            border-left: 1px solid rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 15px rgba(31, 38, 135, 0.05);
+            padding: 16px;
+            border-radius: 16px;
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 45px;
-            height: 45px;
+            width: 70px;
+            height: 70px;
         }
 
-        .menu-info {
+        .menu-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .menu-card p {
+            margin: 0 0 20px 0;
+            font-size: 15px;
+            color: var(--text-muted);
             flex: 1;
         }
 
-        .menu-info h3 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .menu-info p {
-            margin: 4px 0 0 0;
-            font-size: 13px;
-            color: var(--text-muted);
-        }
-
         .arrow {
-            font-size: 18px;
+            align-self: flex-end;
+            font-size: 24px;
             color: var(--text-muted);
-            transition: transform 0.2s;
+            transition: transform 0.2s, color 0.2s;
         }
 
         .menu-card:hover .arrow {
             transform: translateX(5px);
-            color: white;
+            color: var(--primary);
         }
 
-        /* Petit badge discret pour indiquer la détection automatique */
+        .menu-card.blue:hover .arrow { color: var(--primary); }
+        .menu-card.yellow:hover .arrow { color: var(--warning); }
+        .menu-card.green:hover .arrow { color: var(--success); }
+
+        /* Detection Badge */
         .detection-badge {
-            margin-top: 30px;
-            font-size: 12px;
+            margin-top: 50px;
+            font-size: 13px;
             color: var(--text-muted);
-            background: #1a1a1e;
-            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            padding: 10px 20px;
             border-radius: 20px;
-            border: 1px solid #252529;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-left: 1px solid rgba(255, 255, 255, 0.8);
             display: inline-block;
+            box-shadow: 0 4px 15px rgba(31, 38, 135, 0.05);
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: 20px 20px 60px 20px;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .how-it-works-container {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.8);
+            border-left: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+        }
+
+        .how-it-works-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 30px;
+            color: #1e293b;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+        }
+
+        .step-item {
+            text-align: center;
+        }
+
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+        }
+
+        .step-item h4 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .step-item p {
+            margin: 0;
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 42px; }
+            nav { padding: 15px 20px; }
+            .nav-links a:not(.btn-nav) { display: none; }
         }
     </style>
 </head>
 
 <body>
 
-    <div class="hub-container">
-
-        <div class="brand-header">
-            <h1>EduGest Pro</h1>
-            <p>Gestionnaire & Sécurisation du Bal de l'EPI</p>
+    <nav>
+        <div class="logo" style="display: flex; align-items: center; gap: 10px;">`n            <img src="frontend/assets/logo.png" alt="Logo EPI" style="height: 40px;">`n            EduGest <span>Pro</span>`n        </div>
+        <div class="nav-links">
+            <a href="#">Accueil</a>
+            <a href="#portal">Portail</a>
+            <a href="frontend/view/mobile/login.html" class="btn-nav">Connexion Organisateur</a>
         </div>
+    </nav>
 
+    <div class="hero">
+        <h1>Gérez l'accès au BAL EPI 2026 avec Élégance.</h1>
+        <p>Une plateforme complète, ultra-sécurisée et esthétique pour l'enrôlement, la vente et le contrôle des accès en temps réel au BAL de l'EPI.</p>
+        <a href="#portal" class="btn-hero">Accéder au portail ↓</a>
+
+        <div class="detection-badge" id="device-info">
+            Analyse de votre appareil...
+        </div>
+    </div>
+
+    <div class="how-it-works">
+        <div class="how-it-works-container">
+            <h2 class="how-it-works-title">Comment ça marche ?</h2>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <h4>Enrôlement</h4>
+                    <p>Enregistrez les étudiants et associez-leur un ticket QR Code unique au guichet.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <h4>Validation</h4>
+                    <p>Le paiement est confirmé et le ticket est activé dans la base de données sécurisée.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <h4>Contrôle</h4>
+                    <p>Le jour J, scannez les QR codes à l'entrée avec un smartphone pour autoriser l'accès.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portal" id="portal">
+        <h2 class="portal-title">Portail d'Accès</h2>
         <div class="menu-grid">
 
             <a href="frontend/view/desktop/dashboard.html" class="menu-card blue">
                 <div class="menu-icon">📊</div>
-                <div class="menu-info">
-                    <h3>Tableau de Bord</h3>
-                    <p>Statistiques des ventes et entrées en temps réel</p>
-                </div>
+                <h3>Tableau de Bord</h3>
+                <p>Consultez les statistiques des ventes et le flux des entrées en temps réel (Idéal sur PC).</p>
                 <div class="arrow">➔</div>
             </a>
 
             <a href="frontend/view/desktop/vente.html" class="menu-card yellow">
                 <div class="menu-icon">📝</div>
-                <div class="menu-info">
-                    <h3>Guichet d'Enrôlement</h3>
-                    <p>Scanner, associer et activer les tickets physiques</p>
-                </div>
+                <h3>Guichet d'Enrôlement</h3>
+                <p>Associez les tickets physiques aux étudiants et validez les paiements.</p>
                 <div class="arrow">➔</div>
             </a>
 
             <a href="frontend/view/mobile/controle.html" class="menu-card green">
                 <div class="menu-icon">📱</div>
-                <div class="menu-info">
-                    <h3>Contrôle d'Accès</h3>
-                    <p>Interface scanner pour les smartphones aux portes</p>
-                </div>
+                <h3>Contrôle d'Accès</h3>
+                <p>L'interface scanner pour valider les QR codes à l'entrée du BAL (Idéal sur Smartphone).</p>
                 <div class="arrow">➔</div>
             </a>
 
         </div>
-
-        <div class="detection-badge" id="device-info">
-            Analyse du système...
-        </div>
-
     </div>
 
     <script>
-        // Ce petit script détecte l'appareil juste pour afficher une info à l'écran
+        // Détection de l'appareil
         window.onload = function () {
             const estMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
             const badge = document.getElementById('device-info');
 
             if (estMobile) {
-                badge.innerHTML = "📱 Mode <strong>Smartphone</strong> détecté (Interface Contrôle recommandée)";
+                badge.innerHTML = "📱 <strong>Smartphone détecté</strong> — L'interface de Contrôle d'Accès est recommandée.";
                 badge.style.borderColor = "var(--success)";
             } else {
-                badge.innerHTML = "💻 Mode <strong>Ordinateur / PC</strong> détecté (Interfaces Desktop recommandées)";
+                badge.innerHTML = "💻 <strong>Ordinateur détecté</strong> — Le Tableau de Bord et le Guichet sont recommandés.";
                 badge.style.borderColor = "var(--primary)";
             }
         };
+    </script>
+</body>
+
+</html>  };
     </script>
 </body>
 

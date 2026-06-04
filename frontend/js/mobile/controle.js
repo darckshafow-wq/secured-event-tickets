@@ -1,6 +1,6 @@
 // ============================================================
 // frontend/js/mobile/controle.js
-// Logique du Scanner Mobile - Gala EPI 2026
+// Logique du Scanner Mobile - BAL EPI 2026
 // ============================================================
 
 // === SÉCURITÉ : VÉRIFICATION DE SESSION ===
@@ -73,14 +73,24 @@ function retourMenu() {
 function onScanSuccess(decodedText) {
     if (isProcessing) return;
 
-    if (!decodedText.startsWith('BAL-EPI-2026-')) {
-        afficherResultat('error', '⚠️', 'Format Invalide',
-            `Le code "<span class="result-id">${decodedText}</span>" n'est pas un ticket EPI-GALA valide.`);
-        return;
+    isProcessing = true;
+    if (scanner.pause) {
+        scanner.pause(true); // true permet de figer l'image de la caméra
     }
 
-    isProcessing = true;
-    scanner.pause();
+    if (!decodedText.startsWith('BAL-EPI-2026-')) {
+        cntKo++;
+        majCompteurs();
+        afficherResultat('error', '⚠️', 'Format Invalide',
+            `Le code "<span class="result-id">${decodedText}</span>" n'est pas un ticket EPI-BAL valide.`);
+        
+        setTimeout(() => {
+            cacherResultat();
+            isProcessing = false;
+            if (scanner && scanner.resume) scanner.resume();
+        }, 3000);
+        return;
+    }
 
     if (modeActuel === 'vente') {
         const fd = new FormData();

@@ -73,7 +73,7 @@ try {
         echo json_encode([
             'succes' => true,
             'statut_scan' => 'acceptation',
-            'message' => 'ACCÈS ACCORDÉ : Bienvenue au Gala de l\'EPI !',
+            'message' => 'ACCÈS ACCORDÉ : Bienvenue au BAL de l\'EPI !',
             'id_ticket' => $id_ticket
         ]);
     } else {

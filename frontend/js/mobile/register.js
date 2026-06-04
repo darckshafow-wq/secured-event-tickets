@@ -1,6 +1,6 @@
 // ============================================================
 // frontend/js/mobile/register.js
-// Logique de la page d'inscription Agent — Gala EPI 2026
+// Logique de la page d'inscription Agent — BAL EPI 2026
 // ============================================================
 
 const API_BASE = '../../../backend';

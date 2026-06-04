@@ -1,6 +1,6 @@
 /**
  * dashboard.js — Logique commune à toutes les pages Desktop
- * Secured Event Tickets — EPI Gala 2026
+ * Secured Event Tickets — EPI BAL 2026
  *
  * Ce fichier centralise :
  *  - Le rafraîchissement des statistiques (vue_stats)

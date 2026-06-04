@@ -2,7 +2,7 @@
 
 # ============================================================
 # tester.sh — Tests Unitaires Automatiques
-# Secured Event Tickets — EPI Gala 2026
+# Secured Event Tickets — EPI BAL 2026
 # Lance automatiquement avant le tunnel
 # ============================================================
 
@@ -20,7 +20,7 @@ DELAY=0.6  # secondes entre chaque test
 
 echo -e "${CYAN}${BOLD}"
 echo "  ┌─────────────────────────────────────────────┐"
-echo "  │       🧪 TESTS UNITAIRES — GALA EPI 2026     │"
+echo "  │       🧪 TESTS UNITAIRES — BAL EPI 2026     │"
 echo "  └─────────────────────────────────────────────┘"
 echo -e "${NC}"
 
@@ -61,7 +61,7 @@ test_api \
     "Serveur PHP accessible (GET /)" \
     "$BASE_URL/../frontend/view/desktop/dashboard.html" \
     "GET" "" \
-    "EPI Gala"
+    "EPI BAL"
 
 test_api \
     "API stats accessible" \
