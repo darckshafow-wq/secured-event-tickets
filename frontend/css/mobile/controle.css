@@ -201,5 +201,125 @@ body {
 }
 
 /* Surcharge du style html5-qrcode */
-#reader video { border-radius: 16px; }
-#reader__scan_region { border-radius: 16px !important; }
+#reader {
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    background: #0b0f19 !important;
+}
+#reader video {
+    border-radius: 16px;
+    object-fit: cover !important;
+}
+#reader__scan_region {
+    border-radius: 16px !important;
+}
+#reader button, #reader__camera_permission_button {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 12px 24px !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+    font-family: 'Inter', sans-serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3) !important;
+    transition: all 0.2s ease !important;
+    margin: 12px auto !important;
+}
+#reader button:hover, #reader__camera_permission_button:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4) !important;
+}
+#reader button:active, #reader__camera_permission_button:active {
+    transform: translateY(1px) !important;
+}
+#reader select {
+    background: rgba(30, 41, 59, 0.8) !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    padding: 10px 14px !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
+    font-family: 'Inter', sans-serif !important;
+    outline: none !important;
+    width: 90% !important;
+    max-width: 300px !important;
+    margin: 8px auto !important;
+}
+#reader__dashboard_section {
+    background: rgba(15, 23, 42, 0.8) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+    padding: 12px !important;
+}
+#reader__status_span {
+    color: #94a3b8 !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+/* === AJOUTS RESPONSIVITÉ (SMALL PHONES & TABLETS) === */
+@media (max-width: 360px) {
+    body {
+        padding: 10px 10px 20px;
+    }
+    .app-header {
+        padding-bottom: 15px;
+    }
+    .screen-title {
+        font-size: 19px;
+    }
+    .screen-subtitle {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .mode-card {
+        padding: 15px 12px;
+        gap: 12px;
+        border-radius: 14px;
+    }
+    .mode-icon {
+        font-size: 32px;
+    }
+    .mode-info h3 {
+        font-size: 15px;
+    }
+    .mode-info p {
+        font-size: 12px;
+    }
+    .scanner-header {
+        margin-bottom: 12px;
+    }
+    .mode-label {
+        font-size: 15px;
+    }
+    .result-box {
+        padding: 16px 14px;
+    }
+    .result-icon {
+        font-size: 34px;
+    }
+    .result-title {
+        font-size: 17px;
+    }
+    .session-counter {
+        padding: 12px;
+    }
+    .counter-val {
+        font-size: 22px;
+    }
+}
+
+@media (max-height: 650px) {
+    .screen-subtitle {
+        margin-bottom: 15px;
+    }
+    .mode-card {
+        padding: 12px 14px;
+        margin-bottom: 10px;
+    }
+    .app-header {
+        padding-bottom: 10px;
+    }
+}

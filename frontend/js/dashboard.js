@@ -15,6 +15,11 @@
 const API_BASE = '../../../backend';
 const REFRESH_INTERVAL_MS = 3000;
 
+// Empreintes pour éviter la reconstruction du DOM et le clignotement des tables
+let lastScanneursFingerprint = '';
+let lastVentesFingerprint = '';
+let lastEntreesFingerprint = '';
+
 // ============================================================
 // HELPERS
 // ============================================================
@@ -141,6 +146,17 @@ function initDashboardCentral() {
                 const tbody = document.getElementById('tableBodyScanneurs');
                 if (!tbody || !data.scanneurs) return;
 
+                // Calcul de l'empreinte pour éviter les clignotements si rien ne change
+                const fingerprint = data.scanneurs.map(s => {
+                    const dateActivite = new Date(s.derniere_activite.replace(/-/g, '/'));
+                    const diffMinutes = Math.floor((new Date() - dateActivite) / 60000);
+                    const isEnLigne = diffMinutes < 5;
+                    return `${s.nom_utilisateur}-${s.adresse_ip}-${s.nombre_scans}-${isEnLigne}`;
+                }).join('|');
+
+                if (fingerprint === lastScanneursFingerprint) return;
+                lastScanneursFingerprint = fingerprint;
+
                 tbody.innerHTML = '';
                 if (data.scanneurs.length === 0) {
                     tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:20px;">Aucun scanner connecté pour le moment.</td></tr>';
@@ -234,14 +250,25 @@ function initTableVentes() {
 
                 // Tableau
                 const tbody = document.getElementById('tableBodyVentes');
-                tbody.innerHTML = '';
+                if (!tbody) return;
 
-                if (!data.onglet_vente || vendus === 0) {
+                const ongletVente = data.onglet_vente || [];
+                const scannedIds = new Set((data.onglet_entree || []).map(e => e.id_ticket));
+
+                // Calcul de l'empreinte pour éviter les clignotements
+                const fingerprint = ongletVente.map(v => {
+                    const isScanne = scannedIds.has(v.id_ticket);
+                    return `${v.id_ticket}-${isScanne}`;
+                }).join('|');
+
+                if (fingerprint === lastVentesFingerprint) return;
+                lastVentesFingerprint = fingerprint;
+
+                tbody.innerHTML = '';
+                if (ongletVente.length === 0) {
                     tbody.innerHTML = _emptyRow(5, 'Aucune vente enregistrée.');
                     return;
                 }
-
-                const scannedIds = new Set((data.onglet_entree || []).map(e => e.id_ticket));
 
                 data.onglet_vente.forEach((vente, i) => {
                     const isScanne = scannedIds.has(vente.id_ticket);
@@ -290,8 +317,15 @@ function initTableEntrees() {
                 _setText('stat-taux', taux + '%');
 
                 const tbody = document.getElementById('tableBodyEntrees');
-                tbody.innerHTML = '';
+                if (!tbody) return;
 
+                const ongletEntree = data.onglet_entree || [];
+                const fingerprint = ongletEntree.map(e => `${e.id_ticket}-${e.date_scan}`).join('|');
+
+                if (fingerprint === lastEntreesFingerprint) return;
+                lastEntreesFingerprint = fingerprint;
+
+                tbody.innerHTML = '';
                 if (entrees === 0) {
                     tbody.innerHTML = _emptyRow(4, 'Aucune entrée. En attente des scans mobile…');
                     _previousEntreeCount = 0;
