@@ -4,26 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduGest Pro - BAL EPI 2026</title>
+    <title>EPI Bal 2026</title>
+    <link rel="icon" type="image/png" href="frontend/assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
         :root {
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --primary: #2563eb;
-            --success: #10b981;
-            --warning: #f59e0b;
+            --text-main: #f8fafc;
+            --text-muted: #cbd5e1;
+            --primary: #1e3e8c;
+            --primary-light: #2d55b8;
+            --secondary: #dc2626;
+            --accent: #fbbf24;
+            --bg-dark: #0a0f1d;
         }
 
         body {
-            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f5f3ff;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
             background-image: 
-                radial-gradient(at 80% 0%, hsla(189, 100%, 75%, 0.6) 0px, transparent 50%),
-                radial-gradient(at 0% 50%, hsla(333, 100%, 85%, 0.6) 0px, transparent 50%),
-                radial-gradient(at 80% 100%, hsla(242, 100%, 85%, 0.6) 0px, transparent 50%),
-                radial-gradient(at 0% 0%, hsla(343, 100%, 85%, 0.6) 0px, transparent 50%);
+                radial-gradient(at 80% 0%, rgba(30, 62, 140, 0.4) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, rgba(220, 38, 38, 0.2) 0px, transparent 50%),
+                radial-gradient(at 80% 100%, rgba(251, 191, 36, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 0%, rgba(30, 62, 140, 0.3) 0px, transparent 50%);
             background-attachment: fixed;
             background-size: cover;
             color: var(--text-main);
@@ -43,10 +47,10 @@
             justify-content: space-between;
             align-items: center;
             box-sizing: border-box;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(10, 15, 29, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             position: fixed;
             top: 0;
             z-index: 100;
@@ -56,10 +60,13 @@
             font-size: 24px;
             font-weight: 800;
             color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
 
         .logo span {
-            color: var(--primary);
+            color: var(--secondary);
         }
 
         .nav-links a {
@@ -71,21 +78,21 @@
         }
 
         .nav-links a:hover {
-            color: var(--primary);
+            color: var(--text-main);
         }
 
         .btn-nav {
-            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
             color: #fff !important;
             padding: 10px 24px;
             border-radius: 30px;
-            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+            box-shadow: 0 4px 15px rgba(30, 62, 140, 0.5);
             transition: transform 0.2s, box-shadow 0.2s;
         }
 
         .btn-nav:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+            box-shadow: 0 6px 20px rgba(30, 62, 140, 0.7);
         }
 
         /* Hero Section */
@@ -96,7 +103,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 150px 20px 80px 20px;
+            padding: 160px 20px 100px 20px;
         }
 
         .hero h1 {
@@ -105,222 +112,224 @@
             line-height: 1.1;
             margin: 0;
             max-width: 800px;
-            background: linear-gradient(135deg, #0f172a, #3b82f6);
+            background: linear-gradient(135deg, #ffffff, #cbd5e1);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
 
         .hero p {
             font-size: 20px;
             color: var(--text-muted);
-            margin: 20px 0 40px 0;
-            max-width: 600px;
+            margin: 25px 0 45px 0;
+            max-width: 650px;
             line-height: 1.6;
         }
 
         .btn-hero {
             text-decoration: none;
-            background: rgba(255, 255, 255, 0.25);
+            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(25px);
             -webkit-backdrop-filter: blur(25px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            border-top: 1px solid rgba(255, 255, 255, 0.8);
-            border-left: 1px solid rgba(255, 255, 255, 0.8);
-            color: var(--primary);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-left: 1px solid rgba(255, 255, 255, 0.3);
+            color: #fff;
             font-size: 18px;
             font-weight: 700;
             padding: 16px 40px;
             border-radius: 50px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
         }
 
         .btn-hero:hover {
             transform: translateY(-3px);
-            background: rgba(255, 255, 255, 0.4);
-            box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+            border-color: rgba(255, 255, 255, 0.4);
         }
-
-        /* Portal Section */
-        .portal {
-            padding: 60px 20px 100px 20px;
-            width: 100%;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .portal-title {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 800;
-            margin-bottom: 40px;
-            color: #1e293b;
-        }
-
-        .menu-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .menu-card {
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(25px);
-            -webkit-backdrop-filter: blur(25px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            border-top: 1px solid rgba(255, 255, 255, 0.8);
-            border-left: 1px solid rgba(255, 255, 255, 0.8);
-            border-radius: 20px;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            text-decoration: none;
-            color: var(--text-main);
-            transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-        }
-
-        .menu-card:hover {
-            transform: translateY(-8px);
-            background: rgba(255, 255, 255, 0.4);
-            box-shadow: 0 15px 40px 0 rgba(31, 38, 135, 0.15);
-        }
-
-        .menu-icon {
-            font-size: 40px;
-            margin-bottom: 20px;
-            background: rgba(255, 255, 255, 0.3);
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            border-top: 1px solid rgba(255, 255, 255, 0.9);
-            border-left: 1px solid rgba(255, 255, 255, 0.9);
-            box-shadow: 0 4px 15px rgba(31, 38, 135, 0.05);
-            padding: 16px;
-            border-radius: 16px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 70px;
-            height: 70px;
-        }
-
-        .menu-card h3 {
-            margin: 0 0 10px 0;
-            font-size: 22px;
-            font-weight: 700;
-        }
-
-        .menu-card p {
-            margin: 0 0 20px 0;
-            font-size: 15px;
-            color: var(--text-muted);
-            flex: 1;
-        }
-
-        .arrow {
-            align-self: flex-end;
-            font-size: 24px;
-            color: var(--text-muted);
-            transition: transform 0.2s, color 0.2s;
-        }
-
-        .menu-card:hover .arrow {
-            transform: translateX(5px);
-            color: var(--primary);
-        }
-
-        .menu-card.blue:hover .arrow { color: var(--primary); }
-        .menu-card.yellow:hover .arrow { color: var(--warning); }
-        .menu-card.green:hover .arrow { color: var(--success); }
 
         /* Detection Badge */
         .detection-badge {
             margin-top: 50px;
             font-size: 13px;
             color: var(--text-muted);
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(10, 15, 29, 0.6);
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
-            padding: 10px 20px;
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            border-top: 1px solid rgba(255, 255, 255, 0.8);
-            border-left: 1px solid rgba(255, 255, 255, 0.8);
-            display: inline-block;
-            box-shadow: 0 4px 15px rgba(31, 38, 135, 0.05);
+            padding: 12px 25px;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
 
-        /* How It Works Section */
-        .how-it-works {
-            padding: 20px 20px 60px 20px;
+        /* Portal Section */
+        .portal {
+            padding: 80px 20px 100px 20px;
             width: 100%;
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
-        .how-it-works-container {
-            background: rgba(255, 255, 255, 0.25);
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 50px;
+            color: #fff;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+        }
+
+        .menu-card {
+            background: rgba(10, 15, 29, 0.6);
             backdrop-filter: blur(25px);
             -webkit-backdrop-filter: blur(25px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            border-top: 1px solid rgba(255, 255, 255, 0.8);
-            border-left: 1px solid rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 24px;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .menu-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 4px;
+        }
+
+        .menu-card.dashboard::before { background: linear-gradient(90deg, var(--primary), var(--primary-light)); }
+        .menu-card.vente::before { background: linear-gradient(90deg, var(--secondary), #f87171); }
+        .menu-card.controle::before { background: linear-gradient(90deg, var(--accent), #fde047); }
+
+        .menu-card:hover {
+            transform: translateY(-10px);
+            background: rgba(30, 41, 59, 0.8);
+            box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.6);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .menu-icon {
+            font-size: 38px;
+            margin-bottom: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
             border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-        }
-
-        .how-it-works-title {
-            text-align: center;
-            font-size: 28px;
-            font-weight: 800;
-            margin-bottom: 30px;
-            color: #1e293b;
-        }
-
-        .steps-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 25px;
-        }
-
-        .step-item {
-            text-align: center;
-        }
-
-        .step-number {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #3b82f6, #2563eb);
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 15px;
-            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+            width: 80px;
+            height: 80px;
+            box-shadow: inset 0 2px 10px rgba(255,255,255,0.1);
         }
 
-        .step-item h4 {
-            margin: 0 0 10px 0;
-            font-size: 18px;
+        .menu-card.dashboard .menu-icon { color: #60a5fa; }
+        .menu-card.vente .menu-icon { color: #f87171; }
+        .menu-card.controle .menu-icon { color: #fde047; }
+
+        .menu-card h3 {
+            margin: 0 0 15px 0;
+            font-size: 24px;
             font-weight: 700;
         }
 
-        .step-item p {
-            margin: 0;
-            font-size: 14px;
+        .menu-card p {
+            margin: 0 0 30px 0;
+            font-size: 15px;
             color: var(--text-muted);
-            line-height: 1.5;
+            flex: 1;
+            line-height: 1.6;
+        }
+
+        .arrow {
+            align-self: flex-end;
+            font-size: 20px;
+            color: rgba(255,255,255,0.3);
+            transition: transform 0.3s, color 0.3s;
+            background: rgba(255,255,255,0.05);
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+        }
+
+        .menu-card:hover .arrow {
+            transform: translateX(5px);
+            color: #fff;
+            background: rgba(255,255,255,0.15);
+        }
+
+        /* Features Section */
+        .features {
+            background: rgba(0, 0, 0, 0.2);
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            padding: 80px 20px;
+            width: 100%;
+        }
+
+        .features-container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            color: var(--accent);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .feature-item h4 {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 12px 0;
+            color: #fff;
+        }
+
+        .feature-item p {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin: 0;
         }
 
         @media (max-width: 768px) {
             .hero h1 { font-size: 42px; }
             nav { padding: 15px 20px; }
             .nav-links a:not(.btn-nav) { display: none; }
+            .menu-card { padding: 30px 20px; }
         }
     </style>
 </head>
@@ -328,96 +337,92 @@
 <body>
 
     <nav>
-        <div class="logo" style="display: flex; align-items: center; gap: 10px;">
-            <img src="frontend/assets/logo.png" alt="Logo EPI" style="height: 40px;">
-            EduGest <span>Pro</span>
+        <div class="logo">
+            <img src="frontend/assets/logo.png" alt="Logo EPI" style="height: 45px;">
+            EPI <span>Bal</span>
         </div>
         <div class="nav-links">
             <a href="#">Accueil</a>
+            <a href="#features">Fonctionnalités</a>
             <a href="#portal">Portail</a>
-            <a href="frontend/view/mobile/login.html" class="btn-nav">Connexion Organisateur</a>
+            <a href="frontend/view/mobile/login.html" class="btn-nav"><i class="fa-solid fa-lock"></i> Espace Agent</a>
         </div>
     </nav>
 
     <div class="hero">
-        <h1>Gérez l'accès au BAL EPI 2026 avec Élégance.</h1>
-        <p>Une plateforme complète, ultra-sécurisée et esthétique pour l'enrôlement, la vente et le contrôle des accès en temps réel au BAL de l'EPI.</p>
-        <a href="#portal" class="btn-hero">Accéder au portail ↓</a>
+        <h1>Le Bal de l'EPI 2026.</h1>
+        <p>Une plateforme intelligente et ultra-sécurisée pour l'émission, la vente et le contrôle d'accès par QR Code au Bal de l'EPI.</p>
+        <a href="#portal" class="btn-hero">Accéder au système <i class="fa-solid fa-arrow-right"></i></a>
 
         <div class="detection-badge" id="device-info">
-            Analyse de votre appareil...
+            <i class="fa-solid fa-spinner fa-spin"></i> Analyse de votre appareil...
         </div>
     </div>
 
-    <div class="how-it-works">
-        <div class="how-it-works-container">
-            <h2 class="how-it-works-title">Comment ça marche ?</h2>
-            <div class="steps-grid">
-                <div class="step-item">
-                    <div class="step-number">1</div>
-                    <h4>Enrôlement</h4>
-                    <p>Enregistrez les étudiants et associez-leur un ticket QR Code unique au guichet.</p>
+    <div class="features" id="features">
+        <div class="features-container">
+            <h2 class="section-title" style="font-size: 28px; margin-bottom: 60px;">La Technologie au service de la Sécurité</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-qrcode"></i></div>
+                    <h4>Sécurité QR Unique</h4>
+                    <p>Chaque ticket est cryptographiquement unique et à usage unique. Le double scan est mathématiquement impossible.</p>
                 </div>
-                <div class="step-item">
-                    <div class="step-number">2</div>
-                    <h4>Validation</h4>
-                    <p>Le paiement est confirmé et le ticket est activé dans la base de données sécurisée.</p>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4>Validation Ultra-rapide</h4>
+                    <p>Contrôlez des dizaines de participants à la minute grâce à notre scanner basé sur l'IA et l'appareil photo.</p>
                 </div>
-                <div class="step-item">
-                    <div class="step-number">3</div>
-                    <h4>Contrôle</h4>
-                    <p>Le jour J, scannez les QR codes à l'entrée avec un smartphone pour autoriser l'accès.</p>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Supervision en Direct</h4>
+                    <p>Suivez les ventes et le taux de remplissage de la salle en temps réel depuis le tableau de bord organisateur.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="portal" id="portal">
-        <h2 class="portal-title">Portail d'Accès</h2>
+        <h2 class="section-title">Portail d'Accès</h2>
         <div class="menu-grid">
 
-            <a href="frontend/view/desktop/dashboard.html" class="menu-card blue">
-                <div class="menu-icon">📊</div>
+            <a href="frontend/view/desktop/dashboard.html" class="menu-card dashboard">
+                <div class="menu-icon"><i class="fa-solid fa-chart-pie"></i></div>
                 <h3>Tableau de Bord</h3>
-                <p>Consultez les statistiques des ventes et le flux des entrées en temps réel (Idéal sur PC).</p>
-                <div class="arrow">➔</div>
+                <p>Consultez les statistiques des ventes et le flux des entrées en temps réel. Supervision globale de l'événement.</p>
+                <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
             </a>
 
-            <a href="frontend/view/desktop/vente.html" class="menu-card yellow">
-                <div class="menu-icon">📝</div>
-                <h3>Guichet d'Enrôlement</h3>
-                <p>Associez les tickets physiques aux étudiants et validez les paiements.</p>
-                <div class="arrow">➔</div>
+            <a href="frontend/view/desktop/vente.html" class="menu-card vente">
+                <div class="menu-icon"><i class="fa-solid fa-cash-register"></i></div>
+                <h3>Guichet de Vente</h3>
+                <p>Caisse enregistreuse rapide. Scanner un ticket vierge pour le valider et encaisser le paiement.</p>
+                <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
             </a>
 
-            <a href="frontend/view/mobile/controle.html" class="menu-card green">
-                <div class="menu-icon">📱</div>
+            <a href="frontend/view/mobile/controle.html" class="menu-card controle">
+                <div class="menu-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
                 <h3>Contrôle d'Accès</h3>
-                <p>L'interface scanner pour valider les QR codes à l'entrée du BAL (Idéal sur Smartphone).</p>
-                <div class="arrow">➔</div>
+                <p>L'interface scanner mobile pour les agents de sécurité afin de valider les entrées au Bal.</p>
+                <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
             </a>
 
         </div>
     </div>
 
     <script>
-        // Détection de l'appareil
         window.onload = function () {
             const estMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
             const badge = document.getElementById('device-info');
 
             if (estMobile) {
-                badge.innerHTML = "📱 <strong>Smartphone détecté</strong> — L'interface de Contrôle d'Accès est recommandée.";
-                badge.style.borderColor = "var(--success)";
+                badge.innerHTML = '<i class="fa-solid fa-mobile-screen" style="color:var(--accent);"></i> <strong>Smartphone détecté</strong> — L\'interface Contrôle d\'Accès est recommandée.';
+                badge.style.borderColor = 'rgba(251, 191, 36, 0.4)';
             } else {
-                badge.innerHTML = "💻 <strong>Ordinateur détecté</strong> — Le Tableau de Bord et le Guichet sont recommandés.";
-                badge.style.borderColor = "var(--primary)";
+                badge.innerHTML = '<i class="fa-solid fa-laptop" style="color:var(--primary-light);"></i> <strong>Ordinateur détecté</strong> — Le Tableau de Bord est recommandé.';
+                badge.style.borderColor = 'rgba(45, 85, 184, 0.4)';
             }
         };
-    </script>
-</body>
-
-</html>  };
     </script>
 </body>
 

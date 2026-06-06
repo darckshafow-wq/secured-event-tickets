@@ -107,47 +107,79 @@
     font-size: 18px;
 }
 
-/* ---- IMPRESSION (Format Billet) ---- */
+/* ---- IMPRESSION (Format Autocollant) ---- */
 @media print {
     @page { margin: 10mm; }
     body { background: #fff; min-height: auto; padding: 0; margin: 0; }
     .sidebar, .toolbar, .header { display: none !important; }
     .main-content { margin-left: 0 !important; padding: 0 !important; }
 
-    /* Flexbox pour la pagination correcte sur plusieurs pages */
+    /* Grille pour les autocollants 3.5x3.5cm */
     .qr-grid {
         display: flex !important;
         flex-wrap: wrap !important;
-        gap: 20mm !important;
+        gap: 2mm !important;
         justify-content: flex-start !important;
     }
 
     .qr-card {
-        width: 45% !important;
-        border: 2px dashed #999 !important;
+        width: 3.5cm !important;
+        height: 3.5cm !important;
+        border: 1px dashed #ccc !important; /* Ligne guide de découpe */
         background: #fff !important;
         color: #000 !important;
         page-break-inside: avoid !important;
         break-inside: avoid !important;
-        padding: 40px !important;
-        position: relative;
-        margin-bottom: 20px;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        padding: 2mm !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        margin-bottom: 0 !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+
+    /* Masquer tout texte supplémentaire (comme la date de vente) */
+    .qr-card > div:not(.qr-img-wrapper):not(.qr-id) {
+        display: none !important;
     }
 
     .qr-card::before {
-        content: "BAL EPI 2026 - TICKET OFFICIEL";
-        position: absolute; top: 15px; left: 0; width: 100%;
-        text-align: center; font-size: 16px; font-weight: 800; color: #000;
+        content: "BAL EPI 2026";
+        position: static !important;
+        margin-bottom: 2px !important;
+        text-align: center; 
+        font-size: 8px !important; 
+        font-weight: 800; 
+        color: #000;
     }
 
     .qr-img-wrapper {
         box-shadow: none !important;
         border: none !important;
-        margin-top: 30px !important;
-        margin-bottom: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        flex: 1 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        overflow: hidden !important;
     }
 
-    /* Masquer le texte et le statut à l'impression */
-    .qr-id     { display: none !important; }
+    .qr-img-wrapper canvas,
+    .qr-img-wrapper img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* Masquer l'ID et le statut à l'impression */
+    .qr-id {
+        display: none !important;
+    }
     .qr-status { display: none !important; }
 }

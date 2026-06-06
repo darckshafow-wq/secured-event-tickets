@@ -32,7 +32,47 @@ let modeActuel  = '';
 let isProcessing = false;
 let cntOk = 0, cntKo = 0;
 
+// === GESTION AUDIO (BIPS) ===
+let audioCtx = null;
+
+function initAudio() {
+    if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+}
+
+function playBeep(type) {
+    if (!audioCtx) return;
+    const oscillator = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    if (type === 'success') {
+        oscillator.type = 'sine';
+        oscillator.frequency.setValueAtTime(800, audioCtx.currentTime);
+        oscillator.frequency.exponentialRampToValueAtTime(1200, audioCtx.currentTime + 0.1);
+        gainNode.gain.setValueAtTime(1, audioCtx.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.2);
+        oscillator.start();
+        oscillator.stop(audioCtx.currentTime + 0.2);
+    } else {
+        oscillator.type = 'sawtooth';
+        oscillator.frequency.setValueAtTime(300, audioCtx.currentTime);
+        oscillator.frequency.linearRampToValueAtTime(200, audioCtx.currentTime + 0.3);
+        gainNode.gain.setValueAtTime(1, audioCtx.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+        oscillator.start();
+        oscillator.stop(audioCtx.currentTime + 0.3);
+    }
+}
+
 function lancerScanner(mode) {
+    initAudio(); // Initialiser l'audio au clic utilisateur (politique des navigateurs)
     modeActuel = mode;
     cntOk = 0; cntKo = 0;
     majCompteurs();
@@ -67,7 +107,7 @@ function retourMenu() {
     document.getElementById('screen-scanner').style.display = 'none';
     document.getElementById('screen-menu').style.display    = 'block';
     document.getElementById('reader').innerHTML = '';
-    cacherResultat();
+    document.getElementById('scanModal').style.display = 'none';
 }
 
 function onScanSuccess(decodedText) {
@@ -81,14 +121,8 @@ function onScanSuccess(decodedText) {
     if (!decodedText.startsWith('BAL-EPI-2026-')) {
         cntKo++;
         majCompteurs();
-        afficherResultat('error', '⚠️', 'Format Invalide',
+        ouvrirModal('error', '<i class="fa-solid fa-triangle-exclamation"></i>', 'Format Invalide',
             `Le code "<span class="result-id">${decodedText}</span>" n'est pas un ticket EPI-BAL valide.`);
-        
-        setTimeout(() => {
-            cacherResultat();
-            isProcessing = false;
-            if (scanner && scanner.resume) scanner.resume();
-        }, 3000);
         return;
     }
 
@@ -113,48 +147,44 @@ function traiterReponse(data, idTicket) {
     if (data.succes) {
         cntOk++;
         const msg = modeActuel === 'vente'
-            ? `Ticket enregistré comme <b>PAYÉ</b>. Le ticket <span class="result-id">${idTicket}</span> est prêt pour l'entrée.`
+            ? `Ticket enregistré comme <b>PAYÉ</b>.<br><br>Le ticket <span class="result-id">${idTicket}</span> est prêt pour l'entrée.`
             : `Bienvenue ! Le ticket <span class="result-id">${idTicket}</span> a été validé à la porte.`;
-        afficherResultat('success', '✅',
+        ouvrirModal('success', '<i class="fa-solid fa-circle-check"></i>',
             modeActuel === 'vente' ? 'Paiement Enregistré !' : 'Accès Autorisé !', msg);
     } else {
         cntKo++;
-        afficherResultat('error', '❌',
+        ouvrirModal('error', '<i class="fa-solid fa-circle-xmark"></i>',
             modeActuel === 'vente' ? 'Activation Refusée' : 'Accès Refusé',
             data.message || 'Erreur inconnue.');
     }
     majCompteurs();
-    setTimeout(() => {
-        cacherResultat();
-        isProcessing = false;
-        if (scanner) scanner.resume();
-    }, 3000);
 }
 
 function afficherErreurReseau() {
     cntKo++;
     majCompteurs();
-    afficherResultat('error', '📡', 'Erreur Réseau',
+    ouvrirModal('error', '<i class="fa-solid fa-wifi"></i>', 'Erreur Réseau',
         'Impossible de contacter le serveur. Vérifiez la connexion WiFi.');
-    setTimeout(() => {
-        cacherResultat();
-        isProcessing = false;
-        if (scanner) scanner.resume();
-    }, 3000);
 }
 
-function afficherResultat(type, icon, titre, detail) {
-    const box = document.getElementById('resultBox');
-    document.getElementById('resultIcon').innerText      = icon;
-    document.getElementById('resultTitle').className     = `result-title ${type}`;
-    document.getElementById('resultTitle').innerText     = titre;
-    document.getElementById('resultDetail').innerHTML    = detail;
-    box.className    = `result-box ${type}`;
-    box.style.display = 'block';
+function ouvrirModal(type, icon, titre, detail) {
+    playBeep(type); // Émettre un son en fonction du succès ou de l'erreur
+    const box = document.getElementById('scanModal');
+    const content = box.querySelector('.modal-content');
+    document.getElementById('modalIcon').innerHTML      = icon;
+    document.getElementById('modalTitle').className     = `modal-title ${type}`;
+    document.getElementById('modalTitle').innerText     = titre;
+    document.getElementById('modalDetail').innerHTML    = detail;
+    content.className = `modal-content ${type}`;
+    box.style.display = 'flex';
 }
 
-function cacherResultat() {
-    document.getElementById('resultBox').style.display = 'none';
+function fermerModal() {
+    document.getElementById('scanModal').style.display = 'none';
+    isProcessing = false;
+    if (scanner && scanner.resume) {
+        scanner.resume();
+    }
 }
 
 function majCompteurs() {

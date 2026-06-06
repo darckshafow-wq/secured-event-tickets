@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --bg-dark: #f8fafc; /* Conserved variable name but light value */
-    --card-bg: rgba(255, 255, 255, 0.75);
-    --card-border: rgba(255, 255, 255, 0.8);
-    --text-main: #1e293b;
-    --text-muted: #64748b;
-    --primary: #2563eb;
-    --primary-glow: rgba(37, 99, 235, 0.25);
+    --bg-dark: #0a0f1d;
+    --card-bg: rgba(10, 15, 29, 0.6);
+    --card-border: rgba(255, 255, 255, 0.15);
+    --text-main: #f8fafc;
+    --text-muted: #cbd5e1;
+    --primary: #1e3e8c;
+    --primary-glow: rgba(30, 62, 140, 0.4);
     --success: #10b981;
     --success-glow: rgba(16, 185, 129, 0.25);
-    --warning: #f59e0b;
+    --warning: #fbbf24;
     --error: #ef4444;
     --error-glow: rgba(239, 68, 68, 0.25);
 }
 
 body {
     font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
-    background-color: #f5f3ff;
+    background-color: var(--bg-dark);
     background-image: 
-        radial-gradient(at 80% 0%, hsla(189, 100%, 75%, 0.6) 0px, transparent 50%),
-        radial-gradient(at 0% 50%, hsla(333, 100%, 85%, 0.6) 0px, transparent 50%),
-        radial-gradient(at 80% 100%, hsla(242, 100%, 85%, 0.6) 0px, transparent 50%),
-        radial-gradient(at 0% 0%, hsla(343, 100%, 85%, 0.6) 0px, transparent 50%);
+        radial-gradient(at 80% 0%, rgba(30, 62, 140, 0.4) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, rgba(220, 38, 38, 0.2) 0px, transparent 50%),
+        radial-gradient(at 80% 100%, rgba(251, 191, 36, 0.15) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, rgba(30, 62, 140, 0.3) 0px, transparent 50%);
     background-attachment: fixed;
     background-size: cover;
     color: var(--text-main);
@@ -33,14 +33,14 @@ body {
 
 /* Glassmorphism Classes */
 .glass-panel {
-    background: rgba(255, 255, 255, 0.25);
+    background: var(--card-bg);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-top: 1px solid rgba(255, 255, 255, 0.8);
-    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid var(--card-border);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 16px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 /* Emplacement Logo EPI */
@@ -70,7 +70,7 @@ body {
     margin: 0;
     font-size: 32px;
     font-weight: 800;
-    background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -227,9 +227,9 @@ th {
 
 td {
     padding: 18px 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 15px;
-    color: #334155;
+    color: var(--text-main);
 }
 
 tbody tr {
@@ -237,7 +237,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Étiquettes d'état (Badges) */
@@ -353,7 +353,7 @@ body.desktop-layout {
     font-size: 18px;
     font-weight: 800;
     text-align: center;
-    background: linear-gradient(135deg, #1e293b 0%, #64748b 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -383,7 +383,7 @@ body.desktop-layout {
     align-items: center;
     gap: 12px;
     padding: 12px 14px;
-    color: #475569;
+    color: var(--text-muted);
     text-decoration: none;
     font-size: 13.5px;
     font-weight: 600;
@@ -393,14 +393,14 @@ body.desktop-layout {
 }
 
 .nav-link:hover {
-    background: rgba(0, 0, 0, 0.04);
-    color: #0f172a;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
 }
 
 .nav-link.active {
-    background: linear-gradient(90deg, rgba(37, 99, 235, 0.1) 0%, transparent 100%);
-    color: #2563eb;
-    border-left-color: #2563eb;
+    background: linear-gradient(90deg, rgba(30, 62, 140, 0.3) 0%, transparent 100%);
+    color: #60a5fa;
+    border-left-color: #60a5fa;
 }
 
 .sidebar-footer {
@@ -463,7 +463,7 @@ body.desktop-layout {
 .stat-value {
     font-size: 42px;
     font-weight: 800;
-    color: #1e293b;
+    color: var(--text-main);
     margin: 18px 0 8px 0;
     font-family: monospace;
 }

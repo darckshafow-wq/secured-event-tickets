@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPI BAL 2026 - Supervision Ventes</title>
+    <link rel="icon" type="image/png" href="../../assets/logo.png">
     <link rel="stylesheet" href="../../css/dashboard.css">
     <style>
         /* Badge spécifique à cette page */
         .badge.non-scanne { background-color: rgba(245,158,11,0.15); color: #fbbf24; border: 1px solid rgba(245,158,11,0.3); }
         @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="desktop-layout">
 
@@ -24,12 +26,12 @@
                 <small>Supervision</small>
             </div>
             <div class="nav-menu">
-                <a href="dashboard.html" class="nav-link">🏠 Accueil</a>
-                <a href="vue_stats.html" class="nav-link">📊 Statistiques</a>
-                <a href="generer_qr.html" class="nav-link">🖨️ Générer QR</a>
-                <a href="vente.html" class="nav-link active">🎟️ Suivi Ventes</a>
-                <a href="table_entree.html" class="nav-link">🚪 Suivi Entrées</a>
-                <a href="../mobile/controle.html" class="nav-link" style="border:1px solid rgba(16,185,129,0.3);color:#34d399;background:rgba(16,185,129,0.05);margin-top:8px;">📱 Scanner Mobile</a>
+                <a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house"></i> Accueil</a>
+                <a href="vue_stats.html" class="nav-link"><i class="fa-solid fa-chart-pie"></i> Statistiques</a>
+                <a href="generer_qr.html" class="nav-link"><i class="fa-solid fa-print"></i> Générer QR</a>
+                <a href="vente.html" class="nav-link active"><i class="fa-solid fa-ticket"></i> Suivi Ventes</a>
+                <a href="table_entree.html" class="nav-link"><i class="fa-solid fa-door-open"></i> Suivi Entrées</a>
+                <a href="../mobile/controle.html" class="nav-link" style="border:1px solid rgba(16,185,129,0.3);color:#34d399;background:rgba(16,185,129,0.05);margin-top:8px;"><i class="fa-solid fa-mobile-screen"></i> Scanner Mobile</a>
             </div>
         </div>
         <div class="sidebar-footer">Admin · Dark Shadow</div>
@@ -65,7 +67,7 @@
         </div>
 
         <div class="table-section glass-panel">
-            <h2>🎟️ Registre des Tickets Vendus</h2>
+            <h2><i class="fa-solid fa-ticket"></i> Registre des Tickets Vendus</h2>
             <div class="table-responsive">
                 <table>
                     <thead>

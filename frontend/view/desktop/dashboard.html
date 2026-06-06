@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPI BAL 2026 - Console Centrale</title>
+    <link rel="icon" type="image/png" href="../../assets/logo.png">
     <link rel="stylesheet" href="../../css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="desktop-layout">
 
@@ -18,10 +20,10 @@
                 <small>Console Admin</small>
             </div>
             <div class="nav-menu">
-                <a href="dashboard.html" class="nav-link active">🏠 Vue Globale</a>
-                <a href="generer_qr.html" class="nav-link">🖨️ Imprimer Billets</a>
-                <a href="vente.html" class="nav-link">🎟️ Détails Ventes</a>
-                <a href="table_entree.html" class="nav-link">🚪 Détails Entrées</a>
+                <a href="dashboard.html" class="nav-link active"><i class="fa-solid fa-house"></i> Vue Globale</a>
+                <a href="generer_qr.html" class="nav-link"><i class="fa-solid fa-print"></i> Imprimer Billets</a>
+                <a href="vente.html" class="nav-link"><i class="fa-solid fa-ticket"></i> Détails Ventes</a>
+                <a href="table_entree.html" class="nav-link"><i class="fa-solid fa-door-open"></i> Détails Entrées</a>
             </div>
         </div>
         <div class="sidebar-footer">Mode Supervision</div>
@@ -36,7 +38,7 @@
             <div style="display:flex; gap:20px; align-items:center;">
                 <!-- Contrôle Guichet -->
                 <div class="glass-panel" style="padding:10px 18px; border-radius:12px; display:flex; align-items:center; gap:12px; border:1px solid rgba(255,255,255,0.06); box-shadow:none;">
-                    <span style="font-size:13.5px; font-weight:600; color:var(--text-muted);">📝 Inscriptions Agents :</span>
+                    <span style="font-size:13.5px; font-weight:600; color:var(--text-muted);"><i class="fa-solid fa-pen-to-square"></i> Inscriptions Agents :</span>
                     <span id="labelStatutGuichet" class="badge dispo" style="margin:0;">CHARGEMENT...</span>
                     <button id="btnToggleGuichet" class="btn" style="padding:6px 12px; font-size:12.5px; font-weight:700; border-radius:6px; background:#3b82f6; display:inline-block; gap:0; height:auto; width:auto;" onclick="basculerEtatGuichet()">Modifier</button>
                 </div>
@@ -54,7 +56,7 @@
             <div class="stat-card glass-panel" style="border-top: 3px solid #3b82f6;">
                 <div class="stat-header">
                     <div class="stat-title">Billets Vendus</div>
-                    <span class="stat-icon" style="background:rgba(59,130,246,0.1);color:#60a5fa;">🎟️</span>
+                    <span class="stat-icon" style="background:rgba(59,130,246,0.1);color:#60a5fa;"><i class="fa-solid fa-ticket"></i></span>
                 </div>
                 <div class="stat-value" id="dash-vendus">0</div>
                 <div class="stat-footer"><span style="color:#60a5fa;">●</span> Achetés au guichet</div>
@@ -64,7 +66,7 @@
             <div class="stat-card glass-panel" style="border-top: 3px solid #a855f7;">
                 <div class="stat-header">
                     <div class="stat-title">Recette Financière</div>
-                    <span class="stat-icon" style="background:rgba(168,85,247,0.1);color:#c084fc;">💰</span>
+                    <span class="stat-icon" style="background:rgba(168,85,247,0.1);color:#c084fc;"><i class="fa-solid fa-sack-dollar"></i></span>
                 </div>
                 <div class="stat-value" id="dash-recette" style="font-size:32px; padding-top:10px;">0 FCFA</div>
                 <div class="stat-footer"><span style="color:#c084fc;">●</span> Total encaissé</div>
@@ -74,7 +76,7 @@
             <div class="stat-card glass-panel" style="border-top: 3px solid #10b981;">
                 <div class="stat-header">
                     <div class="stat-title">Présents en Salle</div>
-                    <span class="stat-icon" style="background:rgba(16,185,129,0.1);color:#34d399;">🚪</span>
+                    <span class="stat-icon" style="background:rgba(16,185,129,0.1);color:#34d399;"><i class="fa-solid fa-door-open"></i></span>
                 </div>
                 <div class="stat-value" id="dash-entrees">0</div>
                 <div class="stat-footer"><span style="color:#34d399;">●</span> Scannés à l'entrée</div>
@@ -84,7 +86,7 @@
             <div class="stat-card glass-panel" style="border-top: 3px solid #f59e0b;">
                 <div class="stat-header">
                     <div class="stat-title">En Attente</div>
-                    <span class="stat-icon" style="background:rgba(245,158,11,0.1);color:#fbbf24;">🕐</span>
+                    <span class="stat-icon" style="background:rgba(245,158,11,0.1);color:#fbbf24;"><i class="fa-solid fa-clock"></i></span>
                 </div>
                 <div class="stat-value" id="dash-attente">0</div>
                 <div class="stat-footer"><span style="color:#fbbf24;">●</span> Vendus mais pas encore arrivés</div>
@@ -94,7 +96,7 @@
             <div class="stat-card glass-panel" style="border-top: 3px solid #06b6d4;">
                 <div class="stat-header">
                     <div class="stat-title">Taux d'Arrivée</div>
-                    <span class="stat-icon" style="background:rgba(6,182,212,0.1);color:#22d3ee;">📈</span>
+                    <span class="stat-icon" style="background:rgba(6,182,212,0.1);color:#22d3ee;"><i class="fa-solid fa-chart-line"></i></span>
                 </div>
                 <div class="stat-value" id="dash-taux">0%</div>
                 <div class="stat-footer"><span style="color:#22d3ee;">●</span> Ratio Entrées / Ventes</div>
@@ -104,7 +106,7 @@
             <div class="stat-card glass-panel" style="border-top: 3px solid #64748b;">
                 <div class="stat-header">
                     <div class="stat-title">Billets Vides</div>
-                    <span class="stat-icon" style="background:rgba(100,116,139,0.1);color:#94a3b8;">📦</span>
+                    <span class="stat-icon" style="background:rgba(100,116,139,0.1);color:#94a3b8;"><i class="fa-solid fa-box"></i></span>
                 </div>
                 <div class="stat-value" id="dash-stock">0</div>
                 <div class="stat-footer"><span style="color:#94a3b8;">●</span> Non activés dans la base</div>
@@ -114,7 +116,7 @@
 
         <!-- Section : Scanneurs Connectés -->
         <div class="table-section glass-panel" style="margin-top: 30px;">
-            <h2>📱 Agents & Scanneurs Actifs en Temps Réel</h2>
+            <h2><i class="fa-solid fa-mobile-screen"></i> Agents & Scanneurs Actifs en Temps Réel</h2>
             <div class="table-responsive">
                 <table>
                     <thead>

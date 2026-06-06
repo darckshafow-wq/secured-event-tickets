@@ -122,7 +122,7 @@ test_api \
 echo -e "\n${BOLD}━━━ MODULE 3 : Inscription des Agents ━━━${NC}"
 
 # Nettoyer l'utilisateur de test s'il existe déjà
-mysql -u admin -padmin123 -e "DELETE FROM secured_tickets_db.utilisateurs WHERE nom_utilisateur='agent_unit_test';" 2>/dev/null
+C:/xampp/mysql/bin/mysql.exe -u root -e "DELETE FROM secured_tickets_db.utilisateurs WHERE nom_utilisateur='agent_unit_test';" 2>/dev/null
 
 test_api \
     "Inscription avec données valides" \
@@ -207,7 +207,7 @@ test_api \
     "200"
 
 # Trouver le dernier ticket non_paye pour le tester
-LAST_TICKET=$(mysql -u admin -padmin123 -s -N -e "SELECT id_ticket FROM secured_tickets_db.tickets_vente WHERE statut_paiement='non_paye' ORDER BY id_ticket DESC LIMIT 1;" 2>/dev/null)
+LAST_TICKET=$(C:/xampp/mysql/bin/mysql.exe -u root -s -N -e "SELECT id_ticket FROM secured_tickets_db.tickets_vente WHERE statut_paiement='non_paye' ORDER BY id_ticket DESC LIMIT 1;" 2>/dev/null)
 
 if [ ! -z "$LAST_TICKET" ]; then
     test_api \
@@ -251,7 +251,7 @@ test_api \
 # ============================================================
 # NETTOYAGE : remettre en état propre
 # ============================================================
-mysql -u admin -padmin123 -e "DELETE FROM secured_tickets_db.utilisateurs WHERE nom_utilisateur='agent_unit_test';" 2>/dev/null
+C:/xampp/mysql/bin/mysql.exe -u root -e "DELETE FROM secured_tickets_db.utilisateurs WHERE nom_utilisateur='agent_unit_test';" 2>/dev/null
 
 # ============================================================
 # RÉSUMÉ FINAL
