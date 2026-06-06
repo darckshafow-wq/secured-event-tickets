@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>EPI Gala 2026 - Scanner Mobile</title>
+    <title>EPI BAL 2026 - Scanner Mobile</title>
+    <link rel="icon" type="image/png" href="../../assets/logo.png">
     <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../../css/mobile/controle.css">
 </head>
 
@@ -13,10 +15,11 @@
 
     <!-- HEADER -->
     <div class="app-header">
-        <div class="app-logo">EPI<span>-GALA</span> 2026</div>
+        <img src="../../assets/logo.png" alt="Logo EPI" style="height: 60px; margin-bottom: 10px;">
+            <div class="app-logo">EPI<span>-BAL</span> 2026</div>
         <div style="display:flex; gap:10px;">
-            <a href="../desktop/dashboard.html" class="app-back">🖥️ PC</a>
-            <button onclick="seDeconnecter()" class="app-back" style="color:#f87171; border-color:rgba(248,113,113,0.3);">Déconnexion</button>
+            <a href="../desktop/dashboard.html" class="app-back"><i class="fa-solid fa-desktop"></i> PC</a>
+            <button onclick="seDeconnecter()" class="app-back" style="color:#f87171; border-color:rgba(248,113,113,0.3);"><i class="fa-solid fa-right-from-bracket"></i></button>
         </div>
     </div>
 
@@ -26,7 +29,7 @@
         <div class="screen-subtitle">Sélectionnez l'opération à effectuer</div>
 
         <button id="btnModeVente" class="mode-card vente" onclick="lancerScanner('vente')">
-            <div class="mode-icon">🎟️</div>
+            <div class="mode-icon"><i class="fa-solid fa-ticket"></i></div>
             <div class="mode-info">
                 <h3>Mode Guichet / Vente</h3>
                 <p>Scanner un ticket vierge pour enregistrer son paiement.</p>
@@ -34,7 +37,7 @@
         </button>
 
         <button class="mode-card porte" onclick="lancerScanner('porte')">
-            <div class="mode-icon">🚪</div>
+            <div class="mode-icon"><i class="fa-solid fa-door-open"></i></div>
             <div class="mode-info">
                 <h3>Mode Contrôle / Porte</h3>
                 <p>Scanner un ticket payé pour valider l'entrée dans la salle le Jour J.</p>
@@ -52,11 +55,14 @@
         <!-- Lecteur caméra -->
         <div id="reader"></div>
 
-        <!-- Résultat -->
-        <div id="resultBox" class="result-box">
-            <div class="result-icon" id="resultIcon"></div>
-            <div class="result-title" id="resultTitle"></div>
-            <div class="result-detail" id="resultDetail"></div>
+        <!-- Popup Modal -->
+        <div id="scanModal" class="modal-backdrop">
+            <div class="modal-content">
+                <div class="modal-icon" id="modalIcon"></div>
+                <div class="modal-title" id="modalTitle"></div>
+                <div class="modal-detail" id="modalDetail"></div>
+                <button class="btn-continue" onclick="fermerModal()">Continuer le scan <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
         </div>
 
         <!-- Compteur session -->

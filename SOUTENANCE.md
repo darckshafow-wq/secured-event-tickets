@@ -1,5 +1,5 @@
 # 📋 Documentation Technique — Secured Event Tickets
-## Gala EPI 2026 · Système de Contrôle d'Accès par QR Code
+## BAL EPI 2026 · Système de Contrôle d'Accès par QR Code
 > Projet BTS SIO · Développeur : Dark Shadow
 
 ---
@@ -7,7 +7,7 @@
 ## 1. Vue d'ensemble du projet
 
 ### Problématique
-Lors d'un événement d'envergure (Gala EPI), les systèmes de tickets papier posent trois problèmes :
+Lors d'un événement d'envergure (BAL EPI), les systèmes de tickets papier posent trois problèmes :
 
 | Problème | Risque |
 |---|---|
@@ -256,7 +256,7 @@ Valide l'entrée à la porte (anti-fraude double-scan).
 
 **Réponse :**
 ```json
-{ "succes": true, "message": "ACCÈS ACCORDÉ : Bienvenue au Gala !" }
+{ "succes": true, "message": "ACCÈS ACCORDÉ : Bienvenue au BAL !" }
 { "succes": false, "message": "ALERTE FRAUDE : ticket déjà utilisé" }
 ```
 

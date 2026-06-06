@@ -1,6 +1,6 @@
 /**
  * dashboard.js — Logique commune à toutes les pages Desktop
- * Secured Event Tickets — EPI Gala 2026
+ * Secured Event Tickets — EPI BAL 2026
  *
  * Ce fichier centralise :
  *  - Le rafraîchissement des statistiques (vue_stats)
@@ -359,25 +359,45 @@ function initTableEntrees() {
 // ============================================================
 
 let _allTickets = [];
+let _lastQrFingerprint = '';
 
-function initGenererQr() {
+function _fetchQrData() {
     if (!document.getElementById('qrGrid')) return;
-
+    
     apiGet(`${API_BASE}/lister_tickets.php`)
         .then(data => {
             if (!data.succes) {
-                document.getElementById('qrGrid').innerHTML =
-                    `<div style="color:#f87171;padding:40px;text-align:center;">❌ ${data.message}</div>`;
+                if (_allTickets.length === 0) {
+                    document.getElementById('qrGrid').innerHTML =
+                        `<div style="color:#f87171;padding:40px;text-align:center;">❌ ${data.message}</div>`;
+                }
                 return;
             }
+            
+            // Calcul de l'empreinte pour voir si les tickets ou leurs statuts ont changé
+            const fingerprint = data.tickets.map(t => `${t.id_ticket}-${t.statut_paiement}-${t.statut_porte}`).join('|');
+            if (fingerprint === _lastQrFingerprint) return;
+            
+            _lastQrFingerprint = fingerprint;
             _allTickets = data.tickets;
-            document.getElementById('compteurInfo').innerText = `${_allTickets.length} ticket(s) au total`;
+            
+            const compteur = document.getElementById('compteurInfo');
+            if(compteur) compteur.innerText = `${_allTickets.length} ticket(s) au total`;
+            
             appliquerFiltreQr();
         })
         .catch(() => {
-            document.getElementById('qrGrid').innerHTML =
-                '<div style="color:#f87171;padding:40px;text-align:center;">❌ Impossible de contacter le serveur.</div>';
+            if (_allTickets.length === 0) {
+                document.getElementById('qrGrid').innerHTML =
+                    '<div style="color:#f87171;padding:40px;text-align:center;">❌ Impossible de contacter le serveur.</div>';
+            }
         });
+}
+
+function initGenererQr() {
+    if (!document.getElementById('qrGrid')) return;
+    _fetchQrData();
+    setInterval(_fetchQrData, REFRESH_INTERVAL_MS);
 }
 
 function creerTickets() {
@@ -397,7 +417,7 @@ function creerTickets() {
         .then(data => {
             if (data.succes) {
                 alert(data.message);
-                initGenererQr(); // Rafraîchir la liste
+                _fetchQrData(); // Rafraîchir immédiatement sans attendre l'intervalle
             } else {
                 alert("Erreur : " + data.message);
             }
@@ -420,56 +440,98 @@ function appliquerFiltreQr() {
     _renderQrGrid(tickets);
 }
 
+let _lastTailleQr = 0;
+
 function _renderQrGrid(tickets) {
     const grid = document.getElementById('qrGrid');
-    grid.innerHTML = '';
-    if (tickets.length === 0) {
-        grid.innerHTML = '<div style="color:var(--text-muted);padding:40px;text-align:center;">Aucun ticket pour ce filtre.</div>';
-        return;
+    const taille = parseInt(document.getElementById('tailleQr')?.value ?? 160);
+
+    // Si la taille a changé, on doit tout effacer pour forcer la régénération des canvas
+    if (taille !== _lastTailleQr) {
+        grid.innerHTML = '';
+        _lastTailleQr = taille;
     }
 
-    const taille = parseInt(document.getElementById('tailleQr')?.value ?? 160);
+    // Supprimer le loader s'il est là
+    const loader = grid.querySelector('.loader');
+    if (loader) loader.remove();
+
+    if (tickets.length === 0) {
+        let emptyMsg = grid.querySelector('.empty-msg');
+        if (!emptyMsg) {
+            grid.innerHTML = '<div class="empty-msg" style="color:var(--text-muted);padding:40px;text-align:center;">Aucun ticket pour ce filtre.</div>';
+        }
+        return;
+    } else {
+        const emptyMsg = grid.querySelector('.empty-msg');
+        if (emptyMsg) emptyMsg.remove();
+    }
+
+    const visibleIds = new Set(tickets.map(t => t.id_ticket));
+
+    // Masquer les cartes qui ne correspondent plus au filtre
+    const allCards = grid.querySelectorAll('.qr-card');
+    allCards.forEach(card => {
+        const ticketId = card.getAttribute('data-ticket-id');
+        if (!visibleIds.has(ticketId)) {
+            card.style.display = 'none';
+        } else {
+            card.style.display = ''; // Rétablir l'affichage (le CSS print gérera le display flex)
+        }
+    });
 
     tickets.forEach(ticket => {
         const { bg, labelCls, labelTxt } = _ticketMeta(ticket);
 
-        const card = document.createElement('div');
-        card.className = 'qr-card glass-panel';
-        card.style.background = bg;
+        let card = grid.querySelector(`.qr-card[data-ticket-id="${ticket.id_ticket}"]`);
+        if (!card) {
+            // Création de la carte si elle n'existe pas encore
+            card = document.createElement('div');
+            card.className = 'qr-card glass-panel';
+            card.style.background = bg;
+            card.setAttribute('data-ticket-id', ticket.id_ticket);
 
-        const wrapper = document.createElement('div');
-        wrapper.className = 'qr-img-wrapper';
+            const wrapper = document.createElement('div');
+            wrapper.className = 'qr-img-wrapper';
 
-        const idEl = document.createElement('div');
-        idEl.className = 'qr-id';
-        idEl.innerText = ticket.id_ticket;
+            const idEl = document.createElement('div');
+            idEl.className = 'qr-id';
+            idEl.innerText = ticket.id_ticket;
 
-        const statusEl = document.createElement('div');
-        statusEl.className = `qr-status ${labelCls}`;
-        statusEl.innerText = labelTxt;
+            const statusEl = document.createElement('div');
+            statusEl.className = `qr-status ${labelCls}`;
+            statusEl.innerText = labelTxt;
 
-        card.appendChild(wrapper);
-        card.appendChild(idEl);
-        card.appendChild(statusEl);
+            card.appendChild(wrapper);
+            card.appendChild(idEl);
+            card.appendChild(statusEl);
 
-        if (ticket.date_vente) {
-            const dateEl = document.createElement('div');
-            dateEl.style.cssText = 'font-size:11px;color:#71717a;';
-            dateEl.innerText = 'Vendu le ' + ticket.date_vente;
-            card.appendChild(dateEl);
+            if (ticket.date_vente) {
+                const dateEl = document.createElement('div');
+                dateEl.style.cssText = 'font-size:11px;color:#71717a;';
+                dateEl.innerText = 'Vendu le ' + ticket.date_vente;
+                card.appendChild(dateEl);
+            }
+
+            grid.appendChild(card);
+
+            new QRCode(wrapper, {
+                text: ticket.id_ticket,
+                width: taille,
+                height: taille,
+                colorDark: '#000000',
+                colorLight: '#ffffff',
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        } else {
+            // Mise à jour de la carte existante (sans re-générer le QR Code lourd)
+            card.style.background = bg;
+            const statusEl = card.querySelector('.qr-status');
+            if (statusEl) {
+                statusEl.className = `qr-status ${labelCls}`;
+                statusEl.innerText = labelTxt;
+            }
         }
-
-        grid.appendChild(card);
-
-        // Génération QR réel (scannable)
-        new QRCode(wrapper, {
-            text: ticket.id_ticket,
-            width: taille,
-            height: taille,
-            colorDark: '#000000',
-            colorLight: '#ffffff',
-            correctLevel: QRCode.CorrectLevel.H
-        });
     });
 }
 

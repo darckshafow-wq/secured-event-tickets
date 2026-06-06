@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # demarrer.sh - Lancement automatique du Serveur PHP + Tunnel de Scan Mobile
-# Gala EPI 2026
+# BAL EPI 2026
 
 # Couleurs pour le terminal
 GREEN='\033[0;32m'
@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 
 echo -e "${CYAN}"
 echo "=========================================================="
-echo "      🚀 SERVEUR SECURED TICKETS - GALA EPI 2026          "
+echo "      🚀 SERVEUR SECURED TICKETS - BAL EPI 2026          "
 echo "=========================================================="
 echo -e "${NC}"
 

@@ -1,0 +1,3 @@
+config/
+database/structure.sql
+php_server.log

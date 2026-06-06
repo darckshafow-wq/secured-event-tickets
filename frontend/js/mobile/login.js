@@ -1,6 +1,6 @@
 // ============================================================
 // frontend/js/mobile/login.js
-// Logique de la page de connexion Mobile - Gala EPI 2026
+// Logique de la page de connexion Mobile - BAL EPI 2026
 // ============================================================
 
 // Si déjà connecté → redirige directement vers le scanner

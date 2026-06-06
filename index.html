@@ -4,209 +4,423 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduGest Pro - Hub de Navigation</title>
+    <title>EPI Bal 2026</title>
+    <link rel="icon" type="image/png" href="frontend/assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
         :root {
-            --bg-dark: #121214;
-            --card-bg: #1a1a1e;
-            --text-main: #ffffff;
-            --text-muted: #a0a0a5;
-            --primary: #3498db;
-            --success: #2ecc71;
-            --warning: #f1c40f;
+            --text-main: #f8fafc;
+            --text-muted: #cbd5e1;
+            --primary: #1e3e8c;
+            --primary-light: #2d55b8;
+            --secondary: #dc2626;
+            --accent: #fbbf24;
+            --bg-dark: #0a0f1d;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Inter', sans-serif;
             background-color: var(--bg-dark);
+            background-image: 
+                radial-gradient(at 80% 0%, rgba(30, 62, 140, 0.4) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, rgba(220, 38, 38, 0.2) 0px, transparent 50%),
+                radial-gradient(at 80% 100%, rgba(251, 191, 36, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 0%, rgba(30, 62, 140, 0.3) 0px, transparent 50%);
+            background-attachment: fixed;
+            background-size: cover;
             color: var(--text-main);
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
             min-height: 100vh;
-            box-sizing: border-box;
         }
 
-        .hub-container {
+        /* NavBar */
+        nav {
             width: 100%;
-            max-width: 500px;
-            padding: 20px;
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        .brand-header {
-            margin-bottom: 35px;
-        }
-
-        .brand-header h1 {
-            margin: 0;
-            font-size: 32px;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-        }
-
-        .brand-header p {
-            color: var(--text-muted);
-            margin: 8px 0 0 0;
-            font-size: 15px;
-        }
-
-        /* Liste des boutons du Menu */
-        .menu-grid {
+            padding: 20px 50px;
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            background: rgba(10, 15, 29, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: fixed;
+            top: 0;
+            z-index: 100;
         }
 
-        .menu-card {
-            background-color: var(--card-bg);
-            border: 1px solid #252529;
-            border-radius: 16px;
-            padding: 20px;
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--text-main);
             display: flex;
             align-items: center;
-            text-align: left;
+            gap: 12px;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .nav-links a {
             text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-left: 30px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
             color: var(--text-main);
-            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-            cursor: pointer;
+        }
+
+        .btn-nav {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: #fff !important;
+            padding: 10px 24px;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(30, 62, 140, 0.5);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(30, 62, 140, 0.7);
+        }
+
+        /* Hero Section */
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 160px 20px 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin: 0;
+            max-width: 800px;
+            background: linear-gradient(135deg, #ffffff, #cbd5e1);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: var(--text-muted);
+            margin: 25px 0 45px 0;
+            max-width: 650px;
+            line-height: 1.6;
+        }
+
+        .btn-hero {
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-left: 1px solid rgba(255, 255, 255, 0.3);
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 16px 40px;
+            border-radius: 50px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-hero:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        /* Detection Badge */
+        .detection-badge {
+            margin-top: 50px;
+            font-size: 13px;
+            color: var(--text-muted);
+            background: rgba(10, 15, 29, 0.6);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            padding: 12px 25px;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
 
+        /* Portal Section */
+        .portal {
+            padding: 80px 20px 100px 20px;
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 50px;
+            color: #fff;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+        }
+
+        .menu-card {
+            background: rgba(10, 15, 29, 0.6);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 24px;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .menu-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 4px;
+        }
+
+        .menu-card.dashboard::before { background: linear-gradient(90deg, var(--primary), var(--primary-light)); }
+        .menu-card.vente::before { background: linear-gradient(90deg, var(--secondary), #f87171); }
+        .menu-card.controle::before { background: linear-gradient(90deg, var(--accent), #fde047); }
+
         .menu-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Variations de bordures au survol pour le style */
-        .menu-card.blue:hover {
-            border-color: var(--primary);
-        }
-
-        .menu-card.yellow:hover {
-            border-color: var(--warning);
-        }
-
-        .menu-card.green:hover {
-            border-color: var(--success);
+            transform: translateY(-10px);
+            background: rgba(30, 41, 59, 0.8);
+            box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.6);
+            border-color: rgba(255, 255, 255, 0.3);
         }
 
         .menu-icon {
-            font-size: 32px;
-            margin-right: 20px;
-            background-color: #121214;
-            padding: 12px;
-            border-radius: 12px;
-            display: flex;
+            font-size: 38px;
+            margin-bottom: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 20px;
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 45px;
-            height: 45px;
+            width: 80px;
+            height: 80px;
+            box-shadow: inset 0 2px 10px rgba(255,255,255,0.1);
         }
 
-        .menu-info {
-            flex: 1;
+        .menu-card.dashboard .menu-icon { color: #60a5fa; }
+        .menu-card.vente .menu-icon { color: #f87171; }
+        .menu-card.controle .menu-icon { color: #fde047; }
+
+        .menu-card h3 {
+            margin: 0 0 15px 0;
+            font-size: 24px;
+            font-weight: 700;
         }
 
-        .menu-info h3 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .menu-info p {
-            margin: 4px 0 0 0;
-            font-size: 13px;
+        .menu-card p {
+            margin: 0 0 30px 0;
+            font-size: 15px;
             color: var(--text-muted);
+            flex: 1;
+            line-height: 1.6;
         }
 
         .arrow {
-            font-size: 18px;
-            color: var(--text-muted);
-            transition: transform 0.2s;
+            align-self: flex-end;
+            font-size: 20px;
+            color: rgba(255,255,255,0.3);
+            transition: transform 0.3s, color 0.3s;
+            background: rgba(255,255,255,0.05);
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
         }
 
         .menu-card:hover .arrow {
             transform: translateX(5px);
-            color: white;
+            color: #fff;
+            background: rgba(255,255,255,0.15);
         }
 
-        /* Petit badge discret pour indiquer la détection automatique */
-        .detection-badge {
-            margin-top: 30px;
-            font-size: 12px;
-            color: var(--text-muted);
-            background: #1a1a1e;
-            padding: 8px 16px;
-            border-radius: 20px;
-            border: 1px solid #252529;
+        /* Features Section */
+        .features {
+            background: rgba(0, 0, 0, 0.2);
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            padding: 80px 20px;
+            width: 100%;
+        }
+
+        .features-container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            color: var(--accent);
+            margin-bottom: 20px;
             display: inline-block;
+        }
+
+        .feature-item h4 {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 12px 0;
+            color: #fff;
+        }
+
+        .feature-item p {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 42px; }
+            nav { padding: 15px 20px; }
+            .nav-links a:not(.btn-nav) { display: none; }
+            .menu-card { padding: 30px 20px; }
         }
     </style>
 </head>
 
 <body>
 
-    <div class="hub-container">
-
-        <div class="brand-header">
-            <h1>EduGest Pro</h1>
-            <p>Gestionnaire & Sécurisation du Bal de l'EPI</p>
+    <nav>
+        <div class="logo">
+            <img src="frontend/assets/logo.png" alt="Logo EPI" style="height: 45px;">
+            EPI <span>Bal</span>
         </div>
-
-        <div class="menu-grid">
-
-            <a href="frontend/view/desktop/dashboard.html" class="menu-card blue">
-                <div class="menu-icon">📊</div>
-                <div class="menu-info">
-                    <h3>Tableau de Bord</h3>
-                    <p>Statistiques des ventes et entrées en temps réel</p>
-                </div>
-                <div class="arrow">➔</div>
-            </a>
-
-            <a href="frontend/view/desktop/vente.html" class="menu-card yellow">
-                <div class="menu-icon">📝</div>
-                <div class="menu-info">
-                    <h3>Guichet d'Enrôlement</h3>
-                    <p>Scanner, associer et activer les tickets physiques</p>
-                </div>
-                <div class="arrow">➔</div>
-            </a>
-
-            <a href="frontend/view/mobile/controle.html" class="menu-card green">
-                <div class="menu-icon">📱</div>
-                <div class="menu-info">
-                    <h3>Contrôle d'Accès</h3>
-                    <p>Interface scanner pour les smartphones aux portes</p>
-                </div>
-                <div class="arrow">➔</div>
-            </a>
-
+        <div class="nav-links">
+            <a href="#">Accueil</a>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#portal">Portail</a>
+            <a href="frontend/view/mobile/login.html" class="btn-nav"><i class="fa-solid fa-lock"></i> Espace Agent</a>
         </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Le Bal de l'EPI 2026.</h1>
+        <p>Une plateforme intelligente et ultra-sécurisée pour l'émission, la vente et le contrôle d'accès par QR Code au Bal de l'EPI.</p>
+        <a href="#portal" class="btn-hero">Accéder au système <i class="fa-solid fa-arrow-right"></i></a>
 
         <div class="detection-badge" id="device-info">
-            Analyse du système...
+            <i class="fa-solid fa-spinner fa-spin"></i> Analyse de votre appareil...
         </div>
+    </div>
 
+    <div class="features" id="features">
+        <div class="features-container">
+            <h2 class="section-title" style="font-size: 28px; margin-bottom: 60px;">La Technologie au service de la Sécurité</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-qrcode"></i></div>
+                    <h4>Sécurité QR Unique</h4>
+                    <p>Chaque ticket est cryptographiquement unique et à usage unique. Le double scan est mathématiquement impossible.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4>Validation Ultra-rapide</h4>
+                    <p>Contrôlez des dizaines de participants à la minute grâce à notre scanner basé sur l'IA et l'appareil photo.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Supervision en Direct</h4>
+                    <p>Suivez les ventes et le taux de remplissage de la salle en temps réel depuis le tableau de bord organisateur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portal" id="portal">
+        <h2 class="section-title">Portail d'Accès</h2>
+        <div class="menu-grid">
+
+            <a href="frontend/view/desktop/dashboard.html" class="menu-card dashboard">
+                <div class="menu-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                <h3>Tableau de Bord</h3>
+                <p>Consultez les statistiques des ventes et le flux des entrées en temps réel. Supervision globale de l'événement.</p>
+                <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+            <a href="frontend/view/desktop/vente.html" class="menu-card vente">
+                <div class="menu-icon"><i class="fa-solid fa-cash-register"></i></div>
+                <h3>Guichet de Vente</h3>
+                <p>Caisse enregistreuse rapide. Scanner un ticket vierge pour le valider et encaisser le paiement.</p>
+                <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+            <a href="frontend/view/mobile/controle.html" class="menu-card controle">
+                <div class="menu-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h3>Contrôle d'Accès</h3>
+                <p>L'interface scanner mobile pour les agents de sécurité afin de valider les entrées au Bal.</p>
+                <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </a>
+
+        </div>
     </div>
 
     <script>
-        // Ce petit script détecte l'appareil juste pour afficher une info à l'écran
         window.onload = function () {
             const estMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
             const badge = document.getElementById('device-info');
 
             if (estMobile) {
-                badge.innerHTML = "📱 Mode <strong>Smartphone</strong> détecté (Interface Contrôle recommandée)";
-                badge.style.borderColor = "var(--success)";
+                badge.innerHTML = '<i class="fa-solid fa-mobile-screen" style="color:var(--accent);"></i> <strong>Smartphone détecté</strong> — L\'interface Contrôle d\'Accès est recommandée.';
+                badge.style.borderColor = 'rgba(251, 191, 36, 0.4)';
             } else {
-                badge.innerHTML = "💻 Mode <strong>Ordinateur / PC</strong> détecté (Interfaces Desktop recommandées)";
-                badge.style.borderColor = "var(--primary)";
+                badge.innerHTML = '<i class="fa-solid fa-laptop" style="color:var(--primary-light);"></i> <strong>Ordinateur détecté</strong> — Le Tableau de Bord est recommandé.';
+                badge.style.borderColor = 'rgba(45, 85, 184, 0.4)';
             }
         };
     </script>

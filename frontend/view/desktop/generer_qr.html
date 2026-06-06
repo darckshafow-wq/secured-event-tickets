@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPI Gala 2026 - Génération des QR Codes</title>
+    <title>EPI BAL 2026 - Génération des QR Codes</title>
+    <link rel="icon" type="image/png" href="../../assets/logo.png">
     <link rel="stylesheet" href="../../css/dashboard.css">
     <link rel="stylesheet" href="../../css/generer_qr.css">
     <!-- Bibliothèque QR Code client-side -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body class="desktop-layout">
@@ -17,18 +19,18 @@
     <div class="sidebar glass-panel" style="border-radius:0;border:none;border-right:1px solid rgba(255,255,255,0.08);">
         <div>
             <div class="brand">
-                <div class="brand-logo-container">
-                    <span style="color:var(--text-muted);font-size:11px;font-weight:700;">LOGO EPI</span>
+                <div class="brand-logo-container" style="background: none; border: none; padding: 0;">
+                    <img src="../../assets/logo.png" alt="Logo EPI" style="height: 60px; object-fit: contain;">
                 </div>
-                <h3>EPI-GALA 2026</h3>
+                <h3>EPI-BAL 2026</h3>
                 <small>Admin</small>
             </div>
             <div class="nav-menu">
-                <a href="dashboard.html" class="nav-link">🏠 Accueil</a>
-                <a href="vue_stats.html" class="nav-link">📊 Statistiques</a>
-                <a href="generer_qr.html" class="nav-link active">🖨️ Générer QR</a>
-                <a href="vente.html" class="nav-link">🎟️ Suivi Ventes</a>
-                <a href="table_entree.html" class="nav-link">🚪 Suivi Entrées</a>
+                <a href="dashboard.html" class="nav-link"><i class="fa-solid fa-house"></i> Accueil</a>
+                <a href="vue_stats.html" class="nav-link"><i class="fa-solid fa-chart-pie"></i> Statistiques</a>
+                <a href="generer_qr.html" class="nav-link active"><i class="fa-solid fa-print"></i> Générer QR</a>
+                <a href="vente.html" class="nav-link"><i class="fa-solid fa-ticket"></i> Suivi Ventes</a>
+                <a href="table_entree.html" class="nav-link"><i class="fa-solid fa-door-open"></i> Suivi Entrées</a>
             </div>
         </div>
         <div class="sidebar-footer">Admin · Dark Shadow</div>
@@ -39,7 +41,7 @@
 
         <div class="header" style="border:none;padding-bottom:0;margin-bottom:25px;">
             <div>
-                <h1>🖨️ Génération des QR Codes</h1>
+                <h1><i class="fa-solid fa-print"></i> Génération des QR Codes</h1>
                 <p>Visualisez et imprimez les QR codes à distribuer aux participants</p>
             </div>
         </div>
@@ -66,7 +68,7 @@
                     onclick="creerTickets()">➕ Créer</button>
             </div>
 
-            <button class="btn-print" onclick="window.print()">🖨️ Imprimer les Billets</button>
+            <button class="btn-print" onclick="window.print()"><i class="fa-solid fa-print"></i> Imprimer les Billets</button>
         </div>
 
         <!-- Grille des QR -->
